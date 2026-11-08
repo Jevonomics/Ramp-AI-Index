@@ -15,88 +15,69 @@ Outputs:
 """
 import os
 
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import pandas as pd
 
 import build_dataset as b
+from exhibit import Exhibit, ORANGE, NAVY, GRAY, INK, SUB, GRID, TICK
 
 CLEAN, CHARTS = b.CLEAN, b.CHARTS
-RAMP_C, CENSUS_C = "#2a78d6", "#eb6834"        # validated pair (dataviz palette slots 1-2)
-INK, INK2, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
-SOURCE_LINE = ("Sources: Ramp AI Index (FRED); U.S. Census Bureau, Business Trends and Outlook "
-               "Survey; Census SUSB 2022 for weights.")
+SOURCE = ("Source: Ramp AI Index (Ramp Business Corporation, via FRED); U.S. Census Bureau, "
+          "Business Trends and Outlook Survey.")
 NOTES = []
-plt.rcParams.update({"font.size": 11, "axes.edgecolor": INK2, "axes.labelcolor": INK2,
-                     "xtick.color": INK2, "ytick.color": INK2, "svg.fonttype": "none",
-                     "font.family": ["Helvetica Neue", "Helvetica", "Arial", "DejaVu Sans"]})
 
 
 def note(msg):
     NOTES.append(msg)
 
 
-def style(ax):
-    ax.spines[["top", "right"]].set_visible(False)
-    ax.grid(axis="x" if ax.get_xlabel() else "y", color=GRID, lw=0.8)
-    ax.set_axisbelow(True)
-
-
-def title(fig, text):
-    """Title aligned to the figure's left edge (reads better at phone width)."""
-    fig.text(0.02, 0.975, text, fontsize=14, color=INK, ha="left", va="top")
-
-
-def save(fig, name, source=SOURCE_LINE):
-    fig.text(0.015, 0.012, source, fontsize=8, color=INK2, ha="left", va="bottom", wrap=True)
-    for ext in ("png", "svg"):
-        fig.savefig(os.path.join(CHARTS, f"{name}.{ext}"), dpi=200, facecolor="white")
-    plt.close(fig)
+def pct_ticks(ax, axis="y"):
+    """Plain numbers on the axis, with % on the top (or rightmost) tick only."""
+    ticks = ax.get_yticks() if axis == "y" else ax.get_xticks()
+    lo, hi = ax.get_ylim() if axis == "y" else ax.get_xlim()
+    top = max(t for t in ticks if lo <= t <= hi)
+    fmt = lambda v, _: f"{v:.0f}%" if v == top else f"{v:.0f}"
+    (ax.yaxis if axis == "y" else ax.xaxis).set_major_formatter(fmt)
 
 
 # ------------------------------------------------------------- chart 1 ---
 def chart_gap(tidy):
     ov = tidy[tidy.dimension == "overall"].copy()
     ov["t"] = pd.PeriodIndex(ov.month, freq="M").to_timestamp() + pd.Timedelta(days=14)
-    fig, ax = plt.subplots(figsize=(7.2, 4.8))
-    eras = [("paid_transactions", RAMP_C, "-", "Ramp: paid for AI tools"),
-            ("goods_services", CENSUS_C, (0, (2, 2)), "Census: used AI 'in producing goods or services'"),
-            ("any_function", CENSUS_C, "-", "Census: used AI 'in any business function'"),
-            ("super_intelligence", CENSUS_C, "none", "Census: 'Super Intelligence' wording")]
-    for w, col, ls, lab in eras:
+    ex = Exhibit(height=6.8)
+    ex.title([[("Ramp", ORANGE), ("'s AI adoption rate is", INK)],
+              [("more than double", INK), (" Census", NAVY), ("'s", INK)]])
+    ex.subtitle("Share of U.S. businesses using AI, monthly")
+    ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY),
+               ("Census, old wording", GRAY)])
+    ex.source("Census old wording: AI use \"in producing goods or services\" (to Oct 2025). "
+              "Current: \"in any of its business functions\" (from Nov 17, 2025). Not shown: "
+              "the Oct 19, 2026 rewording (one period so far).", SOURCE)
+    ax = ex.axes(left=0.1, right=0.9)
+    for w, col, ls in [("goods_services", GRAY, (0, (2.5, 1.5))), ("any_function", NAVY, "-"),
+                       ("paid_transactions", ORANGE, "-")]:
         g = ov[ov.wording == w].sort_values("t")
-        if g.empty:
-            continue
-        marker = "o" if len(g) == 1 else None
-        ax.plot(g.t, g.rate, color=col, ls=ls, lw=2, marker=marker, ms=6, mfc="white",
-                mew=2, label=lab)
-        last = g.iloc[-1]
-        if w in ("paid_transactions", "any_function"):
-            ax.annotate(f"{last.rate:.0f}%", (last.t, last.rate), xytext=(6, 0),
-                        textcoords="offset points", va="center", fontsize=10, color=INK)
-    for d in b.WORDING_BREAKS.values():
-        ax.axvline(pd.Timestamp(d), color=INK2, lw=0.8, ls=(0, (4, 3)))
-    ax.text(pd.Timestamp(b.WORDING_BREAKS["any_function"]), 74, "Census rewords\nthe question ",
-            ha="right", va="top", fontsize=9, color=INK2)
-    ax.text(pd.Timestamp(b.WORDING_BREAKS["super_intelligence"]), 74, "and again ",
-            ha="right", va="top", fontsize=9, color=INK2)
-    import matplotlib.dates as mdates
-    ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=[1, 7]))
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b\n%Y"))
-    ax.set_ylim(0, 75)
-    ax.set_ylabel("% of businesses")
-    ax.yaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
-    style(ax)
-    ax.legend(frameon=False, fontsize=9, loc="upper left", bbox_to_anchor=(0, 1.0))
-    title(fig, "Share of U.S. businesses using AI")
-    fig.tight_layout(rect=(0, 0.06, 1, 0.93))
-    save(fig, "chart1_gap", SOURCE_LINE.replace("; Census SUSB 2022 for weights", "") +
-         " Census biweekly periods averaged to months; no Census data Oct 6 - Nov 16, 2025 (shutdown).")
+        ax.plot(g.t, g.rate, color=col, ls=ls, lw=2.6, solid_capstyle="round")
+        if w != "goods_services":
+            last = g.iloc[-1]
+            ax.annotate(f"{last.rate:.0f}%", (last.t, last.rate), xytext=(7, 0),
+                        textcoords="offset points", va="center", fontsize=14, weight="bold",
+                        color=INK)
+    brk = pd.Timestamp(b.WORDING_BREAKS["any_function"])
+    ax.axvline(brk, color=TICK, lw=1, ls=(0, (3, 3)))
+    ax.text(brk, 66, "Census rewords\nthe question  ", ha="right", va="top", fontsize=11,
+            color=SUB)
+    ax.set_ylim(0, 70)
+    ax.set_yticks(range(0, 71, 20))
+    pct_ticks(ax)
+    ax.xaxis.set_major_locator(mdates.YearLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
+    ex.save(os.path.join(CHARTS, "chart1_gap"))
 
 
 # ------------------------------------------------------------- chart 2 ---
-SIZE_ORDER = ["Small (1-24)", "Medium (25-99)", "Large (100+)"]
+SHORT = {"Accommodation & Food": "Accommodation & food", "Finance & Insurance":
+         "Finance & insurance", "Retail Trade": "Retail"}
 
 
 def chart_groups(comp):
@@ -108,38 +89,38 @@ def chart_groups(comp):
         for _, r in g.iterrows():
             rows.append((y, r)); y += 1
         if head:
-            heads.append((y, head)); y += 1.3
+            heads.append((y - 0.1, head)); y += 1.5
         else:
-            y += 0.6
-    fig, ax = plt.subplots(figsize=(7.2, 7.4))
+            y += 0.5
+    m0, m1 = comp.months.iloc[0].split(" to ")
+    period = f"{pd.Period(m0):%b}–{pd.Period(m1):%b %Y}"
+    ex = Exhibit(height=8.0)
+    ex.title([[("Ramp", ORANGE), (" and ", INK), ("Census", NAVY), (" diverge more", INK)],
+              [("by sector than by firm size", INK)]])
+    ex.subtitle(f"Share of businesses using AI, {period} average")
+    ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY)])
+    ex.source("Ramp's rate is the share of Ramp customers in each group that paid for AI. "
+              "Census size classes are regrouped to Ramp's buckets using Census SUSB 2022 "
+              "firm counts.", SOURCE)
+    ax = ex.axes(left=0.385, right=0.86, bottom_pad=0.5)
+    ax.grid(False)
+    ax.grid(axis="x", color=GRID, lw=1)
     for yy, r in rows:
-        ax.plot([r.census_rate, r.ramp_rate], [yy, yy], color=GRID, lw=3, zorder=1,
+        ax.plot([r.census_rate, r.ramp_rate], [yy, yy], color=GRID, lw=4, zorder=1,
                 solid_capstyle="round")
-        ax.scatter(r.census_rate, yy, s=70, color=CENSUS_C, edgecolor="white", lw=2, zorder=3)
-        ax.scatter(r.ramp_rate, yy, s=70, color=RAMP_C, edgecolor="white", lw=2, zorder=3)
-        ax.text(-2, yy, r.group.replace("Accommodation & Food", "Accommodation & food")
-                .replace("Finance & Insurance", "Finance & insurance").replace("Retail Trade", "Retail"),
-                ha="right", va="center", fontsize=10, color=INK)
-        ax.text(101, yy, f"{r.ratio:.1f}×", ha="left", va="center", fontsize=10, color=INK)
+        ax.scatter(r.census_rate, yy, s=95, color=NAVY, edgecolor="white", lw=1.8, zorder=3)
+        ax.scatter(r.ramp_rate, yy, s=95, color=ORANGE, edgecolor="white", lw=1.8, zorder=3)
+        ax.text(-3, yy, SHORT.get(r.group, r.group), ha="right", va="center", fontsize=13)
+        ax.text(103, yy, f"{r.ratio:.1f}×", ha="left", va="center", fontsize=13, weight="bold")
     for yy, head in heads:
-        ax.text(-2, yy - 0.35, head, ha="right", va="center", fontsize=10, color=INK2,
-                fontweight="bold")
-    ax.text(101, y - 0.6, "Ramp ÷\nCensus", ha="left", va="center", fontsize=9, color=INK2)
+        ax.text(-3, yy, head, ha="right", va="center", fontsize=12, color=SUB, weight="semibold")
+    ax.text(103, y + 0.15, "Ramp ÷\nCensus", ha="left", va="center", fontsize=11, color=SUB,
+            weight="semibold")
     ax.set_xlim(0, 100)
-    ax.set_ylim(-0.7, y - 0.2)
+    ax.set_ylim(-0.7, y - 0.3)
     ax.set_yticks([])
-    ax.set_xlabel("% of businesses using AI, " + comp.months.iloc[0].replace(" to ", " – ")
-                  + " average")
-    ax.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
-    ax.spines[["left"]].set_visible(False)
-    style(ax)
-    ax.scatter([], [], s=70, color=RAMP_C, label="Ramp (paid AI, share of Ramp customers)")
-    ax.scatter([], [], s=70, color=CENSUS_C, label="Census BTOS (self-reported use)")
-    fig.legend(frameon=False, fontsize=9, loc="upper left", bbox_to_anchor=(0.01, 0.94), ncol=1)
-    title(fig, "Ramp vs. Census, group by group")
-    fig.subplots_adjust(left=0.36, right=0.86, top=0.84, bottom=0.12)
-    save(fig, "chart2_groups", SOURCE_LINE + " Census size classes regrouped to Ramp's "
-         "buckets with SUSB firm counts.")
+    pct_ticks(ax, "x")
+    ex.save(os.path.join(CHARTS, "chart2_groups"))
 
 
 # ------------------------------------------------------------- chart 3 ---
@@ -185,30 +166,32 @@ def firms_vs_workers(tidy, susb, months):
 
 
 def chart_firms_workers(fw):
-    show = fw[~fw.measure.str.startswith("published")].iloc[::-1].reset_index(drop=True)
-    labels = {"share of firms (rebuilt from size classes)": "Share of firms",
-              "share of firms (size buckets, SUSB firm weights)": "Share of firms",
-              "share of workers (approx.)": "Share of workers*"}
-    ys = [0, 1, 2.6, 3.6]
-    fig, ax = plt.subplots(figsize=(7.2, 3.9))
-    for yy, (_, r) in zip(ys, show.iterrows()):
-        col = RAMP_C if r.source == "Ramp" else CENSUS_C
-        ax.barh(yy, r.rate, height=0.62, color=col)
-        ax.text(r.rate + 1, yy, f"{r.rate:.0f}%", va="center", fontsize=10, color=INK)
-        ax.text(-1.5, yy, labels[r.measure], ha="right", va="center", fontsize=10, color=INK)
-    for yy, src in [(1.65, "Ramp"), (4.25, "Census BTOS")]:
-        ax.text(-1.5, yy, src, ha="right", va="center", fontsize=10, color=INK2, fontweight="bold")
-    ax.set_xlim(0, 100)
-    ax.set_ylim(-0.6, 4.6)
-    ax.set_yticks([])
-    ax.set_xlabel("% using AI, " + fw.months.iloc[0].replace(" to ", " – ") + " average")
-    ax.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
-    ax.spines[["left"]].set_visible(False)
-    style(ax)
-    title(fig, "Counting workers instead of firms raises both rates")
-    fig.subplots_adjust(left=0.27, right=0.95, top=0.86, bottom=0.30)
-    save(fig, "chart3_firms_workers", "*Approximation: each size class's AI rate weighted by "
-         "its SUSB 2022 employment (Census: 7 BTOS classes; Ramp: 3 size buckets).\n" + SOURCE_LINE)
+    get = lambda src, start: fw[(fw.source == src) & fw.measure.str.startswith(start)].rate.iloc[0]
+    m0, m1 = fw.months.iloc[0].split(" to ")
+    period = f"{pd.Period(m0):%b}–{pd.Period(m1):%b %Y}"
+    ex = Exhibit(height=6.2)
+    ex.title([[("Counting workers instead of firms", INK)], [("raises both rates", INK)]])
+    ex.subtitle(f"Share using AI, {period} average")
+    ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY)])
+    ex.source("*Approximation: each size class's AI rate weighted by its employment (Census SUSB "
+              "2022). Census uses its 7 size classes; Ramp's 3 size-bucket rates are applied to "
+              "all U.S. firms in each bucket.", SOURCE)
+    ax = ex.axes(left=0.1, right=0.95, bottom_pad=0.5)
+    groups = [("share of firms", "Share of firms"), ("share of workers", "Share of workers*")]
+    width = 0.36
+    for i, (key, _) in enumerate(groups):
+        for dx, src, col in [(-width / 2 - 0.01, "Ramp", ORANGE), (width / 2 + 0.01, "Census BTOS", NAVY)]:
+            v = get(src, key)
+            ax.bar(i + dx, v, width=width, color=col)
+            ax.text(i + dx, v - 2, f"{v:.0f}", ha="center", va="top", fontsize=14,
+                    color="white", style="italic", weight="semibold")
+    ax.set_xticks(range(len(groups)), [lab for _, lab in groups])
+    ax.tick_params(axis="x", labelsize=14, labelcolor=INK)
+    ax.set_xlim(-0.6, len(groups) - 0.4)
+    ax.set_ylim(0, 75)
+    ax.set_yticks(range(0, 76, 25))
+    pct_ticks(ax)
+    ex.save(os.path.join(CHARTS, "chart3_firms_workers"))
 
 
 # --------------------------------------------------------- sensitivity ---

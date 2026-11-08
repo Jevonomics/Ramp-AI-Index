@@ -113,7 +113,11 @@ Every assumption, with its reasoning, is listed in `clean/notes.txt`.
 | `charts/chart2_groups` | Ramp vs. Census by size and sector, with ratios (main chart) |
 | `charts/chart3_firms_workers` | Share of firms vs. share of workers using AI (approximation) |
 
-Charts are saved as PNG (200 dpi) and SVG.
+Charts are saved as PNG (200 dpi) and SVG. Their layout follows the style of Ramp Economics
+Lab charts (`exhibit.py`): headline, subtitle, legend, light grid, source line. They are an
+independent analysis, not Ramp publications, so they carry no Ramp logo. The font is Inter
+(SIL Open Font License, bundled in `fonts/` with its licence), so the charts render the same
+on any machine.
 
 ## Limitations
 
