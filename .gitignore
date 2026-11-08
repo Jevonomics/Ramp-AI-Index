@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+._*
+
+# Ramp AI Index data: copyright Ramp Business Corporation ("Citation required" on FRED),
+# no clear permission to redistribute. build_dataset.py downloads it again from FRED.
+raw/ramp/
+
+# Never commit credentials
+.env

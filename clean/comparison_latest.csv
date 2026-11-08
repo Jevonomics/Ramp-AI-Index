@@ -1,0 +1,12 @@
+months,dimension,group,ramp_rate,census_wording,census_rate,gap_pts,ratio,ratio_ceiling,odds_ratio
+2026-09,overall,All businesses,55.9,any_function,23.8,32.1,2.35,4.2,4.05
+2026-09,size,Large (100+),65.7,any_function,37.2,28.5,1.77,2.69,3.24
+2026-09,size,Medium (25-99),62.5,any_function,26.1,36.4,2.39,3.83,4.71
+2026-09,size,Small (1-24),50.0,any_function,23.3,26.7,2.15,4.29,3.3
+2026-09,sector,Accommodation & Food,33.0,any_function,10.1,22.9,3.27,9.9,4.38
+2026-09,sector,Construction,43.2,any_function,16.3,26.9,2.65,6.13,3.9
+2026-09,sector,Finance & Insurance,73.7,any_function,40.6,33.1,1.82,2.47,4.11
+2026-09,sector,Healthcare,42.5,any_function,25.2,17.4,1.69,3.98,2.2
+2026-09,sector,Information,79.9,any_function,49.6,30.3,1.61,2.02,4.04
+2026-09,sector,Manufacturing,60.9,any_function,20.2,40.7,3.02,4.96,6.17
+2026-09,sector,Retail Trade,49.9,any_function,16.6,33.2,2.99,6.01,4.98
