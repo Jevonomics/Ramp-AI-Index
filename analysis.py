@@ -19,7 +19,12 @@ import matplotlib.dates as mdates
 import pandas as pd
 
 import build_dataset as b
-from exhibit import Exhibit, ORANGE, NAVY, GRAY, INK, SUB, GRID, TICK
+from matplotlib.patches import Rectangle
+from matplotlib.transforms import blended_transform_factory
+
+from exhibit import Exhibit, MARGIN, ORANGE, NAVY, GRAY, INK, SUB, GRID, TICK
+
+BAND = "#f1eee6"  # row highlight, a shade darker than the page background
 
 CLEAN, CHARTS = b.CLEAN, b.CHARTS
 SOURCE = ("Source: Ramp AI Index (Ramp Business Corporation, via FRED); U.S. Census Bureau, "
@@ -122,9 +127,12 @@ def chart_groups(comp):
                 solid_capstyle="round")
         ax.scatter(r.census_rate, yy, s=95, color=NAVY, edgecolor="white", lw=1.8, zorder=3)
         ax.scatter(r.ramp_rate, yy, s=95, color=ORANGE, edgecolor="white", lw=1.8, zorder=3)
-        stand_out = r.group in ("Healthcare", "Manufacturing")
-        ax.text(-3, yy, SHORT.get(r.group, r.group), ha="right", va="center", fontsize=13,
-                weight="bold" if stand_out else "normal")
+        if r.group in ("Healthcare", "Manufacturing"):   # the two outliers in the headline
+            ax.add_patch(Rectangle((MARGIN / ex.w, yy - 0.5), 1 - 2 * MARGIN / ex.w, 1,
+                                   transform=blended_transform_factory(ex.fig.transFigure,
+                                                                       ax.transData),
+                                   color=BAND, lw=0, zorder=0, clip_on=False))
+        ax.text(-3, yy, SHORT.get(r.group, r.group), ha="right", va="center", fontsize=13)
         ax.text(cols["ratio"], yy, f"{r.ratio:.1f}×", ha="center", va="center", fontsize=13)
         ax.text(cols["odds"], yy, f"{r.odds_ratio:.1f}", ha="center", va="center", fontsize=13,
                 weight="bold")
