@@ -96,7 +96,7 @@ def chart_groups(comp):
         for _, r in g.iterrows():
             rows.append((y, r)); y += 1
         if head:
-            heads.append((y - 0.1, head)); y += 1.5
+            heads.append((y + 0.2, head)); y += 1.8
         else:
             y += 0.5
     m0, m1 = comp.months.iloc[0].split(" to ")
