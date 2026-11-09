@@ -22,6 +22,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from matplotlib.patches import Rectangle
+from matplotlib.transforms import ScaledTranslation
 
 for f in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "*.ttf")):
     font_manager.fontManager.addfont(f)
@@ -40,6 +41,7 @@ plt.rcParams.update({
 })
 
 MARGIN = 0.32  # inches, left/right page margin
+CAP = 0.727    # Inter cap height, as a fraction of font size
 DPI = 200
 
 
@@ -78,13 +80,14 @@ class Exhibit:
     def legend(self, items, size=13):
         """items: (label, color) pairs, laid out in one row with square swatches."""
         x, side = MARGIN / self.w, size * 0.8 / 72
-        y = self._y()
+        baseline = self._y() - size * CAP / 72 / self.h
+        mid = baseline + size * CAP / 2 / 72 / self.h     # swatch centered on the cap height
         for label, color in items:
-            self.fig.add_artist(Rectangle((x, y - side / self.h * 1.05), side / self.w,
+            self.fig.add_artist(Rectangle((x, mid - side / 2 / self.h), side / self.w,
                                           side / self.h, color=color,
                                           transform=self.fig.transFigure))
-            t = self.fig.text(x + (side + 0.07) / self.w, y, label, fontsize=size, va="top",
-                              color=INK)
+            t = self.fig.text(x + (side + 0.07) / self.w, baseline, label, fontsize=size,
+                              va="baseline", color=INK)
             x += (side + 0.07) / self.w + self._width(t) + 0.17 / self.w
         self.cursor += size * 1.3 / 72 + 0.3
 
@@ -126,6 +129,14 @@ class Exhibit:
         return ax
 
     def save(self, path):
+        # Center y tick labels on their gridlines: baseline-aligned, then shifted down by
+        # half the cap height (matplotlib's own centering includes the descender).
+        for ax in self.fig.axes:
+            for lab in ax.get_yticklabels():
+                shift = ScaledTranslation(0, -lab.get_fontsize() * CAP / 2 / 72,
+                                          self.fig.dpi_scale_trans)
+                lab.set_verticalalignment("baseline")
+                lab.set_transform(lab.get_transform() + shift)
         for ext in ("png", "svg"):
             self.fig.savefig(f"{path}.{ext}", dpi=DPI)
         plt.close(self.fig)

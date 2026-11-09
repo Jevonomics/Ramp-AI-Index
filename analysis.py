@@ -41,12 +41,18 @@ def pct_ticks(ax, axis="y"):
 
 
 # ------------------------------------------------------------- chart 1 ---
-def chart_gap(tidy):
-    ov = tidy[tidy.dimension == "overall"].copy()
+def chart_gap(tidy, bi):
+    """bi: BTOS biweekly rows. Ramp months are drawn at mid-month; each Census month at the
+    average collection start of its periods (so no Census point sits before a wording break)."""
+    ov = tidy[(tidy.dimension == "overall") & (tidy.source == "Ramp")].copy()
     ov["t"] = pd.PeriodIndex(ov.month, freq="M").to_timestamp() + pd.Timedelta(days=14)
+    cen = bi[bi.dimension == "overall"].assign(col_start=lambda d: pd.to_datetime(d.col_start))
+    cen = (cen.groupby([cen.col_start.dt.to_period("M"), "wording"])
+              .agg(t=("col_start", "mean"), rate=("rate", "mean")).reset_index())
+    ov = pd.concat([ov, cen], ignore_index=True)
     ex = Exhibit(height=6.8)
-    ex.title([[("Ramp", ORANGE), ("'s AI adoption rate is", INK)],
-              [("more than double", INK), (" Census", NAVY), ("'s", INK)]])
+    ex.title([[("Ramp", ORANGE), (" AI adoption rate is", INK)],
+              [("more than double", INK), (" Census", NAVY)]])
     ex.subtitle("Share of U.S. businesses using AI, monthly")
     ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY),
                ("Census, old wording", GRAY)])
@@ -65,8 +71,8 @@ def chart_gap(tidy):
                         color=INK)
     brk = pd.Timestamp(b.WORDING_BREAKS["any_function"])
     ax.axvline(brk, color=TICK, lw=1, ls=(0, (3, 3)))
-    ax.text(brk, 66, "Census rewords\nthe question  ", ha="right", va="top", fontsize=11,
-            color=SUB)
+    ax.annotate("Census rewords\nthe question", (brk, 66), xytext=(-8, 0),
+                textcoords="offset points", ha="right", va="top", fontsize=11, color=SUB)
     ax.set_ylim(0, 70)
     ax.set_yticks(range(0, 71, 20))
     pct_ticks(ax)
@@ -248,7 +254,7 @@ def main():
     months = [str(p) for p in pd.period_range(start, end, freq="M")]
     susb = b.load_susb()
 
-    chart_gap(tidy)
+    chart_gap(tidy, pd.read_csv(os.path.join(CLEAN, "btos_biweekly.csv")))
     chart_groups(comp)
     fw = firms_vs_workers(tidy, susb, months)
     fw.to_csv(os.path.join(CLEAN, "chart3_firms_workers.csv"), index=False)
