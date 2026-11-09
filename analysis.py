@@ -24,6 +24,7 @@ from exhibit import Exhibit, ORANGE, NAVY, GRAY, INK, SUB, GRID, TICK
 CLEAN, CHARTS = b.CLEAN, b.CHARTS
 SOURCE = ("Source: Ramp AI Index (Ramp Business Corporation, via FRED); U.S. Census Bureau, "
           "Business Trends and Outlook Survey.")
+CREDIT = "Analysis: Atharv Joshi"
 NOTES = []
 
 
@@ -58,7 +59,7 @@ def chart_gap(tidy, bi):
                ("Census, old wording", GRAY)])
     ex.source("Census old wording: AI use \"in producing goods or services\" (to Oct 2025). "
               "Current: \"in any of its business functions\" (from Nov 17, 2025). Not shown: "
-              "the Oct 19, 2026 rewording (one period so far).", SOURCE)
+              "the Oct 19, 2026 rewording (one period so far).", SOURCE, credit=CREDIT)
     ax = ex.axes(left=0.1, right=0.9)
     for w, col, ls in [("goods_services", GRAY, (0, (2.5, 1.5))), ("any_function", NAVY, "-"),
                        ("paid_transactions", ORANGE, "-")]:
@@ -107,7 +108,7 @@ def chart_groups(comp):
     ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY)])
     ex.source("Ramp's rate is the share of Ramp customers in each group that paid for AI. "
               "Census size classes are regrouped to Ramp's buckets using Census SUSB 2022 "
-              "firm counts.", SOURCE)
+              "firm counts.", SOURCE, credit=CREDIT)
     ax = ex.axes(left=0.385, right=0.86, bottom_pad=0.5)
     ax.grid(False)
     ax.grid(axis="x", color=GRID, lw=1)
@@ -181,7 +182,7 @@ def chart_firms_workers(fw):
     ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY)])
     ex.source("*Approximation: each size class's AI rate weighted by its employment (Census SUSB "
               "2022). Census uses its 7 size classes; Ramp's 3 size-bucket rates are applied to "
-              "all U.S. firms in each bucket.", SOURCE)
+              "all U.S. firms in each bucket.", SOURCE, credit=CREDIT)
     ax = ex.axes(left=0.1, right=0.95, bottom_pad=0.5)
     groups = [("share of firms", "Share of firms"), ("share of workers", "Share of workers*")]
     width = 0.36

@@ -92,9 +92,8 @@ class Exhibit:
         self.cursor += size * 1.3 / 72 + 0.3
 
     # body and footer ---------------------------------------------------------
-    def _wrap(self, text, size):
-        """Split text into lines that fit between the page margins."""
-        avail = 1 - 2 * MARGIN / self.w
+    def _wrap(self, text, size, avail):
+        """Split text into lines no wider than `avail` (figure fraction)."""
         probe = self.fig.text(0, 0, "", fontsize=size)
         lines, cur = [], ""
         for word in text.split():
@@ -107,9 +106,15 @@ class Exhibit:
         probe.remove()
         return lines + [cur]
 
-    def source(self, *paragraphs, size=9.5):
-        """Notes and source at the bottom left, wrapped to the page; first paragraph on top."""
-        lines = [l for p in paragraphs for l in self._wrap(p, size)]
+    def source(self, *paragraphs, size=9.5, credit=None):
+        """Notes and source at the bottom left, first paragraph on top. `credit` goes in the
+        bottom-right corner; the source text wraps short of it."""
+        avail = 1 - 2 * MARGIN / self.w
+        if credit:
+            t = self.fig.text(1 - MARGIN / self.w, 0.22 / self.h, credit, fontsize=11,
+                              weight="semibold", color=INK, ha="right", va="bottom")
+            avail -= self._width(t) + 0.3 / self.w
+        lines = [l for p in paragraphs for l in self._wrap(p, size, avail)]
         y = 0.22
         for line in reversed(lines):
             self.fig.text(MARGIN / self.w, y / self.h, line, color=SUB, fontsize=size,
