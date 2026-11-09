@@ -1,1180 +1,1180 @@
-source,dimension,group,month,rate,wording
-Census BTOS,overall,All businesses,2023-09,3.7,goods_services
-Census BTOS,overall,All businesses,2023-10,3.8499999999999996,goods_services
-Census BTOS,overall,All businesses,2023-11,4.5,goods_services
-Census BTOS,overall,All businesses,2023-12,4.9,goods_services
-Census BTOS,overall,All businesses,2024-01,4.966666666666666,goods_services
-Census BTOS,overall,All businesses,2024-02,4.85,goods_services
-Census BTOS,overall,All businesses,2024-03,4.300000000000001,goods_services
-Census BTOS,overall,All businesses,2024-04,4.75,goods_services
-Census BTOS,overall,All businesses,2024-05,4.699999999999999,goods_services
-Census BTOS,overall,All businesses,2024-06,4.85,goods_services
-Census BTOS,overall,All businesses,2024-07,5.066666666666666,goods_services
-Census BTOS,overall,All businesses,2024-08,5.6,goods_services
-Census BTOS,overall,All businesses,2024-09,5.95,goods_services
-Census BTOS,overall,All businesses,2024-10,6.0,goods_services
-Census BTOS,overall,All businesses,2024-11,6.1,goods_services
-Census BTOS,overall,All businesses,2024-12,6.133333333333333,goods_services
-Census BTOS,overall,All businesses,2025-01,6.75,goods_services
-Census BTOS,overall,All businesses,2025-02,7.35,goods_services
-Census BTOS,overall,All businesses,2025-03,7.9,goods_services
-Census BTOS,overall,All businesses,2025-04,8.5,goods_services
-Census BTOS,overall,All businesses,2025-05,8.95,goods_services
-Census BTOS,overall,All businesses,2025-06,9.266666666666667,goods_services
-Census BTOS,overall,All businesses,2025-07,9.100000000000001,goods_services
-Census BTOS,overall,All businesses,2025-08,9.399999999999999,goods_services
-Census BTOS,overall,All businesses,2025-09,9.95,goods_services
-Census BTOS,overall,All businesses,2025-11,17.3,any_function
-Census BTOS,overall,All businesses,2025-12,17.566666666666666,any_function
-Census BTOS,overall,All businesses,2026-01,18.549999999999997,any_function
-Census BTOS,overall,All businesses,2026-02,17.85,any_function
-Census BTOS,overall,All businesses,2026-03,19.0,any_function
-Census BTOS,overall,All businesses,2026-04,19.8,any_function
-Census BTOS,overall,All businesses,2026-05,20.05,any_function
-Census BTOS,overall,All businesses,2026-06,20.96666666666667,any_function
-Census BTOS,overall,All businesses,2026-07,21.65,any_function
-Census BTOS,overall,All businesses,2026-08,22.799999999999997,any_function
-Census BTOS,overall,All businesses,2026-09,23.8,any_function
-Census BTOS,overall,All businesses,2026-10,24.6,any_function
-Census BTOS,overall,All businesses,2026-10,24.2,super_intelligence
-Census BTOS,sector,Accommodation & Food,2023-09,1.15,goods_services
-Census BTOS,sector,Accommodation & Food,2023-10,1.2,goods_services
-Census BTOS,sector,Accommodation & Food,2023-11,1.55,goods_services
-Census BTOS,sector,Accommodation & Food,2023-12,1.5499999999999998,goods_services
-Census BTOS,sector,Accommodation & Food,2024-01,1.5666666666666667,goods_services
-Census BTOS,sector,Accommodation & Food,2024-02,1.45,goods_services
-Census BTOS,sector,Accommodation & Food,2024-03,1.2999999999999998,goods_services
-Census BTOS,sector,Accommodation & Food,2024-04,1.2000000000000002,goods_services
-Census BTOS,sector,Accommodation & Food,2024-05,1.4,goods_services
-Census BTOS,sector,Accommodation & Food,2024-06,1.25,goods_services
-Census BTOS,sector,Accommodation & Food,2024-07,1.5666666666666667,goods_services
-Census BTOS,sector,Accommodation & Food,2024-08,1.7,goods_services
-Census BTOS,sector,Accommodation & Food,2024-09,1.7,goods_services
-Census BTOS,sector,Accommodation & Food,2024-10,1.5,goods_services
-Census BTOS,sector,Accommodation & Food,2024-11,1.5,goods_services
-Census BTOS,sector,Accommodation & Food,2024-12,1.7333333333333334,goods_services
-Census BTOS,sector,Accommodation & Food,2025-01,1.75,goods_services
-Census BTOS,sector,Accommodation & Food,2025-02,2.5999999999999996,goods_services
-Census BTOS,sector,Accommodation & Food,2025-03,2.1,goods_services
-Census BTOS,sector,Accommodation & Food,2025-04,2.5,goods_services
-Census BTOS,sector,Accommodation & Food,2025-05,2.9000000000000004,goods_services
-Census BTOS,sector,Accommodation & Food,2025-06,2.6,goods_services
-Census BTOS,sector,Accommodation & Food,2025-07,2.45,goods_services
-Census BTOS,sector,Accommodation & Food,2025-08,2.2,goods_services
-Census BTOS,sector,Accommodation & Food,2025-09,2.45,goods_services
-Census BTOS,sector,Accommodation & Food,2025-11,8.9,any_function
-Census BTOS,sector,Accommodation & Food,2025-12,7.766666666666667,any_function
-Census BTOS,sector,Accommodation & Food,2026-01,7.9,any_function
-Census BTOS,sector,Accommodation & Food,2026-02,7.1,any_function
-Census BTOS,sector,Accommodation & Food,2026-03,8.3,any_function
-Census BTOS,sector,Accommodation & Food,2026-04,8.850000000000001,any_function
-Census BTOS,sector,Accommodation & Food,2026-05,8.600000000000001,any_function
-Census BTOS,sector,Accommodation & Food,2026-06,8.633333333333333,any_function
-Census BTOS,sector,Accommodation & Food,2026-07,9.15,any_function
-Census BTOS,sector,Accommodation & Food,2026-08,8.55,any_function
-Census BTOS,sector,Accommodation & Food,2026-09,10.1,any_function
-Census BTOS,sector,Accommodation & Food,2026-10,10.7,any_function
-Census BTOS,sector,Accommodation & Food,2026-10,12.1,super_intelligence
-Census BTOS,sector,Construction,2023-09,0.95,goods_services
-Census BTOS,sector,Construction,2023-10,1.4,goods_services
-Census BTOS,sector,Construction,2023-11,1.4,goods_services
-Census BTOS,sector,Construction,2023-12,1.25,goods_services
-Census BTOS,sector,Construction,2024-01,1.5333333333333332,goods_services
-Census BTOS,sector,Construction,2024-02,1.4,goods_services
-Census BTOS,sector,Construction,2024-03,1.5,goods_services
-Census BTOS,sector,Construction,2024-04,1.55,goods_services
-Census BTOS,sector,Construction,2024-05,1.4500000000000002,goods_services
-Census BTOS,sector,Construction,2024-06,1.55,goods_services
-Census BTOS,sector,Construction,2024-07,1.5,goods_services
-Census BTOS,sector,Construction,2024-08,1.45,goods_services
-Census BTOS,sector,Construction,2024-09,1.9500000000000002,goods_services
-Census BTOS,sector,Construction,2024-10,1.85,goods_services
-Census BTOS,sector,Construction,2024-11,2.25,goods_services
-Census BTOS,sector,Construction,2024-12,1.9333333333333336,goods_services
-Census BTOS,sector,Construction,2025-01,2.3,goods_services
-Census BTOS,sector,Construction,2025-02,3.05,goods_services
-Census BTOS,sector,Construction,2025-03,2.8,goods_services
-Census BTOS,sector,Construction,2025-04,3.7,goods_services
-Census BTOS,sector,Construction,2025-05,3.8,goods_services
-Census BTOS,sector,Construction,2025-06,3.5333333333333337,goods_services
-Census BTOS,sector,Construction,2025-07,3.95,goods_services
-Census BTOS,sector,Construction,2025-08,3.75,goods_services
-Census BTOS,sector,Construction,2025-09,3.75,goods_services
-Census BTOS,sector,Construction,2025-11,7.4,any_function
-Census BTOS,sector,Construction,2025-12,8.766666666666667,any_function
-Census BTOS,sector,Construction,2026-01,10.649999999999999,any_function
-Census BTOS,sector,Construction,2026-02,9.95,any_function
-Census BTOS,sector,Construction,2026-03,10.1,any_function
-Census BTOS,sector,Construction,2026-04,11.2,any_function
-Census BTOS,sector,Construction,2026-05,10.75,any_function
-Census BTOS,sector,Construction,2026-06,12.799999999999999,any_function
-Census BTOS,sector,Construction,2026-07,14.25,any_function
-Census BTOS,sector,Construction,2026-08,15.15,any_function
-Census BTOS,sector,Construction,2026-09,16.3,any_function
-Census BTOS,sector,Construction,2026-10,16.1,any_function
-Census BTOS,sector,Construction,2026-10,17.1,super_intelligence
-Census BTOS,sector,Finance & Insurance,2023-09,4.45,goods_services
-Census BTOS,sector,Finance & Insurance,2023-10,5.55,goods_services
-Census BTOS,sector,Finance & Insurance,2023-11,5.45,goods_services
-Census BTOS,sector,Finance & Insurance,2023-12,6.9,goods_services
-Census BTOS,sector,Finance & Insurance,2024-01,6.8,goods_services
-Census BTOS,sector,Finance & Insurance,2024-02,6.35,goods_services
-Census BTOS,sector,Finance & Insurance,2024-03,5.25,goods_services
-Census BTOS,sector,Finance & Insurance,2024-04,5.5,goods_services
-Census BTOS,sector,Finance & Insurance,2024-05,6.0,goods_services
-Census BTOS,sector,Finance & Insurance,2024-06,6.95,goods_services
-Census BTOS,sector,Finance & Insurance,2024-07,6.2,goods_services
-Census BTOS,sector,Finance & Insurance,2024-08,7.5,goods_services
-Census BTOS,sector,Finance & Insurance,2024-09,7.15,goods_services
-Census BTOS,sector,Finance & Insurance,2024-10,8.25,goods_services
-Census BTOS,sector,Finance & Insurance,2024-11,8.95,goods_services
-Census BTOS,sector,Finance & Insurance,2024-12,7.166666666666667,goods_services
-Census BTOS,sector,Finance & Insurance,2025-01,10.0,goods_services
-Census BTOS,sector,Finance & Insurance,2025-02,10.15,goods_services
-Census BTOS,sector,Finance & Insurance,2025-03,11.2,goods_services
-Census BTOS,sector,Finance & Insurance,2025-04,13.0,goods_services
-Census BTOS,sector,Finance & Insurance,2025-05,13.6,goods_services
-Census BTOS,sector,Finance & Insurance,2025-06,14.133333333333333,goods_services
-Census BTOS,sector,Finance & Insurance,2025-07,15.9,goods_services
-Census BTOS,sector,Finance & Insurance,2025-08,16.05,goods_services
-Census BTOS,sector,Finance & Insurance,2025-09,17.15,goods_services
-Census BTOS,sector,Finance & Insurance,2025-11,29.9,any_function
-Census BTOS,sector,Finance & Insurance,2025-12,30.2,any_function
-Census BTOS,sector,Finance & Insurance,2026-01,31.0,any_function
-Census BTOS,sector,Finance & Insurance,2026-02,30.0,any_function
-Census BTOS,sector,Finance & Insurance,2026-03,32.6,any_function
-Census BTOS,sector,Finance & Insurance,2026-04,33.45,any_function
-Census BTOS,sector,Finance & Insurance,2026-05,33.5,any_function
-Census BTOS,sector,Finance & Insurance,2026-06,35.06666666666666,any_function
-Census BTOS,sector,Finance & Insurance,2026-07,36.15,any_function
-Census BTOS,sector,Finance & Insurance,2026-08,38.25,any_function
-Census BTOS,sector,Finance & Insurance,2026-09,40.55,any_function
-Census BTOS,sector,Finance & Insurance,2026-10,40.5,any_function
-Census BTOS,sector,Finance & Insurance,2026-10,39.2,super_intelligence
-Census BTOS,sector,Healthcare,2023-09,3.7,goods_services
-Census BTOS,sector,Healthcare,2023-10,3.8,goods_services
-Census BTOS,sector,Healthcare,2023-11,4.550000000000001,goods_services
-Census BTOS,sector,Healthcare,2023-12,4.75,goods_services
-Census BTOS,sector,Healthcare,2024-01,4.733333333333333,goods_services
-Census BTOS,sector,Healthcare,2024-02,5.4,goods_services
-Census BTOS,sector,Healthcare,2024-03,4.05,goods_services
-Census BTOS,sector,Healthcare,2024-04,5.35,goods_services
-Census BTOS,sector,Healthcare,2024-05,4.8,goods_services
-Census BTOS,sector,Healthcare,2024-06,5.05,goods_services
-Census BTOS,sector,Healthcare,2024-07,5.900000000000001,goods_services
-Census BTOS,sector,Healthcare,2024-08,5.699999999999999,goods_services
-Census BTOS,sector,Healthcare,2024-09,6.2,goods_services
-Census BTOS,sector,Healthcare,2024-10,6.050000000000001,goods_services
-Census BTOS,sector,Healthcare,2024-11,6.35,goods_services
-Census BTOS,sector,Healthcare,2024-12,6.066666666666666,goods_services
-Census BTOS,sector,Healthcare,2025-01,6.8,goods_services
-Census BTOS,sector,Healthcare,2025-02,7.800000000000001,goods_services
-Census BTOS,sector,Healthcare,2025-03,8.649999999999999,goods_services
-Census BTOS,sector,Healthcare,2025-04,8.649999999999999,goods_services
-Census BTOS,sector,Healthcare,2025-05,9.55,goods_services
-Census BTOS,sector,Healthcare,2025-06,10.4,goods_services
-Census BTOS,sector,Healthcare,2025-07,10.100000000000001,goods_services
-Census BTOS,sector,Healthcare,2025-08,9.75,goods_services
-Census BTOS,sector,Healthcare,2025-09,11.15,goods_services
-Census BTOS,sector,Healthcare,2025-11,18.1,any_function
-Census BTOS,sector,Healthcare,2025-12,21.2,any_function
-Census BTOS,sector,Healthcare,2026-01,21.25,any_function
-Census BTOS,sector,Healthcare,2026-02,20.200000000000003,any_function
-Census BTOS,sector,Healthcare,2026-03,20.75,any_function
-Census BTOS,sector,Healthcare,2026-04,21.799999999999997,any_function
-Census BTOS,sector,Healthcare,2026-05,21.95,any_function
-Census BTOS,sector,Healthcare,2026-06,23.53333333333333,any_function
-Census BTOS,sector,Healthcare,2026-07,22.75,any_function
-Census BTOS,sector,Healthcare,2026-08,24.35,any_function
-Census BTOS,sector,Healthcare,2026-09,25.15,any_function
-Census BTOS,sector,Healthcare,2026-10,27.6,any_function
-Census BTOS,sector,Healthcare,2026-10,24.6,super_intelligence
-Census BTOS,sector,Information,2023-09,13.850000000000001,goods_services
-Census BTOS,sector,Information,2023-10,12.75,goods_services
-Census BTOS,sector,Information,2023-11,15.4,goods_services
-Census BTOS,sector,Information,2023-12,20.35,goods_services
-Census BTOS,sector,Information,2024-01,16.966666666666665,goods_services
-Census BTOS,sector,Information,2024-02,16.1,goods_services
-Census BTOS,sector,Information,2024-03,14.799999999999999,goods_services
-Census BTOS,sector,Information,2024-04,16.7,goods_services
-Census BTOS,sector,Information,2024-05,16.35,goods_services
-Census BTOS,sector,Information,2024-06,16.700000000000003,goods_services
-Census BTOS,sector,Information,2024-07,17.133333333333336,goods_services
-Census BTOS,sector,Information,2024-08,20.6,goods_services
-Census BTOS,sector,Information,2024-09,19.65,goods_services
-Census BTOS,sector,Information,2024-10,21.5,goods_services
-Census BTOS,sector,Information,2024-11,20.799999999999997,goods_services
-Census BTOS,sector,Information,2024-12,21.7,goods_services
-Census BTOS,sector,Information,2025-01,20.75,goods_services
-Census BTOS,sector,Information,2025-02,21.4,goods_services
-Census BTOS,sector,Information,2025-03,25.1,goods_services
-Census BTOS,sector,Information,2025-04,25.200000000000003,goods_services
-Census BTOS,sector,Information,2025-05,23.75,goods_services
-Census BTOS,sector,Information,2025-06,26.166666666666668,goods_services
-Census BTOS,sector,Information,2025-07,22.6,goods_services
-Census BTOS,sector,Information,2025-08,26.15,goods_services
-Census BTOS,sector,Information,2025-09,29.55,goods_services
-Census BTOS,sector,Information,2025-11,41.0,any_function
-Census BTOS,sector,Information,2025-12,35.43333333333334,any_function
-Census BTOS,sector,Information,2026-01,39.35,any_function
-Census BTOS,sector,Information,2026-02,35.55,any_function
-Census BTOS,sector,Information,2026-03,38.7,any_function
-Census BTOS,sector,Information,2026-04,40.75,any_function
-Census BTOS,sector,Information,2026-05,40.849999999999994,any_function
-Census BTOS,sector,Information,2026-06,43.03333333333333,any_function
-Census BTOS,sector,Information,2026-07,43.45,any_function
-Census BTOS,sector,Information,2026-08,44.75,any_function
-Census BTOS,sector,Information,2026-09,49.6,any_function
-Census BTOS,sector,Information,2026-10,46.4,any_function
-Census BTOS,sector,Information,2026-10,45.0,super_intelligence
-Census BTOS,sector,Manufacturing,2023-09,1.75,goods_services
-Census BTOS,sector,Manufacturing,2023-10,1.85,goods_services
-Census BTOS,sector,Manufacturing,2023-11,2.8499999999999996,goods_services
-Census BTOS,sector,Manufacturing,2023-12,2.8,goods_services
-Census BTOS,sector,Manufacturing,2024-01,2.733333333333333,goods_services
-Census BTOS,sector,Manufacturing,2024-02,2.7,goods_services
-Census BTOS,sector,Manufacturing,2024-03,2.5999999999999996,goods_services
-Census BTOS,sector,Manufacturing,2024-04,2.3,goods_services
-Census BTOS,sector,Manufacturing,2024-05,2.55,goods_services
-Census BTOS,sector,Manufacturing,2024-06,2.75,goods_services
-Census BTOS,sector,Manufacturing,2024-07,2.3333333333333335,goods_services
-Census BTOS,sector,Manufacturing,2024-08,2.55,goods_services
-Census BTOS,sector,Manufacturing,2024-09,2.55,goods_services
-Census BTOS,sector,Manufacturing,2024-10,3.3,goods_services
-Census BTOS,sector,Manufacturing,2024-11,2.55,goods_services
-Census BTOS,sector,Manufacturing,2024-12,2.566666666666667,goods_services
-Census BTOS,sector,Manufacturing,2025-01,3.1,goods_services
-Census BTOS,sector,Manufacturing,2025-02,3.4000000000000004,goods_services
-Census BTOS,sector,Manufacturing,2025-03,4.05,goods_services
-Census BTOS,sector,Manufacturing,2025-04,4.65,goods_services
-Census BTOS,sector,Manufacturing,2025-05,4.7,goods_services
-Census BTOS,sector,Manufacturing,2025-06,5.133333333333334,goods_services
-Census BTOS,sector,Manufacturing,2025-07,4.449999999999999,goods_services
-Census BTOS,sector,Manufacturing,2025-08,4.7,goods_services
-Census BTOS,sector,Manufacturing,2025-09,4.699999999999999,goods_services
-Census BTOS,sector,Manufacturing,2025-11,12.7,any_function
-Census BTOS,sector,Manufacturing,2025-12,11.966666666666667,any_function
-Census BTOS,sector,Manufacturing,2026-01,13.0,any_function
-Census BTOS,sector,Manufacturing,2026-02,13.7,any_function
-Census BTOS,sector,Manufacturing,2026-03,16.9,any_function
-Census BTOS,sector,Manufacturing,2026-04,16.65,any_function
-Census BTOS,sector,Manufacturing,2026-05,15.8,any_function
-Census BTOS,sector,Manufacturing,2026-06,18.766666666666666,any_function
-Census BTOS,sector,Manufacturing,2026-07,19.8,any_function
-Census BTOS,sector,Manufacturing,2026-08,21.85,any_function
-Census BTOS,sector,Manufacturing,2026-09,20.15,any_function
-Census BTOS,sector,Manufacturing,2026-10,22.9,any_function
-Census BTOS,sector,Manufacturing,2026-10,21.4,super_intelligence
-Census BTOS,sector,Retail Trade,2023-09,2.45,goods_services
-Census BTOS,sector,Retail Trade,2023-10,2.6500000000000004,goods_services
-Census BTOS,sector,Retail Trade,2023-11,3.4,goods_services
-Census BTOS,sector,Retail Trade,2023-12,3.3499999999999996,goods_services
-Census BTOS,sector,Retail Trade,2024-01,3.4333333333333336,goods_services
-Census BTOS,sector,Retail Trade,2024-02,3.0,goods_services
-Census BTOS,sector,Retail Trade,2024-03,2.75,goods_services
-Census BTOS,sector,Retail Trade,2024-04,3.1500000000000004,goods_services
-Census BTOS,sector,Retail Trade,2024-05,3.55,goods_services
-Census BTOS,sector,Retail Trade,2024-06,3.2,goods_services
-Census BTOS,sector,Retail Trade,2024-07,3.266666666666667,goods_services
-Census BTOS,sector,Retail Trade,2024-08,3.2,goods_services
-Census BTOS,sector,Retail Trade,2024-09,3.8,goods_services
-Census BTOS,sector,Retail Trade,2024-10,3.6,goods_services
-Census BTOS,sector,Retail Trade,2024-11,3.5,goods_services
-Census BTOS,sector,Retail Trade,2024-12,3.9333333333333336,goods_services
-Census BTOS,sector,Retail Trade,2025-01,3.8,goods_services
-Census BTOS,sector,Retail Trade,2025-02,4.35,goods_services
-Census BTOS,sector,Retail Trade,2025-03,4.85,goods_services
-Census BTOS,sector,Retail Trade,2025-04,5.35,goods_services
-Census BTOS,sector,Retail Trade,2025-05,5.699999999999999,goods_services
-Census BTOS,sector,Retail Trade,2025-06,5.933333333333334,goods_services
-Census BTOS,sector,Retail Trade,2025-07,5.7,goods_services
-Census BTOS,sector,Retail Trade,2025-08,5.4,goods_services
-Census BTOS,sector,Retail Trade,2025-09,6.55,goods_services
-Census BTOS,sector,Retail Trade,2025-11,12.5,any_function
-Census BTOS,sector,Retail Trade,2025-12,12.333333333333334,any_function
-Census BTOS,sector,Retail Trade,2026-01,13.15,any_function
-Census BTOS,sector,Retail Trade,2026-02,11.75,any_function
-Census BTOS,sector,Retail Trade,2026-03,13.5,any_function
-Census BTOS,sector,Retail Trade,2026-04,14.850000000000001,any_function
-Census BTOS,sector,Retail Trade,2026-05,15.600000000000001,any_function
-Census BTOS,sector,Retail Trade,2026-06,16.266666666666666,any_function
-Census BTOS,sector,Retail Trade,2026-07,15.5,any_function
-Census BTOS,sector,Retail Trade,2026-08,15.35,any_function
-Census BTOS,sector,Retail Trade,2026-09,16.65,any_function
-Census BTOS,sector,Retail Trade,2026-10,18.5,any_function
-Census BTOS,sector,Retail Trade,2026-10,19.1,super_intelligence
-Census BTOS,size,Large (100+),2023-09,3.2419965554020735,goods_services
-Census BTOS,size,Large (100+),2023-10,3.6828823591124475,goods_services
-Census BTOS,size,Large (100+),2023-11,5.157020772499171,goods_services
-Census BTOS,size,Large (100+),2023-12,5.19446022975643,goods_services
-Census BTOS,size,Large (100+),2024-01,6.181856993816043,goods_services
-Census BTOS,size,Large (100+),2024-02,5.346183402982987,goods_services
-Census BTOS,size,Large (100+),2024-03,4.416134968788795,goods_services
-Census BTOS,size,Large (100+),2024-04,5.85702077249917,goods_services
-Census BTOS,size,Large (100+),2024-05,5.550370250563899,goods_services
-Census BTOS,size,Large (100+),2024-06,5.301110751691699,goods_services
-Census BTOS,size,Large (100+),2024-07,6.114041544998339,goods_services
-Census BTOS,size,Large (100+),2024-08,6.861207620080082,goods_services
-Census BTOS,size,Large (100+),2024-09,7.412318371771783,goods_services
-Census BTOS,size,Large (100+),2024-10,7.720692066933608,goods_services
-Census BTOS,size,Large (100+),2024-11,7.787809707821161,goods_services
-Census BTOS,size,Large (100+),2024-12,8.149017327901243,goods_services
-Census BTOS,size,Large (100+),2025-01,7.930176513787134,goods_services
-Census BTOS,size,Large (100+),2025-02,9.73152943644979,goods_services
-Census BTOS,size,Large (100+),2025-03,10.058131524190872,goods_services
-Census BTOS,size,Large (100+),2025-04,9.88855020894896,goods_services
-Census BTOS,size,Large (100+),2025-05,11.751110751691701,goods_services
-Census BTOS,size,Large (100+),2025-06,11.20960786370816,goods_services
-Census BTOS,size,Large (100+),2025-07,9.072415240160165,goods_services
-Census BTOS,size,Large (100+),2025-08,10.442366805965973,goods_services
-Census BTOS,size,Large (100+),2025-09,10.37734258886888,goods_services
-Census BTOS,size,Large (100+),2025-11,26.363058872899582,any_function
-Census BTOS,size,Large (100+),2025-12,27.731776270159056,any_function
-Census BTOS,size,Large (100+),2026-01,27.39101388330332,any_function
-Census BTOS,size,Large (100+),2026-02,27.802591753947297,any_function
-Census BTOS,size,Large (100+),2026-03,30.82673016733402,any_function
-Census BTOS,size,Large (100+),2026-04,32.45529759927261,any_function
-Census BTOS,size,Large (100+),2026-05,33.04310730709378,any_function
-Census BTOS,size,Large (100+),2026-06,34.78243604762987,any_function
-Census BTOS,size,Large (100+),2026-07,34.769709394834855,any_function
-Census BTOS,size,Large (100+),2026-08,35.043477557657674,any_function
-Census BTOS,size,Large (100+),2026-09,37.20813152419087,any_function
-Census BTOS,size,Large (100+),2026-10,38.55049833015684,any_function
-Census BTOS,size,Large (100+),2026-10,41.605667849836514,super_intelligence
-Census BTOS,size,Medium (25-99),2023-09,2.5521646201514803,goods_services
-Census BTOS,size,Medium (25-99),2023-10,2.8,goods_services
-Census BTOS,size,Medium (25-99),2023-11,3.4297256330808654,goods_services
-Census BTOS,size,Medium (25-99),2023-12,4.018902532323463,goods_services
-Census BTOS,size,Medium (25-99),2024-01,3.9985569198990127,goods_services
-Census BTOS,size,Medium (25-99),2024-02,3.556493860454441,goods_services
-Census BTOS,size,Medium (25-99),2024-03,3.484054873383827,goods_services
-Census BTOS,size,Medium (25-99),2024-04,3.5637805064646932,goods_services
-Census BTOS,size,Medium (25-99),2024-05,3.6637805064646924,goods_services
-Census BTOS,size,Medium (25-99),2024-06,3.9159451266161724,goods_services
-Census BTOS,size,Medium (25-99),2024-07,4.122703248922551,goods_services
-Census BTOS,size,Medium (25-99),2024-08,4.275396392777906,goods_services
-Census BTOS,size,Medium (25-99),2024-09,4.828353798485195,goods_services
-Census BTOS,size,Medium (25-99),2024-10,4.945670759697039,goods_services
-Census BTOS,size,Medium (25-99),2024-11,4.918109746767654,goods_services
-Census BTOS,size,Medium (25-99),2024-12,5.472052954377374,goods_services
-Census BTOS,size,Medium (25-99),2025-01,5.607286646010252,goods_services
-Census BTOS,size,Medium (25-99),2025-02,6.042134304949889,goods_services
-Census BTOS,size,Medium (25-99),2025-03,6.481890253232347,goods_services
-Census BTOS,size,Medium (25-99),2025-04,7.361615886313212,goods_services
-Census BTOS,size,Medium (25-99),2025-05,7.810244051717543,goods_services
-Census BTOS,size,Medium (25-99),2025-06,8.031890253232346,goods_services
-Census BTOS,size,Medium (25-99),2025-07,7.084054873383827,goods_services
-Census BTOS,size,Medium (25-99),2025-08,7.415945126616173,goods_services
-Census BTOS,size,Medium (25-99),2025-09,7.814573292020504,goods_services
-Census BTOS,size,Medium (25-99),2025-11,19.33780506464693,any_function
-Census BTOS,size,Medium (25-99),2025-12,18.637276540943056,any_function
-Census BTOS,size,Medium (25-99),2026-01,20.6358541810114,any_function
-Census BTOS,size,Medium (25-99),2026-02,18.781311204192487,any_function
-Census BTOS,size,Medium (25-99),2026-03,20.96024405171754,any_function
-Census BTOS,size,Medium (25-99),2026-04,23.077774749445336,any_function
-Census BTOS,size,Medium (25-99),2026-05,21.919116268839414,any_function
-Census BTOS,size,Medium (25-99),2026-06,24.253292913064545,any_function
-Census BTOS,size,Medium (25-99),2026-07,24.319909054395225,any_function
-Census BTOS,size,Medium (25-99),2026-08,23.65021373651595,any_function
-Census BTOS,size,Medium (25-99),2026-09,26.132896775304108,any_function
-Census BTOS,size,Medium (25-99),2026-10,26.956707596970393,any_function
-Census BTOS,size,Medium (25-99),2026-10,30.47561012929386,super_intelligence
-Census BTOS,size,Small (1-24),2023-09,3.834659953699321,goods_services
-Census BTOS,size,Small (1-24),2023-10,3.9726291710650266,goods_services
-Census BTOS,size,Small (1-24),2023-11,4.57204749597517,goods_services
-Census BTOS,size,Small (1-24),2023-12,4.9844432635889495,goods_services
-Census BTOS,size,Small (1-24),2024-01,5.033468202154047,goods_services
-Census BTOS,size,Small (1-24),2024-02,4.927564629665353,goods_services
-Census BTOS,size,Small (1-24),2024-03,4.40622788987377,goods_services
-Census BTOS,size,Small (1-24),2024-04,4.844514300830925,goods_services
-Census BTOS,size,Small (1-24),2024-05,4.766025056195815,goods_services
-Census BTOS,size,Small (1-24),2024-06,4.946969962890891,goods_services
-Census BTOS,size,Small (1-24),2024-07,5.118490332250209,goods_services
-Census BTOS,size,Small (1-24),2024-08,5.667140614987495,goods_services
-Census BTOS,size,Small (1-24),2024-09,5.982091900007864,goods_services
-Census BTOS,size,Small (1-24),2024-10,6.067021571449746,goods_services
-Census BTOS,size,Small (1-24),2024-11,6.157565494413167,goods_services
-Census BTOS,size,Small (1-24),2024-12,6.141466533833214,goods_services
-Census BTOS,size,Small (1-24),2025-01,6.786801279076293,goods_services
-Census BTOS,size,Small (1-24),2025-02,7.440033619416471,goods_services
-Census BTOS,size,Small (1-24),2025-03,7.957324908608777,goods_services
-Census BTOS,size,Small (1-24),2025-04,8.534764252178201,goods_services
-Census BTOS,size,Small (1-24),2025-05,8.937057258074006,goods_services
-Census BTOS,size,Small (1-24),2025-06,9.309047126936509,goods_services
-Census BTOS,size,Small (1-24),2025-07,9.250599251472927,goods_services
-Census BTOS,size,Small (1-24),2025-08,9.539504417633285,goods_services
-Census BTOS,size,Small (1-24),2025-09,10.09842411223915,goods_services
-Census BTOS,size,Small (1-24),2025-11,16.86649124395934,any_function
-Census BTOS,size,Small (1-24),2025-12,17.294842248337496,any_function
-Census BTOS,size,Small (1-24),2026-01,18.180309197659007,any_function
-Census BTOS,size,Small (1-24),2026-02,17.536274456628803,any_function
-Census BTOS,size,Small (1-24),2026-03,18.561519762728206,any_function
-Census BTOS,size,Small (1-24),2026-04,19.211007156598324,any_function
-Census BTOS,size,Small (1-24),2026-05,19.521681504681663,any_function
-Census BTOS,size,Small (1-24),2026-06,20.407054164653328,any_function
-Census BTOS,size,Small (1-24),2026-07,21.188549860557284,any_function
-Census BTOS,size,Small (1-24),2026-08,22.427233867890752,any_function
-Census BTOS,size,Small (1-24),2026-09,23.290866617169666,any_function
-Census BTOS,size,Small (1-24),2026-10,24.07519203968084,any_function
-Census BTOS,size,Small (1-24),2026-10,23.3419183006051,super_intelligence
-Census BTOS,size_btos_native,1-4,2023-09,4.35,goods_services
-Census BTOS,size_btos_native,1-4,2023-10,4.300000000000001,goods_services
-Census BTOS,size_btos_native,1-4,2023-11,4.949999999999999,goods_services
-Census BTOS,size_btos_native,1-4,2023-12,5.4,goods_services
-Census BTOS,size_btos_native,1-4,2024-01,5.366666666666667,goods_services
-Census BTOS,size_btos_native,1-4,2024-02,5.35,goods_services
-Census BTOS,size_btos_native,1-4,2024-03,4.8,goods_services
-Census BTOS,size_btos_native,1-4,2024-04,5.199999999999999,goods_services
-Census BTOS,size_btos_native,1-4,2024-05,5.199999999999999,goods_services
-Census BTOS,size_btos_native,1-4,2024-06,5.35,goods_services
-Census BTOS,size_btos_native,1-4,2024-07,5.466666666666666,goods_services
-Census BTOS,size_btos_native,1-4,2024-08,6.3,goods_services
-Census BTOS,size_btos_native,1-4,2024-09,6.55,goods_services
-Census BTOS,size_btos_native,1-4,2024-10,6.6,goods_services
-Census BTOS,size_btos_native,1-4,2024-11,6.65,goods_services
-Census BTOS,size_btos_native,1-4,2024-12,6.633333333333333,goods_services
-Census BTOS,size_btos_native,1-4,2025-01,7.25,goods_services
-Census BTOS,size_btos_native,1-4,2025-02,8.0,goods_services
-Census BTOS,size_btos_native,1-4,2025-03,8.5,goods_services
-Census BTOS,size_btos_native,1-4,2025-04,9.25,goods_services
-Census BTOS,size_btos_native,1-4,2025-05,9.45,goods_services
-Census BTOS,size_btos_native,1-4,2025-06,9.833333333333334,goods_services
-Census BTOS,size_btos_native,1-4,2025-07,10.05,goods_services
-Census BTOS,size_btos_native,1-4,2025-08,10.350000000000001,goods_services
-Census BTOS,size_btos_native,1-4,2025-09,10.95,goods_services
-Census BTOS,size_btos_native,1-4,2025-11,17.0,any_function
-Census BTOS,size_btos_native,1-4,2025-12,17.400000000000002,any_function
-Census BTOS,size_btos_native,1-4,2026-01,18.35,any_function
-Census BTOS,size_btos_native,1-4,2026-02,17.85,any_function
-Census BTOS,size_btos_native,1-4,2026-03,18.75,any_function
-Census BTOS,size_btos_native,1-4,2026-04,19.1,any_function
-Census BTOS,size_btos_native,1-4,2026-05,19.55,any_function
-Census BTOS,size_btos_native,1-4,2026-06,20.3,any_function
-Census BTOS,size_btos_native,1-4,2026-07,21.35,any_function
-Census BTOS,size_btos_native,1-4,2026-08,23.05,any_function
-Census BTOS,size_btos_native,1-4,2026-09,23.85,any_function
-Census BTOS,size_btos_native,1-4,2026-10,24.3,any_function
-Census BTOS,size_btos_native,1-4,2026-10,22.8,super_intelligence
-Census BTOS,size_btos_native,10-19,2023-09,2.6500000000000004,goods_services
-Census BTOS,size_btos_native,10-19,2023-10,3.2,goods_services
-Census BTOS,size_btos_native,10-19,2023-11,4.05,goods_services
-Census BTOS,size_btos_native,10-19,2023-12,3.95,goods_services
-Census BTOS,size_btos_native,10-19,2024-01,4.166666666666667,goods_services
-Census BTOS,size_btos_native,10-19,2024-02,4.3,goods_services
-Census BTOS,size_btos_native,10-19,2024-03,3.3,goods_services
-Census BTOS,size_btos_native,10-19,2024-04,4.05,goods_services
-Census BTOS,size_btos_native,10-19,2024-05,3.8,goods_services
-Census BTOS,size_btos_native,10-19,2024-06,3.8,goods_services
-Census BTOS,size_btos_native,10-19,2024-07,4.433333333333334,goods_services
-Census BTOS,size_btos_native,10-19,2024-08,4.199999999999999,goods_services
-Census BTOS,size_btos_native,10-19,2024-09,4.4,goods_services
-Census BTOS,size_btos_native,10-19,2024-10,4.9,goods_services
-Census BTOS,size_btos_native,10-19,2024-11,4.75,goods_services
-Census BTOS,size_btos_native,10-19,2024-12,4.833333333333333,goods_services
-Census BTOS,size_btos_native,10-19,2025-01,5.25,goods_services
-Census BTOS,size_btos_native,10-19,2025-02,5.75,goods_services
-Census BTOS,size_btos_native,10-19,2025-03,6.7,goods_services
-Census BTOS,size_btos_native,10-19,2025-04,6.45,goods_services
-Census BTOS,size_btos_native,10-19,2025-05,7.15,goods_services
-Census BTOS,size_btos_native,10-19,2025-06,7.966666666666668,goods_services
-Census BTOS,size_btos_native,10-19,2025-07,7.65,goods_services
-Census BTOS,size_btos_native,10-19,2025-08,7.3,goods_services
-Census BTOS,size_btos_native,10-19,2025-09,7.9,goods_services
-Census BTOS,size_btos_native,10-19,2025-11,17.8,any_function
-Census BTOS,size_btos_native,10-19,2025-12,16.7,any_function
-Census BTOS,size_btos_native,10-19,2026-01,17.75,any_function
-Census BTOS,size_btos_native,10-19,2026-02,17.299999999999997,any_function
-Census BTOS,size_btos_native,10-19,2026-03,17.799999999999997,any_function
-Census BTOS,size_btos_native,10-19,2026-04,19.65,any_function
-Census BTOS,size_btos_native,10-19,2026-05,20.35,any_function
-Census BTOS,size_btos_native,10-19,2026-06,20.566666666666666,any_function
-Census BTOS,size_btos_native,10-19,2026-07,20.75,any_function
-Census BTOS,size_btos_native,10-19,2026-08,21.3,any_function
-Census BTOS,size_btos_native,10-19,2026-09,22.7,any_function
-Census BTOS,size_btos_native,10-19,2026-10,24.6,any_function
-Census BTOS,size_btos_native,10-19,2026-10,25.3,super_intelligence
-Census BTOS,size_btos_native,100-249,2023-09,2.4,goods_services
-Census BTOS,size_btos_native,100-249,2023-10,3.3499999999999996,goods_services
-Census BTOS,size_btos_native,100-249,2023-11,4.550000000000001,goods_services
-Census BTOS,size_btos_native,100-249,2023-12,4.0,goods_services
-Census BTOS,size_btos_native,100-249,2024-01,5.333333333333333,goods_services
-Census BTOS,size_btos_native,100-249,2024-02,4.7,goods_services
-Census BTOS,size_btos_native,100-249,2024-03,3.3,goods_services
-Census BTOS,size_btos_native,100-249,2024-04,5.25,goods_services
-Census BTOS,size_btos_native,100-249,2024-05,5.1,goods_services
-Census BTOS,size_btos_native,100-249,2024-06,3.9499999999999997,goods_services
-Census BTOS,size_btos_native,100-249,2024-07,4.8999999999999995,goods_services
-Census BTOS,size_btos_native,100-249,2024-08,6.449999999999999,goods_services
-Census BTOS,size_btos_native,100-249,2024-09,5.65,goods_services
-Census BTOS,size_btos_native,100-249,2024-10,6.35,goods_services
-Census BTOS,size_btos_native,100-249,2024-11,6.75,goods_services
-Census BTOS,size_btos_native,100-249,2024-12,6.7,goods_services
-Census BTOS,size_btos_native,100-249,2025-01,5.6,goods_services
-Census BTOS,size_btos_native,100-249,2025-02,8.399999999999999,goods_services
-Census BTOS,size_btos_native,100-249,2025-03,8.1,goods_services
-Census BTOS,size_btos_native,100-249,2025-04,7.95,goods_services
-Census BTOS,size_btos_native,100-249,2025-05,10.4,goods_services
-Census BTOS,size_btos_native,100-249,2025-06,10.1,goods_services
-Census BTOS,size_btos_native,100-249,2025-07,8.25,goods_services
-Census BTOS,size_btos_native,100-249,2025-08,9.149999999999999,goods_services
-Census BTOS,size_btos_native,100-249,2025-09,8.850000000000001,goods_services
-Census BTOS,size_btos_native,100-249,2025-11,23.7,any_function
-Census BTOS,size_btos_native,100-249,2025-12,26.099999999999998,any_function
-Census BTOS,size_btos_native,100-249,2026-01,25.1,any_function
-Census BTOS,size_btos_native,100-249,2026-02,24.65,any_function
-Census BTOS,size_btos_native,100-249,2026-03,27.4,any_function
-Census BTOS,size_btos_native,100-249,2026-04,31.3,any_function
-Census BTOS,size_btos_native,100-249,2026-05,30.85,any_function
-Census BTOS,size_btos_native,100-249,2026-06,31.46666666666667,any_function
-Census BTOS,size_btos_native,100-249,2026-07,31.950000000000003,any_function
-Census BTOS,size_btos_native,100-249,2026-08,32.4,any_function
-Census BTOS,size_btos_native,100-249,2026-09,35.25,any_function
-Census BTOS,size_btos_native,100-249,2026-10,35.3,any_function
-Census BTOS,size_btos_native,100-249,2026-10,40.0,super_intelligence
-Census BTOS,size_btos_native,20-49,2023-09,2.6,goods_services
-Census BTOS,size_btos_native,20-49,2023-10,2.8,goods_services
-Census BTOS,size_btos_native,20-49,2023-11,3.3499999999999996,goods_services
-Census BTOS,size_btos_native,20-49,2023-12,3.6999999999999997,goods_services
-Census BTOS,size_btos_native,20-49,2024-01,3.9666666666666663,goods_services
-Census BTOS,size_btos_native,20-49,2024-02,3.7,goods_services
-Census BTOS,size_btos_native,20-49,2024-03,3.5,goods_services
-Census BTOS,size_btos_native,20-49,2024-04,3.5,goods_services
-Census BTOS,size_btos_native,20-49,2024-05,3.5999999999999996,goods_services
-Census BTOS,size_btos_native,20-49,2024-06,3.9,goods_services
-Census BTOS,size_btos_native,20-49,2024-07,4.133333333333333,goods_services
-Census BTOS,size_btos_native,20-49,2024-08,4.1,goods_services
-Census BTOS,size_btos_native,20-49,2024-09,4.35,goods_services
-Census BTOS,size_btos_native,20-49,2024-10,4.85,goods_services
-Census BTOS,size_btos_native,20-49,2024-11,4.95,goods_services
-Census BTOS,size_btos_native,20-49,2024-12,5.1000000000000005,goods_services
-Census BTOS,size_btos_native,20-49,2025-01,5.4,goods_services
-Census BTOS,size_btos_native,20-49,2025-02,5.5,goods_services
-Census BTOS,size_btos_native,20-49,2025-03,6.45,goods_services
-Census BTOS,size_btos_native,20-49,2025-04,7.25,goods_services
-Census BTOS,size_btos_native,20-49,2025-05,7.300000000000001,goods_services
-Census BTOS,size_btos_native,20-49,2025-06,8.0,goods_services
-Census BTOS,size_btos_native,20-49,2025-07,7.1,goods_services
-Census BTOS,size_btos_native,20-49,2025-08,7.4,goods_services
-Census BTOS,size_btos_native,20-49,2025-09,7.4,goods_services
-Census BTOS,size_btos_native,20-49,2025-11,18.7,any_function
-Census BTOS,size_btos_native,20-49,2025-12,18.233333333333334,any_function
-Census BTOS,size_btos_native,20-49,2026-01,18.85,any_function
-Census BTOS,size_btos_native,20-49,2026-02,18.0,any_function
-Census BTOS,size_btos_native,20-49,2026-03,20.45,any_function
-Census BTOS,size_btos_native,20-49,2026-04,21.85,any_function
-Census BTOS,size_btos_native,20-49,2026-05,20.5,any_function
-Census BTOS,size_btos_native,20-49,2026-06,23.46666666666667,any_function
-Census BTOS,size_btos_native,20-49,2026-07,22.549999999999997,any_function
-Census BTOS,size_btos_native,20-49,2026-08,22.55,any_function
-Census BTOS,size_btos_native,20-49,2026-09,24.65,any_function
-Census BTOS,size_btos_native,20-49,2026-10,26.0,any_function
-Census BTOS,size_btos_native,20-49,2026-10,29.2,super_intelligence
-Census BTOS,size_btos_native,250+,2023-09,4.55,goods_services
-Census BTOS,size_btos_native,250+,2023-10,4.199999999999999,goods_services
-Census BTOS,size_btos_native,250+,2023-11,6.1,goods_services
-Census BTOS,size_btos_native,250+,2023-12,7.050000000000001,goods_services
-Census BTOS,size_btos_native,250+,2024-01,7.5,goods_services
-Census BTOS,size_btos_native,250+,2024-02,6.35,goods_services
-Census BTOS,size_btos_native,250+,2024-03,6.15,goods_services
-Census BTOS,size_btos_native,250+,2024-04,6.8,goods_services
-Census BTOS,size_btos_native,250+,2024-05,6.25,goods_services
-Census BTOS,size_btos_native,250+,2024-06,7.3999999999999995,goods_services
-Census BTOS,size_btos_native,250+,2024-07,8.0,goods_services
-Census BTOS,size_btos_native,250+,2024-08,7.5,goods_services
-Census BTOS,size_btos_native,250+,2024-09,10.149999999999999,goods_services
-Census BTOS,size_btos_native,250+,2024-10,9.85,goods_services
-Census BTOS,size_btos_native,250+,2024-11,9.4,goods_services
-Census BTOS,size_btos_native,250+,2024-12,10.4,goods_services
-Census BTOS,size_btos_native,250+,2025-01,11.55,goods_services
-Census BTOS,size_btos_native,250+,2025-02,11.8,goods_services
-Census BTOS,size_btos_native,250+,2025-03,13.100000000000001,goods_services
-Census BTOS,size_btos_native,250+,2025-04,12.899999999999999,goods_services
-Census BTOS,size_btos_native,250+,2025-05,13.850000000000001,goods_services
-Census BTOS,size_btos_native,250+,2025-06,12.933333333333332,goods_services
-Census BTOS,size_btos_native,250+,2025-07,10.35,goods_services
-Census BTOS,size_btos_native,250+,2025-08,12.45,goods_services
-Census BTOS,size_btos_native,250+,2025-09,12.75,goods_services
-Census BTOS,size_btos_native,250+,2025-11,30.5,any_function
-Census BTOS,size_btos_native,250+,2025-12,30.26666666666667,any_function
-Census BTOS,size_btos_native,250+,2026-01,30.95,any_function
-Census BTOS,size_btos_native,250+,2026-02,32.7,any_function
-Census BTOS,size_btos_native,250+,2026-03,36.15,any_function
-Census BTOS,size_btos_native,250+,2026-04,34.25,any_function
-Census BTOS,size_btos_native,250+,2026-05,36.45,any_function
-Census BTOS,size_btos_native,250+,2026-06,39.93333333333333,any_function
-Census BTOS,size_btos_native,250+,2026-07,39.15,any_function
-Census BTOS,size_btos_native,250+,2026-08,39.15,any_function
-Census BTOS,size_btos_native,250+,2026-09,40.25,any_function
-Census BTOS,size_btos_native,250+,2026-10,43.6,any_function
-Census BTOS,size_btos_native,250+,2026-10,44.1,super_intelligence
-Census BTOS,size_btos_native,5-9,2023-09,2.75,goods_services
-Census BTOS,size_btos_native,5-9,2023-10,3.3499999999999996,goods_services
-Census BTOS,size_btos_native,5-9,2023-11,3.6,goods_services
-Census BTOS,size_btos_native,5-9,2023-12,4.199999999999999,goods_services
-Census BTOS,size_btos_native,5-9,2024-01,4.433333333333334,goods_services
-Census BTOS,size_btos_native,5-9,2024-02,3.85,goods_services
-Census BTOS,size_btos_native,5-9,2024-03,3.7,goods_services
-Census BTOS,size_btos_native,5-9,2024-04,4.15,goods_services
-Census BTOS,size_btos_native,5-9,2024-05,3.8499999999999996,goods_services
-Census BTOS,size_btos_native,5-9,2024-06,4.25,goods_services
-Census BTOS,size_btos_native,5-9,2024-07,4.333333333333333,goods_services
-Census BTOS,size_btos_native,5-9,2024-08,4.35,goods_services
-Census BTOS,size_btos_native,5-9,2024-09,5.0,goods_services
-Census BTOS,size_btos_native,5-9,2024-10,4.9,goods_services
-Census BTOS,size_btos_native,5-9,2024-11,5.300000000000001,goods_services
-Census BTOS,size_btos_native,5-9,2024-12,5.2,goods_services
-Census BTOS,size_btos_native,5-9,2025-01,6.15,goods_services
-Census BTOS,size_btos_native,5-9,2025-02,6.6,goods_services
-Census BTOS,size_btos_native,5-9,2025-03,6.85,goods_services
-Census BTOS,size_btos_native,5-9,2025-04,7.25,goods_services
-Census BTOS,size_btos_native,5-9,2025-05,8.3,goods_services
-Census BTOS,size_btos_native,5-9,2025-06,8.299999999999999,goods_services
-Census BTOS,size_btos_native,5-9,2025-07,7.449999999999999,goods_services
-Census BTOS,size_btos_native,5-9,2025-08,8.1,goods_services
-Census BTOS,size_btos_native,5-9,2025-09,8.55,goods_services
-Census BTOS,size_btos_native,5-9,2025-11,15.5,any_function
-Census BTOS,size_btos_native,5-9,2025-12,17.133333333333336,any_function
-Census BTOS,size_btos_native,5-9,2026-01,17.7,any_function
-Census BTOS,size_btos_native,5-9,2026-02,16.4,any_function
-Census BTOS,size_btos_native,5-9,2026-03,18.05,any_function
-Census BTOS,size_btos_native,5-9,2026-04,19.0,any_function
-Census BTOS,size_btos_native,5-9,2026-05,18.75,any_function
-Census BTOS,size_btos_native,5-9,2026-06,20.3,any_function
-Census BTOS,size_btos_native,5-9,2026-07,20.65,any_function
-Census BTOS,size_btos_native,5-9,2026-08,20.7,any_function
-Census BTOS,size_btos_native,5-9,2026-09,21.3,any_function
-Census BTOS,size_btos_native,5-9,2026-10,22.6,any_function
-Census BTOS,size_btos_native,5-9,2026-10,23.4,super_intelligence
-Census BTOS,size_btos_native,50-99,2023-09,2.45,goods_services
-Census BTOS,size_btos_native,50-99,2023-10,2.8,goods_services
-Census BTOS,size_btos_native,50-99,2023-11,3.5999999999999996,goods_services
-Census BTOS,size_btos_native,50-99,2023-12,4.699999999999999,goods_services
-Census BTOS,size_btos_native,50-99,2024-01,4.066666666666666,goods_services
-Census BTOS,size_btos_native,50-99,2024-02,3.25,goods_services
-Census BTOS,size_btos_native,50-99,2024-03,3.45,goods_services
-Census BTOS,size_btos_native,50-99,2024-04,3.7,goods_services
-Census BTOS,size_btos_native,50-99,2024-05,3.8,goods_services
-Census BTOS,size_btos_native,50-99,2024-06,3.95,goods_services
-Census BTOS,size_btos_native,50-99,2024-07,4.1000000000000005,goods_services
-Census BTOS,size_btos_native,50-99,2024-08,4.65,goods_services
-Census BTOS,size_btos_native,50-99,2024-09,5.85,goods_services
-Census BTOS,size_btos_native,50-99,2024-10,5.15,goods_services
-Census BTOS,size_btos_native,50-99,2024-11,4.85,goods_services
-Census BTOS,size_btos_native,50-99,2024-12,6.266666666666667,goods_services
-Census BTOS,size_btos_native,50-99,2025-01,6.05,goods_services
-Census BTOS,size_btos_native,50-99,2025-02,7.2,goods_services
-Census BTOS,size_btos_native,50-99,2025-03,6.550000000000001,goods_services
-Census BTOS,size_btos_native,50-99,2025-04,7.6,goods_services
-Census BTOS,size_btos_native,50-99,2025-05,8.9,goods_services
-Census BTOS,size_btos_native,50-99,2025-06,8.1,goods_services
-Census BTOS,size_btos_native,50-99,2025-07,7.05,goods_services
-Census BTOS,size_btos_native,50-99,2025-08,7.449999999999999,goods_services
-Census BTOS,size_btos_native,50-99,2025-09,8.7,goods_services
-Census BTOS,size_btos_native,50-99,2025-11,20.7,any_function
-Census BTOS,size_btos_native,50-99,2025-12,19.5,any_function
-Census BTOS,size_btos_native,50-99,2026-01,24.450000000000003,any_function
-Census BTOS,size_btos_native,50-99,2026-02,20.450000000000003,any_function
-Census BTOS,size_btos_native,50-99,2026-03,22.05,any_function
-Census BTOS,size_btos_native,50-99,2026-04,25.700000000000003,any_function
-Census BTOS,size_btos_native,50-99,2026-05,24.95,any_function
-Census BTOS,size_btos_native,50-99,2026-06,25.933333333333334,any_function
-Census BTOS,size_btos_native,50-99,2026-07,28.1,any_function
-Census BTOS,size_btos_native,50-99,2026-08,26.0,any_function
-Census BTOS,size_btos_native,50-99,2026-09,29.299999999999997,any_function
-Census BTOS,size_btos_native,50-99,2026-10,29.0,any_function
-Census BTOS,size_btos_native,50-99,2026-10,33.2,super_intelligence
-Ramp,overall,All businesses,2023-01,7.4575204531,paid_transactions
-Ramp,overall,All businesses,2023-02,12.05553336,paid_transactions
-Ramp,overall,All businesses,2023-03,20.9083356411,paid_transactions
-Ramp,overall,All businesses,2023-04,24.3956237868,paid_transactions
-Ramp,overall,All businesses,2023-05,26.0970938463,paid_transactions
-Ramp,overall,All businesses,2023-06,25.6611865618,paid_transactions
-Ramp,overall,All businesses,2023-07,24.5327637501,paid_transactions
-Ramp,overall,All businesses,2023-08,25.3861073199,paid_transactions
-Ramp,overall,All businesses,2023-09,26.4902949506,paid_transactions
-Ramp,overall,All businesses,2023-10,27.2524736256,paid_transactions
-Ramp,overall,All businesses,2023-11,28.1583629893,paid_transactions
-Ramp,overall,All businesses,2023-12,29.4085163824,paid_transactions
-Ramp,overall,All businesses,2024-01,30.4001406058,paid_transactions
-Ramp,overall,All businesses,2024-02,30.6375575261,paid_transactions
-Ramp,overall,All businesses,2024-03,31.1898652983,paid_transactions
-Ramp,overall,All businesses,2024-04,30.8009362915,paid_transactions
-Ramp,overall,All businesses,2024-05,31.1555362403,paid_transactions
-Ramp,overall,All businesses,2024-06,31.3651766235,paid_transactions
-Ramp,overall,All businesses,2024-07,31.8321255502,paid_transactions
-Ramp,overall,All businesses,2024-08,32.0554683856,paid_transactions
-Ramp,overall,All businesses,2024-09,32.8982788156,paid_transactions
-Ramp,overall,All businesses,2024-10,33.5159497999,paid_transactions
-Ramp,overall,All businesses,2024-11,34.1705121416,paid_transactions
-Ramp,overall,All businesses,2024-12,34.4992340798,paid_transactions
-Ramp,overall,All businesses,2025-01,35.5606598455,paid_transactions
-Ramp,overall,All businesses,2025-02,36.6576096072,paid_transactions
-Ramp,overall,All businesses,2025-03,37.4884314664,paid_transactions
-Ramp,overall,All businesses,2025-04,38.9986824769,paid_transactions
-Ramp,overall,All businesses,2025-05,40.2966151669,paid_transactions
-Ramp,overall,All businesses,2025-06,41.1840045539,paid_transactions
-Ramp,overall,All businesses,2025-07,42.5449379883,paid_transactions
-Ramp,overall,All businesses,2025-08,43.4937238494,paid_transactions
-Ramp,overall,All businesses,2025-09,43.8006634575,paid_transactions
-Ramp,overall,All businesses,2025-10,43.6147289791,paid_transactions
-Ramp,overall,All businesses,2025-11,44.4337541653,paid_transactions
-Ramp,overall,All businesses,2025-12,44.4998195923,paid_transactions
-Ramp,overall,All businesses,2026-01,45.5197287433,paid_transactions
-Ramp,overall,All businesses,2026-02,47.7376694669,paid_transactions
-Ramp,overall,All businesses,2026-03,50.1509744716,paid_transactions
-Ramp,overall,All businesses,2026-04,51.9846159591,paid_transactions
-Ramp,overall,All businesses,2026-05,53.2430493274,paid_transactions
-Ramp,overall,All businesses,2026-06,53.9759577187,paid_transactions
-Ramp,overall,All businesses,2026-07,54.8362996414,paid_transactions
-Ramp,overall,All businesses,2026-08,55.2383684789,paid_transactions
-Ramp,overall,All businesses,2026-09,55.8599369471,paid_transactions
-Ramp,sector,Accommodation & Food,2023-01,1.7391304348,paid_transactions
-Ramp,sector,Accommodation & Food,2023-02,3.984063745,paid_transactions
-Ramp,sector,Accommodation & Food,2023-03,6.0377358491,paid_transactions
-Ramp,sector,Accommodation & Food,2023-04,7.5539568345,paid_transactions
-Ramp,sector,Accommodation & Food,2023-05,8.843537415,paid_transactions
-Ramp,sector,Accommodation & Food,2023-06,7.6677316294,paid_transactions
-Ramp,sector,Accommodation & Food,2023-07,7.0987654321,paid_transactions
-Ramp,sector,Accommodation & Food,2023-08,8.1871345029,paid_transactions
-Ramp,sector,Accommodation & Food,2023-09,9.4972067039,paid_transactions
-Ramp,sector,Accommodation & Food,2023-10,11.8279569892,paid_transactions
-Ramp,sector,Accommodation & Food,2023-11,11.5183246073,paid_transactions
-Ramp,sector,Accommodation & Food,2023-12,12.9353233831,paid_transactions
-Ramp,sector,Accommodation & Food,2024-01,13.2211538462,paid_transactions
-Ramp,sector,Accommodation & Food,2024-02,14.4522144522,paid_transactions
-Ramp,sector,Accommodation & Food,2024-03,14.686825054,paid_transactions
-Ramp,sector,Accommodation & Food,2024-04,14.6443514644,paid_transactions
-Ramp,sector,Accommodation & Food,2024-05,14.7928994083,paid_transactions
-Ramp,sector,Accommodation & Food,2024-06,14.2322097378,paid_transactions
-Ramp,sector,Accommodation & Food,2024-07,14.1342756184,paid_transactions
-Ramp,sector,Accommodation & Food,2024-08,14.238410596,paid_transactions
-Ramp,sector,Accommodation & Food,2024-09,15.5088852989,paid_transactions
-Ramp,sector,Accommodation & Food,2024-10,16.2861491629,paid_transactions
-Ramp,sector,Accommodation & Food,2024-11,17.1717171717,paid_transactions
-Ramp,sector,Accommodation & Food,2024-12,17.1621621622,paid_transactions
-Ramp,sector,Accommodation & Food,2025-01,17.6084099869,paid_transactions
-Ramp,sector,Accommodation & Food,2025-02,17.7419354839,paid_transactions
-Ramp,sector,Accommodation & Food,2025-03,18.7356321839,paid_transactions
-Ramp,sector,Accommodation & Food,2025-04,19.6842105263,paid_transactions
-Ramp,sector,Accommodation & Food,2025-05,19.6896217265,paid_transactions
-Ramp,sector,Accommodation & Food,2025-06,21.0526315789,paid_transactions
-Ramp,sector,Accommodation & Food,2025-07,21.7857142857,paid_transactions
-Ramp,sector,Accommodation & Food,2025-08,21.8381112985,paid_transactions
-Ramp,sector,Accommodation & Food,2025-09,22.8070175439,paid_transactions
-Ramp,sector,Accommodation & Food,2025-10,23.426838514,paid_transactions
-Ramp,sector,Accommodation & Food,2025-11,24.2222222222,paid_transactions
-Ramp,sector,Accommodation & Food,2025-12,24.9469964664,paid_transactions
-Ramp,sector,Accommodation & Food,2026-01,25.9847961299,paid_transactions
-Ramp,sector,Accommodation & Food,2026-02,26.312335958,paid_transactions
-Ramp,sector,Accommodation & Food,2026-03,28.7897310513,paid_transactions
-Ramp,sector,Accommodation & Food,2026-04,28.3867341203,paid_transactions
-Ramp,sector,Accommodation & Food,2026-05,30.1486199575,paid_transactions
-Ramp,sector,Accommodation & Food,2026-06,30.1867743564,paid_transactions
-Ramp,sector,Accommodation & Food,2026-07,31.4995131451,paid_transactions
-Ramp,sector,Accommodation & Food,2026-08,32.5789721829,paid_transactions
-Ramp,sector,Accommodation & Food,2026-09,32.9826166514,paid_transactions
-Ramp,sector,Construction,2023-01,1.2738853503,paid_transactions
-Ramp,sector,Construction,2023-02,2.2267206478,paid_transactions
-Ramp,sector,Construction,2023-03,4.8417132216,paid_transactions
-Ramp,sector,Construction,2023-04,7.2183098592,paid_transactions
-Ramp,sector,Construction,2023-05,6.7434210526,paid_transactions
-Ramp,sector,Construction,2023-06,6.7082683307,paid_transactions
-Ramp,sector,Construction,2023-07,6.8452380952,paid_transactions
-Ramp,sector,Construction,2023-08,8.1005586592,paid_transactions
-Ramp,sector,Construction,2023-09,8.5790884718,paid_transactions
-Ramp,sector,Construction,2023-10,8.7231352718,paid_transactions
-Ramp,sector,Construction,2023-11,9.307875895,paid_transactions
-Ramp,sector,Construction,2023-12,10.0233100233,paid_transactions
-Ramp,sector,Construction,2024-01,10.1210121012,paid_transactions
-Ramp,sector,Construction,2024-02,11.4406779661,paid_transactions
-Ramp,sector,Construction,2024-03,11.5151515152,paid_transactions
-Ramp,sector,Construction,2024-04,11.7920148561,paid_transactions
-Ramp,sector,Construction,2024-05,13.2404181185,paid_transactions
-Ramp,sector,Construction,2024-06,13.7959183673,paid_transactions
-Ramp,sector,Construction,2024-07,13.2668711656,paid_transactions
-Ramp,sector,Construction,2024-08,13.5409123823,paid_transactions
-Ramp,sector,Construction,2024-09,14.1386410432,paid_transactions
-Ramp,sector,Construction,2024-10,15.4487179487,paid_transactions
-Ramp,sector,Construction,2024-11,15.6479217604,paid_transactions
-Ramp,sector,Construction,2024-12,16.4039696439,paid_transactions
-Ramp,sector,Construction,2025-01,18.0616740088,paid_transactions
-Ramp,sector,Construction,2025-02,19.269454738,paid_transactions
-Ramp,sector,Construction,2025-03,20.4926108374,paid_transactions
-Ramp,sector,Construction,2025-04,21.272642824,paid_transactions
-Ramp,sector,Construction,2025-05,23.2808988764,paid_transactions
-Ramp,sector,Construction,2025-06,24.4378447179,paid_transactions
-Ramp,sector,Construction,2025-07,27.261663286,paid_transactions
-Ramp,sector,Construction,2025-08,29.0937378452,paid_transactions
-Ramp,sector,Construction,2025-09,29.5847115031,paid_transactions
-Ramp,sector,Construction,2025-10,29.2978208232,paid_transactions
-Ramp,sector,Construction,2025-11,30.3202134757,paid_transactions
-Ramp,sector,Construction,2025-12,30.0280636109,paid_transactions
-Ramp,sector,Construction,2026-01,31.2647754137,paid_transactions
-Ramp,sector,Construction,2026-02,31.9397993311,paid_transactions
-Ramp,sector,Construction,2026-03,35.0757971772,paid_transactions
-Ramp,sector,Construction,2026-04,37.0983446933,paid_transactions
-Ramp,sector,Construction,2026-05,38.6363636364,paid_transactions
-Ramp,sector,Construction,2026-06,39.9392888118,paid_transactions
-Ramp,sector,Construction,2026-07,40.9147095179,paid_transactions
-Ramp,sector,Construction,2026-08,41.2407335154,paid_transactions
-Ramp,sector,Construction,2026-09,43.1647940075,paid_transactions
-Ramp,sector,Finance & Insurance,2023-01,8.6497890295,paid_transactions
-Ramp,sector,Finance & Insurance,2023-02,13.7334689725,paid_transactions
-Ramp,sector,Finance & Insurance,2023-03,27.9652844744,paid_transactions
-Ramp,sector,Finance & Insurance,2023-04,32.8037383178,paid_transactions
-Ramp,sector,Finance & Insurance,2023-05,35.0267379679,paid_transactions
-Ramp,sector,Finance & Insurance,2023-06,33.8514680484,paid_transactions
-Ramp,sector,Finance & Insurance,2023-07,34.6517626827,paid_transactions
-Ramp,sector,Finance & Insurance,2023-08,36.0723089565,paid_transactions
-Ramp,sector,Finance & Insurance,2023-09,36.5677626303,paid_transactions
-Ramp,sector,Finance & Insurance,2023-10,37.3933281614,paid_transactions
-Ramp,sector,Finance & Insurance,2023-11,38.5264773599,paid_transactions
-Ramp,sector,Finance & Insurance,2023-12,40.6691449814,paid_transactions
-Ramp,sector,Finance & Insurance,2024-01,42.0863309353,paid_transactions
-Ramp,sector,Finance & Insurance,2024-02,42.7266338721,paid_transactions
-Ramp,sector,Finance & Insurance,2024-03,43.0622009569,paid_transactions
-Ramp,sector,Finance & Insurance,2024-04,42.7531436135,paid_transactions
-Ramp,sector,Finance & Insurance,2024-05,43.0749682338,paid_transactions
-Ramp,sector,Finance & Insurance,2024-06,43.9950217797,paid_transactions
-Ramp,sector,Finance & Insurance,2024-07,45.4822954823,paid_transactions
-Ramp,sector,Finance & Insurance,2024-08,46.9642857143,paid_transactions
-Ramp,sector,Finance & Insurance,2024-09,46.6781214204,paid_transactions
-Ramp,sector,Finance & Insurance,2024-10,47.0879120879,paid_transactions
-Ramp,sector,Finance & Insurance,2024-11,47.9414951246,paid_transactions
-Ramp,sector,Finance & Insurance,2024-12,48.4039769754,paid_transactions
-Ramp,sector,Finance & Insurance,2025-01,50.2014098691,paid_transactions
-Ramp,sector,Finance & Insurance,2025-02,52.4606299213,paid_transactions
-Ramp,sector,Finance & Insurance,2025-03,53.3838144818,paid_transactions
-Ramp,sector,Finance & Insurance,2025-04,54.9930971008,paid_transactions
-Ramp,sector,Finance & Insurance,2025-05,56.644295302,paid_transactions
-Ramp,sector,Finance & Insurance,2025-06,57.3122529644,paid_transactions
-Ramp,sector,Finance & Insurance,2025-07,57.6645435244,paid_transactions
-Ramp,sector,Finance & Insurance,2025-08,58.0346355215,paid_transactions
-Ramp,sector,Finance & Insurance,2025-09,58.1395348837,paid_transactions
-Ramp,sector,Finance & Insurance,2025-10,58.4856396867,paid_transactions
-Ramp,sector,Finance & Insurance,2025-11,58.3363869549,paid_transactions
-Ramp,sector,Finance & Insurance,2025-12,58.1009530533,paid_transactions
-Ramp,sector,Finance & Insurance,2026-01,60.4017705141,paid_transactions
-Ramp,sector,Finance & Insurance,2026-02,65.2993714853,paid_transactions
-Ramp,sector,Finance & Insurance,2026-03,68.7872140395,paid_transactions
-Ramp,sector,Finance & Insurance,2026-04,70.2865761689,paid_transactions
-Ramp,sector,Finance & Insurance,2026-05,72.0807726076,paid_transactions
-Ramp,sector,Finance & Insurance,2026-06,72.5328009127,paid_transactions
-Ramp,sector,Finance & Insurance,2026-07,72.3415977961,paid_transactions
-Ramp,sector,Finance & Insurance,2026-08,73.1188513693,paid_transactions
-Ramp,sector,Finance & Insurance,2026-09,73.686907507,paid_transactions
-Ramp,sector,Healthcare,2023-01,3.8834951456,paid_transactions
-Ramp,sector,Healthcare,2023-02,5.0295857988,paid_transactions
-Ramp,sector,Healthcare,2023-03,9.6551724138,paid_transactions
-Ramp,sector,Healthcare,2023-04,10.9042553191,paid_transactions
-Ramp,sector,Healthcare,2023-05,13.8613861386,paid_transactions
-Ramp,sector,Healthcare,2023-06,14.6171693735,paid_transactions
-Ramp,sector,Healthcare,2023-07,13.8309549945,paid_transactions
-Ramp,sector,Healthcare,2023-08,14.1557128413,paid_transactions
-Ramp,sector,Healthcare,2023-09,15.8148505304,paid_transactions
-Ramp,sector,Healthcare,2023-10,15.2888888889,paid_transactions
-Ramp,sector,Healthcare,2023-11,15.9863945578,paid_transactions
-Ramp,sector,Healthcare,2023-12,16.5714285714,paid_transactions
-Ramp,sector,Healthcare,2024-01,18.1605611847,paid_transactions
-Ramp,sector,Healthcare,2024-02,17.5905395418,paid_transactions
-Ramp,sector,Healthcare,2024-03,18.0487804878,paid_transactions
-Ramp,sector,Healthcare,2024-04,17.6699029126,paid_transactions
-Ramp,sector,Healthcare,2024-05,18.0656934307,paid_transactions
-Ramp,sector,Healthcare,2024-06,18.0356117174,paid_transactions
-Ramp,sector,Healthcare,2024-07,17.6438653637,paid_transactions
-Ramp,sector,Healthcare,2024-08,18.8235294118,paid_transactions
-Ramp,sector,Healthcare,2024-09,19.0009794319,paid_transactions
-Ramp,sector,Healthcare,2024-10,19.3802035153,paid_transactions
-Ramp,sector,Healthcare,2024-11,19.5100222717,paid_transactions
-Ramp,sector,Healthcare,2024-12,20.8833619211,paid_transactions
-Ramp,sector,Healthcare,2025-01,21.7709179529,paid_transactions
-Ramp,sector,Healthcare,2025-02,22.7517294389,paid_transactions
-Ramp,sector,Healthcare,2025-03,22.7975548364,paid_transactions
-Ramp,sector,Healthcare,2025-04,23.794976239,paid_transactions
-Ramp,sector,Healthcare,2025-05,25.5500821018,paid_transactions
-Ramp,sector,Healthcare,2025-06,26.7794446218,paid_transactions
-Ramp,sector,Healthcare,2025-07,27.3250530142,paid_transactions
-Ramp,sector,Healthcare,2025-08,29.561937917,paid_transactions
-Ramp,sector,Healthcare,2025-09,30.2770083102,paid_transactions
-Ramp,sector,Healthcare,2025-10,29.6296296296,paid_transactions
-Ramp,sector,Healthcare,2025-11,30.9734513274,paid_transactions
-Ramp,sector,Healthcare,2025-12,30.9925558313,paid_transactions
-Ramp,sector,Healthcare,2026-01,31.6686390533,paid_transactions
-Ramp,sector,Healthcare,2026-02,33.3941189879,paid_transactions
-Ramp,sector,Healthcare,2026-03,35.3987993139,paid_transactions
-Ramp,sector,Healthcare,2026-04,38.4615384615,paid_transactions
-Ramp,sector,Healthcare,2026-05,40.1624727561,paid_transactions
-Ramp,sector,Healthcare,2026-06,40.6952179758,paid_transactions
-Ramp,sector,Healthcare,2026-07,41.8600368324,paid_transactions
-Ramp,sector,Healthcare,2026-08,42.3357664234,paid_transactions
-Ramp,sector,Healthcare,2026-09,42.5361702128,paid_transactions
-Ramp,sector,Information,2023-01,15.3704837722,paid_transactions
-Ramp,sector,Information,2023-02,24.7368421053,paid_transactions
-Ramp,sector,Information,2023-03,40.9436008677,paid_transactions
-Ramp,sector,Information,2023-04,46.9142259414,paid_transactions
-Ramp,sector,Information,2023-05,49.7005988024,paid_transactions
-Ramp,sector,Information,2023-06,50.1947419669,paid_transactions
-Ramp,sector,Information,2023-07,47.2915685351,paid_transactions
-Ramp,sector,Information,2023-08,47.4176313446,paid_transactions
-Ramp,sector,Information,2023-09,49.5842450766,paid_transactions
-Ramp,sector,Information,2023-10,51.4526315789,paid_transactions
-Ramp,sector,Information,2023-11,53.4240924092,paid_transactions
-Ramp,sector,Information,2023-12,54.4390637611,paid_transactions
-Ramp,sector,Information,2024-01,55.5424990208,paid_transactions
-Ramp,sector,Information,2024-02,56.2523900574,paid_transactions
-Ramp,sector,Information,2024-03,57.6937337783,paid_transactions
-Ramp,sector,Information,2024-04,57.8909090909,paid_transactions
-Ramp,sector,Information,2024-05,58.2386363636,paid_transactions
-Ramp,sector,Information,2024-06,58.5102680125,paid_transactions
-Ramp,sector,Information,2024-07,59.7614991482,paid_transactions
-Ramp,sector,Information,2024-08,60.0468070879,paid_transactions
-Ramp,sector,Information,2024-09,61.045751634,paid_transactions
-Ramp,sector,Information,2024-10,61.858974359,paid_transactions
-Ramp,sector,Information,2024-11,62.7744193446,paid_transactions
-Ramp,sector,Information,2024-12,62.7235644807,paid_transactions
-Ramp,sector,Information,2025-01,63.6835675015,paid_transactions
-Ramp,sector,Information,2025-02,64.7324113049,paid_transactions
-Ramp,sector,Information,2025-03,66.539140671,paid_transactions
-Ramp,sector,Information,2025-04,66.6763257027,paid_transactions
-Ramp,sector,Information,2025-05,67.710979396,paid_transactions
-Ramp,sector,Information,2025-06,68.856109101,paid_transactions
-Ramp,sector,Information,2025-07,70.1277521066,paid_transactions
-Ramp,sector,Information,2025-08,70.574288725,paid_transactions
-Ramp,sector,Information,2025-09,71.3475908271,paid_transactions
-Ramp,sector,Information,2025-10,71.4285714286,paid_transactions
-Ramp,sector,Information,2025-11,71.7543859649,paid_transactions
-Ramp,sector,Information,2025-12,71.4565963708,paid_transactions
-Ramp,sector,Information,2026-01,73.0769230769,paid_transactions
-Ramp,sector,Information,2026-02,75.1792736526,paid_transactions
-Ramp,sector,Information,2026-03,76.6740576497,paid_transactions
-Ramp,sector,Information,2026-04,78.1478298238,paid_transactions
-Ramp,sector,Information,2026-05,78.0659887944,paid_transactions
-Ramp,sector,Information,2026-06,78.6958282706,paid_transactions
-Ramp,sector,Information,2026-07,79.6640316206,paid_transactions
-Ramp,sector,Information,2026-08,80.0499711705,paid_transactions
-Ramp,sector,Information,2026-09,79.9178031011,paid_transactions
-Ramp,sector,Manufacturing,2023-01,4.3103448276,paid_transactions
-Ramp,sector,Manufacturing,2023-02,6.8720379147,paid_transactions
-Ramp,sector,Manufacturing,2023-03,12.9955947137,paid_transactions
-Ramp,sector,Manufacturing,2023-04,15.7676348548,paid_transactions
-Ramp,sector,Manufacturing,2023-05,16.5369649805,paid_transactions
-Ramp,sector,Manufacturing,2023-06,16.9793621013,paid_transactions
-Ramp,sector,Manufacturing,2023-07,16.9026548673,paid_transactions
-Ramp,sector,Manufacturing,2023-08,17.4683544304,paid_transactions
-Ramp,sector,Manufacturing,2023-09,19.1093117409,paid_transactions
-Ramp,sector,Manufacturing,2023-10,20.4003079292,paid_transactions
-Ramp,sector,Manufacturing,2023-11,21.4071856287,paid_transactions
-Ramp,sector,Manufacturing,2023-12,22.9151559101,paid_transactions
-Ramp,sector,Manufacturing,2024-01,24.0418118467,paid_transactions
-Ramp,sector,Manufacturing,2024-02,24.1539482415,paid_transactions
-Ramp,sector,Manufacturing,2024-03,25.2518891688,paid_transactions
-Ramp,sector,Manufacturing,2024-04,24.5465538089,paid_transactions
-Ramp,sector,Manufacturing,2024-05,24.5036868973,paid_transactions
-Ramp,sector,Manufacturing,2024-06,25.3211991435,paid_transactions
-Ramp,sector,Manufacturing,2024-07,26.0556127703,paid_transactions
-Ramp,sector,Manufacturing,2024-08,26.8700787402,paid_transactions
-Ramp,sector,Manufacturing,2024-09,28.5987565758,paid_transactions
-Ramp,sector,Manufacturing,2024-10,29.3388429752,paid_transactions
-Ramp,sector,Manufacturing,2024-11,29.8982750995,paid_transactions
-Ramp,sector,Manufacturing,2024-12,30.1138760017,paid_transactions
-Ramp,sector,Manufacturing,2025-01,31.5085158151,paid_transactions
-Ramp,sector,Manufacturing,2025-02,32.4950884086,paid_transactions
-Ramp,sector,Manufacturing,2025-03,33.808095952,paid_transactions
-Ramp,sector,Manufacturing,2025-04,36.5377665342,paid_transactions
-Ramp,sector,Manufacturing,2025-05,38.4482161413,paid_transactions
-Ramp,sector,Manufacturing,2025-06,39.7799266422,paid_transactions
-Ramp,sector,Manufacturing,2025-07,41.9942473634,paid_transactions
-Ramp,sector,Manufacturing,2025-08,43.3801098231,paid_transactions
-Ramp,sector,Manufacturing,2025-09,43.4807916182,paid_transactions
-Ramp,sector,Manufacturing,2025-10,43.2424916574,paid_transactions
-Ramp,sector,Manufacturing,2025-11,45.0519409513,paid_transactions
-Ramp,sector,Manufacturing,2025-12,45.4569396892,paid_transactions
-Ramp,sector,Manufacturing,2026-01,46.476382925,paid_transactions
-Ramp,sector,Manufacturing,2026-02,49.2902594224,paid_transactions
-Ramp,sector,Manufacturing,2026-03,52.4958987579,paid_transactions
-Ramp,sector,Manufacturing,2026-04,55.2986079928,paid_transactions
-Ramp,sector,Manufacturing,2026-05,57.2046733016,paid_transactions
-Ramp,sector,Manufacturing,2026-06,58.3559924702,paid_transactions
-Ramp,sector,Manufacturing,2026-07,59.6122778675,paid_transactions
-Ramp,sector,Manufacturing,2026-08,60.2992615624,paid_transactions
-Ramp,sector,Manufacturing,2026-09,60.873605948,paid_transactions
-Ramp,sector,Retail Trade,2023-01,5.2884615385,paid_transactions
-Ramp,sector,Retail Trade,2023-02,8.1632653061,paid_transactions
-Ramp,sector,Retail Trade,2023-03,13.4782608696,paid_transactions
-Ramp,sector,Retail Trade,2023-04,16.4904862579,paid_transactions
-Ramp,sector,Retail Trade,2023-05,16.1554192229,paid_transactions
-Ramp,sector,Retail Trade,2023-06,17.1698113208,paid_transactions
-Ramp,sector,Retail Trade,2023-07,14.953271028,paid_transactions
-Ramp,sector,Retail Trade,2023-08,15.0976909414,paid_transactions
-Ramp,sector,Retail Trade,2023-09,16.347826087,paid_transactions
-Ramp,sector,Retail Trade,2023-10,14.5936981758,paid_transactions
-Ramp,sector,Retail Trade,2023-11,17.3419773096,paid_transactions
-Ramp,sector,Retail Trade,2023-12,19.8051948052,paid_transactions
-Ramp,sector,Retail Trade,2024-01,21.40625,paid_transactions
-Ramp,sector,Retail Trade,2024-02,21.5477996965,paid_transactions
-Ramp,sector,Retail Trade,2024-03,20.9985315712,paid_transactions
-Ramp,sector,Retail Trade,2024-04,22.0,paid_transactions
-Ramp,sector,Retail Trade,2024-05,22.8965517241,paid_transactions
-Ramp,sector,Retail Trade,2024-06,21.6644649934,paid_transactions
-Ramp,sector,Retail Trade,2024-07,23.324742268,paid_transactions
-Ramp,sector,Retail Trade,2024-08,22.1411192214,paid_transactions
-Ramp,sector,Retail Trade,2024-09,22.6371061844,paid_transactions
-Ramp,sector,Retail Trade,2024-10,24.16570771,paid_transactions
-Ramp,sector,Retail Trade,2024-11,25.0283125708,paid_transactions
-Ramp,sector,Retail Trade,2024-12,26.2931034483,paid_transactions
-Ramp,sector,Retail Trade,2025-01,26.2833675565,paid_transactions
-Ramp,sector,Retail Trade,2025-02,26.2342691191,paid_transactions
-Ramp,sector,Retail Trade,2025-03,26.5027322404,paid_transactions
-Ramp,sector,Retail Trade,2025-04,31.9206492335,paid_transactions
-Ramp,sector,Retail Trade,2025-05,31.9505736981,paid_transactions
-Ramp,sector,Retail Trade,2025-06,32.7086882453,paid_transactions
-Ramp,sector,Retail Trade,2025-07,34.5870809485,paid_transactions
-Ramp,sector,Retail Trade,2025-08,34.4211344211,paid_transactions
-Ramp,sector,Retail Trade,2025-09,34.4645550528,paid_transactions
-Ramp,sector,Retail Trade,2025-10,34.8396501458,paid_transactions
-Ramp,sector,Retail Trade,2025-11,36.0632183908,paid_transactions
-Ramp,sector,Retail Trade,2025-12,36.6876310273,paid_transactions
-Ramp,sector,Retail Trade,2026-01,38.5714285714,paid_transactions
-Ramp,sector,Retail Trade,2026-02,41.5343915344,paid_transactions
-Ramp,sector,Retail Trade,2026-03,44.0326633166,paid_transactions
-Ramp,sector,Retail Trade,2026-04,46.244825547,paid_transactions
-Ramp,sector,Retail Trade,2026-05,46.5313028765,paid_transactions
-Ramp,sector,Retail Trade,2026-06,48.350459708,paid_transactions
-Ramp,sector,Retail Trade,2026-07,48.0719794344,paid_transactions
-Ramp,sector,Retail Trade,2026-08,48.2690405539,paid_transactions
-Ramp,sector,Retail Trade,2026-09,49.8574144487,paid_transactions
-Ramp,size,Large (100+),2023-01,7.2847682119,paid_transactions
-Ramp,size,Large (100+),2023-02,11.038961039,paid_transactions
-Ramp,size,Large (100+),2023-03,20.0,paid_transactions
-Ramp,size,Large (100+),2023-04,26.9461077844,paid_transactions
-Ramp,size,Large (100+),2023-05,28.5714285714,paid_transactions
-Ramp,size,Large (100+),2023-06,24.0837696335,paid_transactions
-Ramp,size,Large (100+),2023-07,26.8852459016,paid_transactions
-Ramp,size,Large (100+),2023-08,28.5147642133,paid_transactions
-Ramp,size,Large (100+),2023-09,29.7365119197,paid_transactions
-Ramp,size,Large (100+),2023-10,31.1616954474,paid_transactions
-Ramp,size,Large (100+),2023-11,31.5829528158,paid_transactions
-Ramp,size,Large (100+),2023-12,32.9192546584,paid_transactions
-Ramp,size,Large (100+),2024-01,34.0853870184,paid_transactions
-Ramp,size,Large (100+),2024-02,35.0549816728,paid_transactions
-Ramp,size,Large (100+),2024-03,35.5288157061,paid_transactions
-Ramp,size,Large (100+),2024-04,34.6757477051,paid_transactions
-Ramp,size,Large (100+),2024-05,35.6379988758,paid_transactions
-Ramp,size,Large (100+),2024-06,35.2199570815,paid_transactions
-Ramp,size,Large (100+),2024-07,35.9193173002,paid_transactions
-Ramp,size,Large (100+),2024-08,36.173870334,paid_transactions
-Ramp,size,Large (100+),2024-09,37.610092835,paid_transactions
-Ramp,size,Large (100+),2024-10,38.5749943272,paid_transactions
-Ramp,size,Large (100+),2024-11,39.8850320584,paid_transactions
-Ramp,size,Large (100+),2024-12,40.4414916417,paid_transactions
-Ramp,size,Large (100+),2025-01,41.6871921182,paid_transactions
-Ramp,size,Large (100+),2025-02,42.5878150427,paid_transactions
-Ramp,size,Large (100+),2025-03,43.2677760968,paid_transactions
-Ramp,size,Large (100+),2025-04,45.2710076391,paid_transactions
-Ramp,size,Large (100+),2025-05,47.0125786164,paid_transactions
-Ramp,size,Large (100+),2025-06,47.7708086116,paid_transactions
-Ramp,size,Large (100+),2025-07,49.7296411601,paid_transactions
-Ramp,size,Large (100+),2025-08,50.7981220657,paid_transactions
-Ramp,size,Large (100+),2025-09,51.7231000752,paid_transactions
-Ramp,size,Large (100+),2025-10,51.8943242851,paid_transactions
-Ramp,size,Large (100+),2025-11,52.8374342199,paid_transactions
-Ramp,size,Large (100+),2025-12,53.3600110391,paid_transactions
-Ramp,size,Large (100+),2026-01,54.4762159273,paid_transactions
-Ramp,size,Large (100+),2026-02,56.5902578797,paid_transactions
-Ramp,size,Large (100+),2026-03,59.7101449275,paid_transactions
-Ramp,size,Large (100+),2026-04,62.2910821032,paid_transactions
-Ramp,size,Large (100+),2026-05,63.0705394191,paid_transactions
-Ramp,size,Large (100+),2026-06,63.6654844983,paid_transactions
-Ramp,size,Large (100+),2026-07,64.9483390734,paid_transactions
-Ramp,size,Large (100+),2026-08,65.22020028,paid_transactions
-Ramp,size,Large (100+),2026-09,65.7223499895,paid_transactions
-Ramp,size,Medium (25-99),2023-01,13.4464751958,paid_transactions
-Ramp,size,Medium (25-99),2023-02,17.0955882353,paid_transactions
-Ramp,size,Medium (25-99),2023-03,25.4004576659,paid_transactions
-Ramp,size,Medium (25-99),2023-04,28.7513691128,paid_transactions
-Ramp,size,Medium (25-99),2023-05,31.1950336265,paid_transactions
-Ramp,size,Medium (25-99),2023-06,30.8787432499,paid_transactions
-Ramp,size,Medium (25-99),2023-07,24.6681922197,paid_transactions
-Ramp,size,Medium (25-99),2023-08,25.1387110542,paid_transactions
-Ramp,size,Medium (25-99),2023-09,26.5390158534,paid_transactions
-Ramp,size,Medium (25-99),2023-10,27.0222743259,paid_transactions
-Ramp,size,Medium (25-99),2023-11,27.9143389199,paid_transactions
-Ramp,size,Medium (25-99),2023-12,29.2092522862,paid_transactions
-Ramp,size,Medium (25-99),2024-01,30.3436426117,paid_transactions
-Ramp,size,Medium (25-99),2024-02,30.1226492232,paid_transactions
-Ramp,size,Medium (25-99),2024-03,30.5559881638,paid_transactions
-Ramp,size,Medium (25-99),2024-04,30.2752293578,paid_transactions
-Ramp,size,Medium (25-99),2024-05,30.4945818283,paid_transactions
-Ramp,size,Medium (25-99),2024-06,30.78343445,paid_transactions
-Ramp,size,Medium (25-99),2024-07,31.0461192351,paid_transactions
-Ramp,size,Medium (25-99),2024-08,31.4729233321,paid_transactions
-Ramp,size,Medium (25-99),2024-09,32.3796548592,paid_transactions
-Ramp,size,Medium (25-99),2024-10,33.3441875611,paid_transactions
-Ramp,size,Medium (25-99),2024-11,34.0277777778,paid_transactions
-Ramp,size,Medium (25-99),2024-12,34.5112016293,paid_transactions
-Ramp,size,Medium (25-99),2025-01,36.0613810742,paid_transactions
-Ramp,size,Medium (25-99),2025-02,37.3222635748,paid_transactions
-Ramp,size,Medium (25-99),2025-03,38.7925497752,paid_transactions
-Ramp,size,Medium (25-99),2025-04,40.924886394,paid_transactions
-Ramp,size,Medium (25-99),2025-05,42.469071719,paid_transactions
-Ramp,size,Medium (25-99),2025-06,43.7937136597,paid_transactions
-Ramp,size,Medium (25-99),2025-07,45.4389546754,paid_transactions
-Ramp,size,Medium (25-99),2025-08,46.8942626837,paid_transactions
-Ramp,size,Medium (25-99),2025-09,47.6714002138,paid_transactions
-Ramp,size,Medium (25-99),2025-10,47.4238268219,paid_transactions
-Ramp,size,Medium (25-99),2025-11,48.1973434535,paid_transactions
-Ramp,size,Medium (25-99),2025-12,48.1978146729,paid_transactions
-Ramp,size,Medium (25-99),2026-01,49.5138266326,paid_transactions
-Ramp,size,Medium (25-99),2026-02,51.8855832153,paid_transactions
-Ramp,size,Medium (25-99),2026-03,55.2194930755,paid_transactions
-Ramp,size,Medium (25-99),2026-04,57.2898145796,paid_transactions
-Ramp,size,Medium (25-99),2026-05,59.0835713399,paid_transactions
-Ramp,size,Medium (25-99),2026-06,60.1470856379,paid_transactions
-Ramp,size,Medium (25-99),2026-07,60.9409255199,paid_transactions
-Ramp,size,Medium (25-99),2026-08,61.3728206905,paid_transactions
-Ramp,size,Medium (25-99),2026-09,62.500704662,paid_transactions
-Ramp,size,Small (1-24),2023-01,7.7427821522,paid_transactions
-Ramp,size,Small (1-24),2023-02,12.2620904836,paid_transactions
-Ramp,size,Small (1-24),2023-03,20.5261636311,paid_transactions
-Ramp,size,Small (1-24),2023-04,24.8908296943,paid_transactions
-Ramp,size,Small (1-24),2023-05,26.1444557477,paid_transactions
-Ramp,size,Small (1-24),2023-06,26.1330761813,paid_transactions
-Ramp,size,Small (1-24),2023-07,23.7068291921,paid_transactions
-Ramp,size,Small (1-24),2023-08,24.5517854497,paid_transactions
-Ramp,size,Small (1-24),2023-09,25.3142857143,paid_transactions
-Ramp,size,Small (1-24),2023-10,25.9692558836,paid_transactions
-Ramp,size,Small (1-24),2023-11,27.0822210358,paid_transactions
-Ramp,size,Small (1-24),2023-12,28.2867494824,paid_transactions
-Ramp,size,Small (1-24),2024-01,29.0720631787,paid_transactions
-Ramp,size,Small (1-24),2024-02,29.3643263757,paid_transactions
-Ramp,size,Small (1-24),2024-03,29.9807670551,paid_transactions
-Ramp,size,Small (1-24),2024-04,29.5861844249,paid_transactions
-Ramp,size,Small (1-24),2024-05,29.7686961933,paid_transactions
-Ramp,size,Small (1-24),2024-06,30.1837270341,paid_transactions
-Ramp,size,Small (1-24),2024-07,30.7961845435,paid_transactions
-Ramp,size,Small (1-24),2024-08,30.8295964126,paid_transactions
-Ramp,size,Small (1-24),2024-09,31.3206531491,paid_transactions
-Ramp,size,Small (1-24),2024-10,31.6484827821,paid_transactions
-Ramp,size,Small (1-24),2024-11,32.0349563046,paid_transactions
-Ramp,size,Small (1-24),2024-12,32.1782178218,paid_transactions
-Ramp,size,Small (1-24),2025-01,32.8511151296,paid_transactions
-Ramp,size,Small (1-24),2025-02,34.0018825574,paid_transactions
-Ramp,size,Small (1-24),2025-03,34.4839371155,paid_transactions
-Ramp,size,Small (1-24),2025-04,35.353798127,paid_transactions
-Ramp,size,Small (1-24),2025-05,36.3122242247,paid_transactions
-Ramp,size,Small (1-24),2025-06,37.0165417113,paid_transactions
-Ramp,size,Small (1-24),2025-07,38.0787954262,paid_transactions
-Ramp,size,Small (1-24),2025-08,38.7013406558,paid_transactions
-Ramp,size,Small (1-24),2025-09,38.5661372977,paid_transactions
-Ramp,size,Small (1-24),2025-10,38.337193592,paid_transactions
-Ramp,size,Small (1-24),2025-11,39.1378171871,paid_transactions
-Ramp,size,Small (1-24),2025-12,39.1651347352,paid_transactions
-Ramp,size,Small (1-24),2026-01,40.0965978901,paid_transactions
-Ramp,size,Small (1-24),2026-02,42.3628691983,paid_transactions
-Ramp,size,Small (1-24),2026-03,44.333370358,paid_transactions
-Ramp,size,Small (1-24),2026-04,46.0612577613,paid_transactions
-Ramp,size,Small (1-24),2026-05,47.3393227367,paid_transactions
-Ramp,size,Small (1-24),2026-06,48.032534623,paid_transactions
-Ramp,size,Small (1-24),2026-07,48.971353388,paid_transactions
-Ramp,size,Small (1-24),2026-08,49.5066116878,paid_transactions
-Ramp,size,Small (1-24),2026-09,50.0324096581,paid_transactions
+source,dimension,group,month,rate,se,wording
+Census BTOS,overall,All businesses,2023-09,3.7,0.08514693182963201,goods_services
+Census BTOS,overall,All businesses,2023-10,3.8499999999999996,0.09924716620639605,goods_services
+Census BTOS,overall,All businesses,2023-11,4.5,0.07778174593052023,goods_services
+Census BTOS,overall,All businesses,2023-12,4.9,0.09617692030835673,goods_services
+Census BTOS,overall,All businesses,2024-01,4.966666666666666,0.071336448530109,goods_services
+Census BTOS,overall,All businesses,2024-02,4.85,0.08845903006477067,goods_services
+Census BTOS,overall,All businesses,2024-03,4.300000000000001,0.075,goods_services
+Census BTOS,overall,All businesses,2024-04,4.75,0.10259142264341595,goods_services
+Census BTOS,overall,All businesses,2024-05,4.699999999999999,0.08746427842267951,goods_services
+Census BTOS,overall,All businesses,2024-06,4.85,0.09552486587271401,goods_services
+Census BTOS,overall,All businesses,2024-07,5.066666666666666,0.0896908269804914,goods_services
+Census BTOS,overall,All businesses,2024-08,5.6,0.10606601717798213,goods_services
+Census BTOS,overall,All businesses,2024-09,5.95,0.10965856099730655,goods_services
+Census BTOS,overall,All businesses,2024-10,6.0,0.09924716620639605,goods_services
+Census BTOS,overall,All businesses,2024-11,6.1,0.12041594578792295,goods_services
+Census BTOS,overall,All businesses,2024-12,6.133333333333333,0.09860132971832693,goods_services
+Census BTOS,overall,All businesses,2025-01,6.75,0.130862523283024,goods_services
+Census BTOS,overall,All businesses,2025-02,7.35,0.1140175425099138,goods_services
+Census BTOS,overall,All businesses,2025-03,7.9,0.12529964086141668,goods_services
+Census BTOS,overall,All businesses,2025-04,8.5,0.12419742348374221,goods_services
+Census BTOS,overall,All businesses,2025-05,8.95,0.11800423721205947,goods_services
+Census BTOS,overall,All businesses,2025-06,9.266666666666667,0.1130388330520878,goods_services
+Census BTOS,overall,All businesses,2025-07,9.100000000000001,0.1372953021774598,goods_services
+Census BTOS,overall,All businesses,2025-08,9.399999999999999,0.10965856099730655,goods_services
+Census BTOS,overall,All businesses,2025-09,9.95,0.13313526955694346,goods_services
+Census BTOS,overall,All businesses,2025-11,17.3,0.18,any_function
+Census BTOS,overall,All businesses,2025-12,17.566666666666666,0.20105278466666962,any_function
+Census BTOS,overall,All businesses,2026-01,18.549999999999997,0.22896506283710621,any_function
+Census BTOS,overall,All businesses,2026-02,17.85,0.25612496949731395,any_function
+Census BTOS,overall,All businesses,2026-03,19.0,0.2640075756488817,any_function
+Census BTOS,overall,All businesses,2026-04,19.8,0.1882153022471871,any_function
+Census BTOS,overall,All businesses,2026-05,20.05,0.1882153022471871,any_function
+Census BTOS,overall,All businesses,2026-06,20.96666666666667,0.18888562088676253,any_function
+Census BTOS,overall,All businesses,2026-07,21.65,0.2670674072214728,any_function
+Census BTOS,overall,All businesses,2026-08,22.799999999999997,0.2280350850198276,any_function
+Census BTOS,overall,All businesses,2026-09,23.8,0.2427447218787671,any_function
+Census BTOS,overall,All businesses,2026-10,24.6,0.27,any_function
+Census BTOS,overall,All businesses,2026-10,24.2,0.61,super_intelligence
+Census BTOS,sector,Accommodation & Food,2023-09,1.15,0.13453624047073712,goods_services
+Census BTOS,sector,Accommodation & Food,2023-10,1.2,0.15206906325745548,goods_services
+Census BTOS,sector,Accommodation & Food,2023-11,1.55,0.15556349186104046,goods_services
+Census BTOS,sector,Accommodation & Food,2023-12,1.5499999999999998,0.19798989873223333,goods_services
+Census BTOS,sector,Accommodation & Food,2024-01,1.5666666666666667,0.17362155524140555,goods_services
+Census BTOS,sector,Accommodation & Food,2024-02,1.45,0.1835755975068582,goods_services
+Census BTOS,sector,Accommodation & Food,2024-03,1.2999999999999998,0.1767766952966369,goods_services
+Census BTOS,sector,Accommodation & Food,2024-04,1.2000000000000002,0.21360009363293828,goods_services
+Census BTOS,sector,Accommodation & Food,2024-05,1.4,0.15945218719101972,goods_services
+Census BTOS,sector,Accommodation & Food,2024-06,1.25,0.11715374513859982,goods_services
+Census BTOS,sector,Accommodation & Food,2024-07,1.5666666666666667,0.1885618083164127,goods_services
+Census BTOS,sector,Accommodation & Food,2024-08,1.7,0.22102036105300343,goods_services
+Census BTOS,sector,Accommodation & Food,2024-09,1.7,0.2170829334609241,goods_services
+Census BTOS,sector,Accommodation & Food,2024-10,1.5,0.19912307751739877,goods_services
+Census BTOS,sector,Accommodation & Food,2024-11,1.5,0.1876832437912346,goods_services
+Census BTOS,sector,Accommodation & Food,2024-12,1.7333333333333334,0.14899664425751338,goods_services
+Census BTOS,sector,Accommodation & Food,2025-01,1.75,0.17102631376487068,goods_services
+Census BTOS,sector,Accommodation & Food,2025-02,2.5999999999999996,0.2369071548096427,goods_services
+Census BTOS,sector,Accommodation & Food,2025-03,2.1,0.21920310216782973,goods_services
+Census BTOS,sector,Accommodation & Food,2025-04,2.5,0.2127204738618265,goods_services
+Census BTOS,sector,Accommodation & Food,2025-05,2.9000000000000004,0.23345235059857505,goods_services
+Census BTOS,sector,Accommodation & Food,2025-06,2.6,0.2947880594596735,goods_services
+Census BTOS,sector,Accommodation & Food,2025-07,2.45,0.2720294101747089,goods_services
+Census BTOS,sector,Accommodation & Food,2025-08,2.2,0.30269621735330626,goods_services
+Census BTOS,sector,Accommodation & Food,2025-09,2.45,0.22588713996153037,goods_services
+Census BTOS,sector,Accommodation & Food,2025-11,8.9,0.95,any_function
+Census BTOS,sector,Accommodation & Food,2025-12,7.766666666666667,0.41650663593486453,any_function
+Census BTOS,sector,Accommodation & Food,2026-01,7.9,0.5445181356024793,any_function
+Census BTOS,sector,Accommodation & Food,2026-02,7.1,0.5129571132170798,any_function
+Census BTOS,sector,Accommodation & Food,2026-03,8.3,0.5076662289339325,any_function
+Census BTOS,sector,Accommodation & Food,2026-04,8.850000000000001,0.637122437212817,any_function
+Census BTOS,sector,Accommodation & Food,2026-05,8.600000000000001,0.6808267033540915,any_function
+Census BTOS,sector,Accommodation & Food,2026-06,8.633333333333333,0.514900206080967,any_function
+Census BTOS,sector,Accommodation & Food,2026-07,9.15,0.37138255209419846,any_function
+Census BTOS,sector,Accommodation & Food,2026-08,8.55,0.4426341604530767,any_function
+Census BTOS,sector,Accommodation & Food,2026-09,10.1,0.41503011938894263,any_function
+Census BTOS,sector,Accommodation & Food,2026-10,10.7,1.08,any_function
+Census BTOS,sector,Accommodation & Food,2026-10,12.1,0.96,super_intelligence
+Census BTOS,sector,Construction,2023-09,0.95,0.13453624047073712,goods_services
+Census BTOS,sector,Construction,2023-10,1.4,0.17356554957709783,goods_services
+Census BTOS,sector,Construction,2023-11,1.4,0.2022992832414391,goods_services
+Census BTOS,sector,Construction,2023-12,1.25,0.18741664813991313,goods_services
+Census BTOS,sector,Construction,2024-01,1.5333333333333332,0.14929463784372463,goods_services
+Census BTOS,sector,Construction,2024-02,1.4,0.21005951537600007,goods_services
+Census BTOS,sector,Construction,2024-03,1.5,0.19557607215607947,goods_services
+Census BTOS,sector,Construction,2024-04,1.55,0.23021728866442678,goods_services
+Census BTOS,sector,Construction,2024-05,1.4500000000000002,0.1665082580534671,goods_services
+Census BTOS,sector,Construction,2024-06,1.55,0.24459149617270018,goods_services
+Census BTOS,sector,Construction,2024-07,1.5,0.1767295485574875,goods_services
+Census BTOS,sector,Construction,2024-08,1.45,0.19006577808748212,goods_services
+Census BTOS,sector,Construction,2024-09,1.9500000000000002,0.16401219466856726,goods_services
+Census BTOS,sector,Construction,2024-10,1.85,0.17691806012954134,goods_services
+Census BTOS,sector,Construction,2024-11,2.25,0.1970406049523803,goods_services
+Census BTOS,sector,Construction,2024-12,1.9333333333333336,0.1898537448786419,goods_services
+Census BTOS,sector,Construction,2025-01,2.3,0.26907248094147423,goods_services
+Census BTOS,sector,Construction,2025-02,3.05,0.34007352146263903,goods_services
+Census BTOS,sector,Construction,2025-03,2.8,0.378714932369982,goods_services
+Census BTOS,sector,Construction,2025-04,3.7,0.35418921496849676,goods_services
+Census BTOS,sector,Construction,2025-05,3.8,0.3580502757993631,goods_services
+Census BTOS,sector,Construction,2025-06,3.5333333333333337,0.2597006824104327,goods_services
+Census BTOS,sector,Construction,2025-07,3.95,0.4352298243457128,goods_services
+Census BTOS,sector,Construction,2025-08,3.75,0.325,goods_services
+Census BTOS,sector,Construction,2025-09,3.75,0.24135036772294338,goods_services
+Census BTOS,sector,Construction,2025-11,7.4,0.8,any_function
+Census BTOS,sector,Construction,2025-12,8.766666666666667,0.607334796924691,any_function
+Census BTOS,sector,Construction,2026-01,10.649999999999999,0.612066172893095,any_function
+Census BTOS,sector,Construction,2026-02,9.95,0.5021205034650548,any_function
+Census BTOS,sector,Construction,2026-03,10.1,0.5456189146281496,any_function
+Census BTOS,sector,Construction,2026-04,11.2,0.4049691346263318,any_function
+Census BTOS,sector,Construction,2026-05,10.75,0.6919898843191279,any_function
+Census BTOS,sector,Construction,2026-06,12.799999999999999,0.47991897464282673,any_function
+Census BTOS,sector,Construction,2026-07,14.25,0.6341135544995076,any_function
+Census BTOS,sector,Construction,2026-08,15.15,0.6155485358604957,any_function
+Census BTOS,sector,Construction,2026-09,16.3,0.5841232746604094,any_function
+Census BTOS,sector,Construction,2026-10,16.1,0.79,any_function
+Census BTOS,sector,Construction,2026-10,17.1,1.19,super_intelligence
+Census BTOS,sector,Finance & Insurance,2023-09,4.45,0.5634935669552936,goods_services
+Census BTOS,sector,Finance & Insurance,2023-10,5.55,0.5236888389110465,goods_services
+Census BTOS,sector,Finance & Insurance,2023-11,5.45,0.5681769090697016,goods_services
+Census BTOS,sector,Finance & Insurance,2023-12,6.9,0.5646459067415613,goods_services
+Census BTOS,sector,Finance & Insurance,2024-01,6.8,0.4547404632192839,goods_services
+Census BTOS,sector,Finance & Insurance,2024-02,6.35,0.6129437168288782,goods_services
+Census BTOS,sector,Finance & Insurance,2024-03,5.25,0.5510444628158422,goods_services
+Census BTOS,sector,Finance & Insurance,2024-04,5.5,0.6161168720299746,goods_services
+Census BTOS,sector,Finance & Insurance,2024-05,6.0,0.6201814250685036,goods_services
+Census BTOS,sector,Finance & Insurance,2024-06,6.95,0.7494164396382028,goods_services
+Census BTOS,sector,Finance & Insurance,2024-07,6.2,0.41243181254602557,goods_services
+Census BTOS,sector,Finance & Insurance,2024-08,7.5,0.3994058086708305,goods_services
+Census BTOS,sector,Finance & Insurance,2024-09,7.15,0.7394930696091748,goods_services
+Census BTOS,sector,Finance & Insurance,2024-10,8.25,0.5214642844912775,goods_services
+Census BTOS,sector,Finance & Insurance,2024-11,8.95,0.5375872022286245,goods_services
+Census BTOS,sector,Finance & Insurance,2024-12,7.166666666666667,0.5642005159712478,goods_services
+Census BTOS,sector,Finance & Insurance,2025-01,10.0,0.5333385416412356,goods_services
+Census BTOS,sector,Finance & Insurance,2025-02,10.15,0.7634461343146615,goods_services
+Census BTOS,sector,Finance & Insurance,2025-03,11.2,0.7460060321471939,goods_services
+Census BTOS,sector,Finance & Insurance,2025-04,13.0,0.8871442949148689,goods_services
+Census BTOS,sector,Finance & Insurance,2025-05,13.6,0.8731122493700337,goods_services
+Census BTOS,sector,Finance & Insurance,2025-06,14.133333333333333,0.908350152749478,goods_services
+Census BTOS,sector,Finance & Insurance,2025-07,15.9,0.830918166849179,goods_services
+Census BTOS,sector,Finance & Insurance,2025-08,16.05,0.835134719671024,goods_services
+Census BTOS,sector,Finance & Insurance,2025-09,17.15,0.7200694410957876,goods_services
+Census BTOS,sector,Finance & Insurance,2025-11,29.9,1.73,any_function
+Census BTOS,sector,Finance & Insurance,2025-12,30.2,1.1653182683999537,any_function
+Census BTOS,sector,Finance & Insurance,2026-01,31.0,1.4399392348290259,any_function
+Census BTOS,sector,Finance & Insurance,2026-02,30.0,1.1088733020503287,any_function
+Census BTOS,sector,Finance & Insurance,2026-03,32.6,1.595383966322841,any_function
+Census BTOS,sector,Finance & Insurance,2026-04,33.45,1.0435037134576954,any_function
+Census BTOS,sector,Finance & Insurance,2026-05,33.5,0.9507102608050467,any_function
+Census BTOS,sector,Finance & Insurance,2026-06,35.06666666666666,1.0522093158894024,any_function
+Census BTOS,sector,Finance & Insurance,2026-07,36.15,1.3641939011738764,any_function
+Census BTOS,sector,Finance & Insurance,2026-08,38.25,1.2997115064505662,any_function
+Census BTOS,sector,Finance & Insurance,2026-09,40.55,1.2010412149464313,any_function
+Census BTOS,sector,Finance & Insurance,2026-10,40.5,1.53,any_function
+Census BTOS,sector,Finance & Insurance,2026-10,39.2,2.51,super_intelligence
+Census BTOS,sector,Healthcare,2023-09,3.7,0.20402205763103165,goods_services
+Census BTOS,sector,Healthcare,2023-10,3.8,0.25544079548889603,goods_services
+Census BTOS,sector,Healthcare,2023-11,4.550000000000001,0.27932955446926844,goods_services
+Census BTOS,sector,Healthcare,2023-12,4.75,0.3043846251044885,goods_services
+Census BTOS,sector,Healthcare,2024-01,4.733333333333333,0.2748939189335891,goods_services
+Census BTOS,sector,Healthcare,2024-02,5.4,0.35302266216207706,goods_services
+Census BTOS,sector,Healthcare,2024-03,4.05,0.30610455730027936,goods_services
+Census BTOS,sector,Healthcare,2024-04,5.35,0.4002811511925087,goods_services
+Census BTOS,sector,Healthcare,2024-05,4.8,0.3112073263919087,goods_services
+Census BTOS,sector,Healthcare,2024-06,5.05,0.2598557292037257,goods_services
+Census BTOS,sector,Healthcare,2024-07,5.900000000000001,0.30675723300355934,goods_services
+Census BTOS,sector,Healthcare,2024-08,5.699999999999999,0.4050308630215727,goods_services
+Census BTOS,sector,Healthcare,2024-09,6.2,0.29832867780352595,goods_services
+Census BTOS,sector,Healthcare,2024-10,6.050000000000001,0.3233032632065442,goods_services
+Census BTOS,sector,Healthcare,2024-11,6.35,0.37901187316494456,goods_services
+Census BTOS,sector,Healthcare,2024-12,6.066666666666666,0.23021728866442678,goods_services
+Census BTOS,sector,Healthcare,2025-01,6.8,0.40782962128810607,goods_services
+Census BTOS,sector,Healthcare,2025-02,7.800000000000001,0.3092733418838423,goods_services
+Census BTOS,sector,Healthcare,2025-03,8.649999999999999,0.47762432936356997,goods_services
+Census BTOS,sector,Healthcare,2025-04,8.649999999999999,0.5660830327787612,goods_services
+Census BTOS,sector,Healthcare,2025-05,9.55,0.4909175083453431,goods_services
+Census BTOS,sector,Healthcare,2025-06,10.4,0.3754256843164096,goods_services
+Census BTOS,sector,Healthcare,2025-07,10.100000000000001,0.3881043674065006,goods_services
+Census BTOS,sector,Healthcare,2025-08,9.75,0.39877938763180826,goods_services
+Census BTOS,sector,Healthcare,2025-09,11.15,0.37566607512523675,goods_services
+Census BTOS,sector,Healthcare,2025-11,18.1,0.78,any_function
+Census BTOS,sector,Healthcare,2025-12,21.2,0.5857853228311926,any_function
+Census BTOS,sector,Healthcare,2026-01,21.25,0.8420213774008354,any_function
+Census BTOS,sector,Healthcare,2026-02,20.200000000000003,0.8050621094052309,any_function
+Census BTOS,sector,Healthcare,2026-03,20.75,0.587281874401041,any_function
+Census BTOS,sector,Healthcare,2026-04,21.799999999999997,0.6653006839016476,any_function
+Census BTOS,sector,Healthcare,2026-05,21.95,0.6582742589529078,any_function
+Census BTOS,sector,Healthcare,2026-06,23.53333333333333,0.5820557437985548,any_function
+Census BTOS,sector,Healthcare,2026-07,22.75,0.5586591089385369,any_function
+Census BTOS,sector,Healthcare,2026-08,24.35,0.4728900506460249,any_function
+Census BTOS,sector,Healthcare,2026-09,25.15,0.739340922714278,any_function
+Census BTOS,sector,Healthcare,2026-10,27.6,0.88,any_function
+Census BTOS,sector,Healthcare,2026-10,24.6,1.27,super_intelligence
+Census BTOS,sector,Information,2023-09,13.850000000000001,1.231665539016173,goods_services
+Census BTOS,sector,Information,2023-10,12.75,1.087566089945802,goods_services
+Census BTOS,sector,Information,2023-11,15.4,0.8172209003690496,goods_services
+Census BTOS,sector,Information,2023-12,20.35,1.2803515142334936,goods_services
+Census BTOS,sector,Information,2024-01,16.966666666666665,0.8225704968099831,goods_services
+Census BTOS,sector,Information,2024-02,16.1,1.2721733372461475,goods_services
+Census BTOS,sector,Information,2024-03,14.799999999999999,0.7998124780221924,goods_services
+Census BTOS,sector,Information,2024-04,16.7,1.5076886283314601,goods_services
+Census BTOS,sector,Information,2024-05,16.35,1.0403965590100728,goods_services
+Census BTOS,sector,Information,2024-06,16.700000000000003,0.9431065687397155,goods_services
+Census BTOS,sector,Information,2024-07,17.133333333333336,1.0014101168962806,goods_services
+Census BTOS,sector,Information,2024-08,20.6,0.9804208280121348,goods_services
+Census BTOS,sector,Information,2024-09,19.65,1.2273243255146538,goods_services
+Census BTOS,sector,Information,2024-10,21.5,1.4838463532320318,goods_services
+Census BTOS,sector,Information,2024-11,20.799999999999997,1.3833473894868202,goods_services
+Census BTOS,sector,Information,2024-12,21.7,1.0218393002598576,goods_services
+Census BTOS,sector,Information,2025-01,20.75,1.6880832325451254,goods_services
+Census BTOS,sector,Information,2025-02,21.4,1.531380096514252,goods_services
+Census BTOS,sector,Information,2025-03,25.1,1.8071593731599878,goods_services
+Census BTOS,sector,Information,2025-04,25.200000000000003,1.6467088388661792,goods_services
+Census BTOS,sector,Information,2025-05,23.75,1.3090550026641357,goods_services
+Census BTOS,sector,Information,2025-06,26.166666666666668,1.3438584581553057,goods_services
+Census BTOS,sector,Information,2025-07,22.6,1.3244055270195756,goods_services
+Census BTOS,sector,Information,2025-08,26.15,1.236294867739893,goods_services
+Census BTOS,sector,Information,2025-09,29.55,1.514760707174569,goods_services
+Census BTOS,sector,Information,2025-11,41.0,2.26,any_function
+Census BTOS,sector,Information,2025-12,35.43333333333334,1.5690442951045072,any_function
+Census BTOS,sector,Information,2026-01,39.35,1.6947049890762698,any_function
+Census BTOS,sector,Information,2026-02,35.55,1.9560738738605963,any_function
+Census BTOS,sector,Information,2026-03,38.7,1.4704166076320004,any_function
+Census BTOS,sector,Information,2026-04,40.75,2.069160457770252,any_function
+Census BTOS,sector,Information,2026-05,40.849999999999994,2.0024048042291547,any_function
+Census BTOS,sector,Information,2026-06,43.03333333333333,1.3484188271206143,any_function
+Census BTOS,sector,Information,2026-07,43.45,2.08257652920607,any_function
+Census BTOS,sector,Information,2026-08,44.75,1.4561679161415417,any_function
+Census BTOS,sector,Information,2026-09,49.6,1.2252550754842846,any_function
+Census BTOS,sector,Information,2026-10,46.4,2.02,any_function
+Census BTOS,sector,Information,2026-10,45.0,3.04,super_intelligence
+Census BTOS,sector,Manufacturing,2023-09,1.75,0.2298368986912241,goods_services
+Census BTOS,sector,Manufacturing,2023-10,1.85,0.22671568097509268,goods_services
+Census BTOS,sector,Manufacturing,2023-11,2.8499999999999996,0.28814059068447817,goods_services
+Census BTOS,sector,Manufacturing,2023-12,2.8,0.3240756084619761,goods_services
+Census BTOS,sector,Manufacturing,2024-01,2.733333333333333,0.22318402969547602,goods_services
+Census BTOS,sector,Manufacturing,2024-02,2.7,0.2906888370749727,goods_services
+Census BTOS,sector,Manufacturing,2024-03,2.5999999999999996,0.3121297807002722,goods_services
+Census BTOS,sector,Manufacturing,2024-04,2.3,0.2371181140275875,goods_services
+Census BTOS,sector,Manufacturing,2024-05,2.55,0.24909837414162303,goods_services
+Census BTOS,sector,Manufacturing,2024-06,2.75,0.2469817807045694,goods_services
+Census BTOS,sector,Manufacturing,2024-07,2.3333333333333335,0.22022715545545238,goods_services
+Census BTOS,sector,Manufacturing,2024-08,2.55,0.25465663156493684,goods_services
+Census BTOS,sector,Manufacturing,2024-09,2.55,0.38512984823303426,goods_services
+Census BTOS,sector,Manufacturing,2024-10,3.3,0.32756678708318404,goods_services
+Census BTOS,sector,Manufacturing,2024-11,2.55,0.33678628238097824,goods_services
+Census BTOS,sector,Manufacturing,2024-12,2.566666666666667,0.2502887221679084,goods_services
+Census BTOS,sector,Manufacturing,2025-01,3.1,0.3286715685908959,goods_services
+Census BTOS,sector,Manufacturing,2025-02,3.4000000000000004,0.4389191269470949,goods_services
+Census BTOS,sector,Manufacturing,2025-03,4.05,0.26612966764342527,goods_services
+Census BTOS,sector,Manufacturing,2025-04,4.65,0.3938591118661596,goods_services
+Census BTOS,sector,Manufacturing,2025-05,4.7,0.4783565615730592,goods_services
+Census BTOS,sector,Manufacturing,2025-06,5.133333333333334,0.3678314831549904,goods_services
+Census BTOS,sector,Manufacturing,2025-07,4.449999999999999,0.4563167759353145,goods_services
+Census BTOS,sector,Manufacturing,2025-08,4.7,0.36458880948268285,goods_services
+Census BTOS,sector,Manufacturing,2025-09,4.699999999999999,0.5302122216622321,goods_services
+Census BTOS,sector,Manufacturing,2025-11,12.7,1.11,any_function
+Census BTOS,sector,Manufacturing,2025-12,11.966666666666667,0.5994349190881544,any_function
+Census BTOS,sector,Manufacturing,2026-01,13.0,0.7280968342191854,any_function
+Census BTOS,sector,Manufacturing,2026-02,13.7,0.5994372360806426,any_function
+Census BTOS,sector,Manufacturing,2026-03,16.9,0.7762087348130012,any_function
+Census BTOS,sector,Manufacturing,2026-04,16.65,1.2293189171244376,any_function
+Census BTOS,sector,Manufacturing,2026-05,15.8,0.8526576100639693,any_function
+Census BTOS,sector,Manufacturing,2026-06,18.766666666666666,0.7969525289082992,any_function
+Census BTOS,sector,Manufacturing,2026-07,19.8,0.837511193955042,any_function
+Census BTOS,sector,Manufacturing,2026-08,21.85,0.6585590330410782,any_function
+Census BTOS,sector,Manufacturing,2026-09,20.15,0.8113722943261004,any_function
+Census BTOS,sector,Manufacturing,2026-10,22.9,1.35,any_function
+Census BTOS,sector,Manufacturing,2026-10,21.4,1.28,super_intelligence
+Census BTOS,sector,Retail Trade,2023-09,2.45,0.1767766952966369,goods_services
+Census BTOS,sector,Retail Trade,2023-10,2.6500000000000004,0.20886598574205423,goods_services
+Census BTOS,sector,Retail Trade,2023-11,3.4,0.19091883092036785,goods_services
+Census BTOS,sector,Retail Trade,2023-12,3.3499999999999996,0.2581181899828061,goods_services
+Census BTOS,sector,Retail Trade,2024-01,3.4333333333333336,0.21147629234082535,goods_services
+Census BTOS,sector,Retail Trade,2024-02,3.0,0.2624880949681338,goods_services
+Census BTOS,sector,Retail Trade,2024-03,2.75,0.27101660465735306,goods_services
+Census BTOS,sector,Retail Trade,2024-04,3.1500000000000004,0.2051828452868319,goods_services
+Census BTOS,sector,Retail Trade,2024-05,3.55,0.3370830758136635,goods_services
+Census BTOS,sector,Retail Trade,2024-06,3.2,0.21272047386182646,goods_services
+Census BTOS,sector,Retail Trade,2024-07,3.266666666666667,0.2608745973749755,goods_services
+Census BTOS,sector,Retail Trade,2024-08,3.2,0.17334935823359715,goods_services
+Census BTOS,sector,Retail Trade,2024-09,3.8,0.2408318915758459,goods_services
+Census BTOS,sector,Retail Trade,2024-10,3.6,0.2193171219946131,goods_services
+Census BTOS,sector,Retail Trade,2024-11,3.5,0.30108138434649195,goods_services
+Census BTOS,sector,Retail Trade,2024-12,3.9333333333333336,0.21179130188833428,goods_services
+Census BTOS,sector,Retail Trade,2025-01,3.8,0.2478911051248108,goods_services
+Census BTOS,sector,Retail Trade,2025-02,4.35,0.30269621735330626,goods_services
+Census BTOS,sector,Retail Trade,2025-03,4.85,0.22102036105300343,goods_services
+Census BTOS,sector,Retail Trade,2025-04,5.35,0.3092329219213245,goods_services
+Census BTOS,sector,Retail Trade,2025-05,5.699999999999999,0.3271849629796577,goods_services
+Census BTOS,sector,Retail Trade,2025-06,5.933333333333334,0.26189480500553824,goods_services
+Census BTOS,sector,Retail Trade,2025-07,5.7,0.35514081714159523,goods_services
+Census BTOS,sector,Retail Trade,2025-08,5.4,0.273221521846285,goods_services
+Census BTOS,sector,Retail Trade,2025-09,6.55,0.29094673051952313,goods_services
+Census BTOS,sector,Retail Trade,2025-11,12.5,0.71,any_function
+Census BTOS,sector,Retail Trade,2025-12,12.333333333333334,0.4271091455614387,any_function
+Census BTOS,sector,Retail Trade,2026-01,13.15,0.4341658669218482,any_function
+Census BTOS,sector,Retail Trade,2026-02,11.75,0.532634959423431,any_function
+Census BTOS,sector,Retail Trade,2026-03,13.5,0.5551801509420163,any_function
+Census BTOS,sector,Retail Trade,2026-04,14.850000000000001,0.5390732788777421,any_function
+Census BTOS,sector,Retail Trade,2026-05,15.600000000000001,0.5385629025471398,any_function
+Census BTOS,sector,Retail Trade,2026-06,16.266666666666666,0.5071708018234313,any_function
+Census BTOS,sector,Retail Trade,2026-07,15.5,0.5787270513808733,any_function
+Census BTOS,sector,Retail Trade,2026-08,15.35,0.6010407640085653,any_function
+Census BTOS,sector,Retail Trade,2026-09,16.65,0.6048346881586736,any_function
+Census BTOS,sector,Retail Trade,2026-10,18.5,0.73,any_function
+Census BTOS,sector,Retail Trade,2026-10,19.1,0.99,super_intelligence
+Census BTOS,size,Large (100+),2023-09,3.2419965554020735,0.29339220819040834,goods_services
+Census BTOS,size,Large (100+),2023-10,3.6828823591124475,0.40440453742879007,goods_services
+Census BTOS,size,Large (100+),2023-11,5.157020772499171,0.46945018507363095,goods_services
+Census BTOS,size,Large (100+),2023-12,5.19446022975643,0.45753607846060673,goods_services
+Census BTOS,size,Large (100+),2024-01,6.181856993816043,0.5113649773857704,goods_services
+Census BTOS,size,Large (100+),2024-02,5.346183402982987,0.47454372210507595,goods_services
+Census BTOS,size,Large (100+),2024-03,4.416134968788795,0.40084844616697946,goods_services
+Census BTOS,size,Large (100+),2024-04,5.85702077249917,0.4299161561291261,goods_services
+Census BTOS,size,Large (100+),2024-05,5.550370250563899,0.41075648763925005,goods_services
+Census BTOS,size,Large (100+),2024-06,5.301110751691699,0.5481053084742576,goods_services
+Census BTOS,size,Large (100+),2024-07,6.114041544998339,0.3973695028632254,goods_services
+Census BTOS,size,Large (100+),2024-08,6.861207620080082,0.5606801089482707,goods_services
+Census BTOS,size,Large (100+),2024-09,7.412318371771783,0.5379684448205908,goods_services
+Census BTOS,size,Large (100+),2024-10,7.720692066933608,0.5213981123869564,goods_services
+Census BTOS,size,Large (100+),2024-11,7.787809707821161,0.6479062185718437,goods_services
+Census BTOS,size,Large (100+),2024-12,8.149017327901243,0.5229711969017232,goods_services
+Census BTOS,size,Large (100+),2025-01,7.930176513787134,0.6811659102428845,goods_services
+Census BTOS,size,Large (100+),2025-02,9.73152943644979,0.6271903971461817,goods_services
+Census BTOS,size,Large (100+),2025-03,10.058131524190872,0.657816239401876,goods_services
+Census BTOS,size,Large (100+),2025-04,9.88855020894896,0.456290720008592,goods_services
+Census BTOS,size,Large (100+),2025-05,11.751110751691701,0.7061217128853016,goods_services
+Census BTOS,size,Large (100+),2025-06,11.20960786370816,0.5088677280045846,goods_services
+Census BTOS,size,Large (100+),2025-07,9.072415240160165,0.49739066546071364,goods_services
+Census BTOS,size,Large (100+),2025-08,10.442366805965973,0.5636853477534787,goods_services
+Census BTOS,size,Large (100+),2025-09,10.37734258886888,0.5937851287229371,goods_services
+Census BTOS,size,Large (100+),2025-11,26.363058872899582,1.310376142693152,any_function
+Census BTOS,size,Large (100+),2025-12,27.731776270159056,0.7961951180595827,any_function
+Census BTOS,size,Large (100+),2026-01,27.39101388330332,1.029851483596478,any_function
+Census BTOS,size,Large (100+),2026-02,27.802591753947297,1.1413408878511688,any_function
+Census BTOS,size,Large (100+),2026-03,30.82673016733402,0.9602511278053864,any_function
+Census BTOS,size,Large (100+),2026-04,32.45529759927261,1.0561370839205246,any_function
+Census BTOS,size,Large (100+),2026-05,33.04310730709378,1.05273010872108,any_function
+Census BTOS,size,Large (100+),2026-06,34.78243604762987,0.9217329372968683,any_function
+Census BTOS,size,Large (100+),2026-07,34.769709394834855,0.9141371852809858,any_function
+Census BTOS,size,Large (100+),2026-08,35.043477557657674,1.1289376145265742,any_function
+Census BTOS,size,Large (100+),2026-09,37.20813152419087,0.9640526886871948,any_function
+Census BTOS,size,Large (100+),2026-10,38.55049833015684,1.3364485325441864,any_function
+Census BTOS,size,Large (100+),2026-10,41.605667849836514,1.4066098122651436,super_intelligence
+Census BTOS,size,Medium (25-99),2023-09,2.5521646201514803,0.16347258627925979,goods_services
+Census BTOS,size,Medium (25-99),2023-10,2.8,0.15693173176418268,goods_services
+Census BTOS,size,Medium (25-99),2023-11,3.4297256330808654,0.21208777665650197,goods_services
+Census BTOS,size,Medium (25-99),2023-12,4.018902532323463,0.16766115299776632,goods_services
+Census BTOS,size,Medium (25-99),2024-01,3.9985569198990127,0.17912025680902874,goods_services
+Census BTOS,size,Medium (25-99),2024-02,3.556493860454441,0.2134666587335875,goods_services
+Census BTOS,size,Medium (25-99),2024-03,3.484054873383827,0.16200840740187192,goods_services
+Census BTOS,size,Medium (25-99),2024-04,3.5637805064646932,0.18947328138878505,goods_services
+Census BTOS,size,Medium (25-99),2024-05,3.6637805064646924,0.1903314538634046,goods_services
+Census BTOS,size,Medium (25-99),2024-06,3.9159451266161724,0.1552036291639783,goods_services
+Census BTOS,size,Medium (25-99),2024-07,4.122703248922551,0.15966310476058287,goods_services
+Census BTOS,size,Medium (25-99),2024-08,4.275396392777906,0.24065460192079022,goods_services
+Census BTOS,size,Medium (25-99),2024-09,4.828353798485195,0.22202267761151778,goods_services
+Census BTOS,size,Medium (25-99),2024-10,4.945670759697039,0.19517785079889496,goods_services
+Census BTOS,size,Medium (25-99),2024-11,4.918109746767654,0.24042125406413184,goods_services
+Census BTOS,size,Medium (25-99),2024-12,5.472052954377374,0.2107489424842733,goods_services
+Census BTOS,size,Medium (25-99),2025-01,5.607286646010252,0.25675681791322724,goods_services
+Census BTOS,size,Medium (25-99),2025-02,6.042134304949889,0.3043379178929391,goods_services
+Census BTOS,size,Medium (25-99),2025-03,6.481890253232347,0.22242594102001192,goods_services
+Census BTOS,size,Medium (25-99),2025-04,7.361615886313212,0.3225189483987289,goods_services
+Census BTOS,size,Medium (25-99),2025-05,7.810244051717543,0.3369820888908759,goods_services
+Census BTOS,size,Medium (25-99),2025-06,8.031890253232346,0.24545967541421337,goods_services
+Census BTOS,size,Medium (25-99),2025-07,7.084054873383827,0.2703755470054768,goods_services
+Census BTOS,size,Medium (25-99),2025-08,7.415945126616173,0.2793236126658604,goods_services
+Census BTOS,size,Medium (25-99),2025-09,7.814573292020504,0.22627655541098832,goods_services
+Census BTOS,size,Medium (25-99),2025-11,19.33780506464693,0.5933114286114344,any_function
+Census BTOS,size,Medium (25-99),2025-12,18.637276540943056,0.3882070165050293,any_function
+Census BTOS,size,Medium (25-99),2026-01,20.6358541810114,0.46050428383139586,any_function
+Census BTOS,size,Medium (25-99),2026-02,18.781311204192487,0.392521606691009,any_function
+Census BTOS,size,Medium (25-99),2026-03,20.96024405171754,0.47096844653983455,any_function
+Census BTOS,size,Medium (25-99),2026-04,23.077774749445336,0.46159011630375596,any_function
+Census BTOS,size,Medium (25-99),2026-05,21.919116268839414,0.452703639817013,any_function
+Census BTOS,size,Medium (25-99),2026-06,24.253292913064545,0.40641076484252775,any_function
+Census BTOS,size,Medium (25-99),2026-07,24.319909054395225,0.6450418992887665,any_function
+Census BTOS,size,Medium (25-99),2026-08,23.65021373651595,0.442227660332206,any_function
+Census BTOS,size,Medium (25-99),2026-09,26.132896775304108,0.4816953609583223,any_function
+Census BTOS,size,Medium (25-99),2026-10,26.956707596970393,0.61225533673799,any_function
+Census BTOS,size,Medium (25-99),2026-10,30.47561012929386,1.0184809481830752,super_intelligence
+Census BTOS,size,Small (1-24),2023-09,3.834659953699321,0.08910066873827287,goods_services
+Census BTOS,size,Small (1-24),2023-10,3.9726291710650266,0.10486352324643422,goods_services
+Census BTOS,size,Small (1-24),2023-11,4.57204749597517,0.08538253164529079,goods_services
+Census BTOS,size,Small (1-24),2023-12,4.9844432635889495,0.11708675988360333,goods_services
+Census BTOS,size,Small (1-24),2024-01,5.033468202154047,0.08118149043440527,goods_services
+Census BTOS,size,Small (1-24),2024-02,4.927564629665353,0.10449263771853076,goods_services
+Census BTOS,size,Small (1-24),2024-03,4.40622788987377,0.08939193010007435,goods_services
+Census BTOS,size,Small (1-24),2024-04,4.844514300830925,0.1109140013765173,goods_services
+Census BTOS,size,Small (1-24),2024-05,4.766025056195815,0.09034853673134832,goods_services
+Census BTOS,size,Small (1-24),2024-06,4.946969962890891,0.09400836473562926,goods_services
+Census BTOS,size,Small (1-24),2024-07,5.118490332250209,0.08686683819413096,goods_services
+Census BTOS,size,Small (1-24),2024-08,5.667140614987495,0.12527885456875798,goods_services
+Census BTOS,size,Small (1-24),2024-09,5.982091900007864,0.11335586722216218,goods_services
+Census BTOS,size,Small (1-24),2024-10,6.067021571449746,0.10220621085276936,goods_services
+Census BTOS,size,Small (1-24),2024-11,6.157565494413167,0.1271852827584067,goods_services
+Census BTOS,size,Small (1-24),2024-12,6.141466533833214,0.11016590222155032,goods_services
+Census BTOS,size,Small (1-24),2025-01,6.786801279076293,0.14110413249391782,goods_services
+Census BTOS,size,Small (1-24),2025-02,7.440033619416471,0.13241964922648367,goods_services
+Census BTOS,size,Small (1-24),2025-03,7.957324908608777,0.15863245482374144,goods_services
+Census BTOS,size,Small (1-24),2025-04,8.534764252178201,0.13781859511234992,goods_services
+Census BTOS,size,Small (1-24),2025-05,8.937057258074006,0.13408062777660762,goods_services
+Census BTOS,size,Small (1-24),2025-06,9.309047126936509,0.12216165263115865,goods_services
+Census BTOS,size,Small (1-24),2025-07,9.250599251472927,0.1712697602207273,goods_services
+Census BTOS,size,Small (1-24),2025-08,9.539504417633285,0.13655985991211075,goods_services
+Census BTOS,size,Small (1-24),2025-09,10.09842411223915,0.12929169514731598,goods_services
+Census BTOS,size,Small (1-24),2025-11,16.86649124395934,0.29061201128023123,any_function
+Census BTOS,size,Small (1-24),2025-12,17.294842248337496,0.21431877816774048,any_function
+Census BTOS,size,Small (1-24),2026-01,18.180309197659007,0.2418277927810602,any_function
+Census BTOS,size,Small (1-24),2026-02,17.536274456628803,0.2582440596815019,any_function
+Census BTOS,size,Small (1-24),2026-03,18.561519762728206,0.2782561307857691,any_function
+Census BTOS,size,Small (1-24),2026-04,19.211007156598324,0.22258748776452333,any_function
+Census BTOS,size,Small (1-24),2026-05,19.521681504681663,0.24808045813773383,any_function
+Census BTOS,size,Small (1-24),2026-06,20.407054164653328,0.21206413977533758,any_function
+Census BTOS,size,Small (1-24),2026-07,21.188549860557284,0.32836963222284116,any_function
+Census BTOS,size,Small (1-24),2026-08,22.427233867890752,0.25668908810464647,any_function
+Census BTOS,size,Small (1-24),2026-09,23.290866617169666,0.23826596709626724,any_function
+Census BTOS,size,Small (1-24),2026-10,24.07519203968084,0.2599107672375978,any_function
+Census BTOS,size,Small (1-24),2026-10,23.3419183006051,0.6039194309980728,super_intelligence
+Census BTOS,size_btos_native,1-4,2023-09,4.35,0.12379418403139948,goods_services
+Census BTOS,size_btos_native,1-4,2023-10,4.300000000000001,0.14534441853748634,goods_services
+Census BTOS,size_btos_native,1-4,2023-11,4.949999999999999,0.1131370849898476,goods_services
+Census BTOS,size_btos_native,1-4,2023-12,5.4,0.15882380174268593,goods_services
+Census BTOS,size_btos_native,1-4,2024-01,5.366666666666667,0.10847426730181987,goods_services
+Census BTOS,size_btos_native,1-4,2024-02,5.35,0.1382931668593933,goods_services
+Census BTOS,size_btos_native,1-4,2024-03,4.8,0.11853269591129698,goods_services
+Census BTOS,size_btos_native,1-4,2024-04,5.199999999999999,0.14916433890176298,goods_services
+Census BTOS,size_btos_native,1-4,2024-05,5.199999999999999,0.10735455276791944,goods_services
+Census BTOS,size_btos_native,1-4,2024-06,5.35,0.12379418403139948,goods_services
+Census BTOS,size_btos_native,1-4,2024-07,5.466666666666666,0.11803954139750517,goods_services
+Census BTOS,size_btos_native,1-4,2024-08,6.3,0.16970562748477142,goods_services
+Census BTOS,size_btos_native,1-4,2024-09,6.55,0.15402921800749364,goods_services
+Census BTOS,size_btos_native,1-4,2024-10,6.6,0.125,goods_services
+Census BTOS,size_btos_native,1-4,2024-11,6.65,0.17492855684535902,goods_services
+Census BTOS,size_btos_native,1-4,2024-12,6.633333333333333,0.14659088951530683,goods_services
+Census BTOS,size_btos_native,1-4,2025-01,7.25,0.19474342094150446,goods_services
+Census BTOS,size_btos_native,1-4,2025-02,8.0,0.17804493814764857,goods_services
+Census BTOS,size_btos_native,1-4,2025-03,8.5,0.21505813167606566,goods_services
+Census BTOS,size_btos_native,1-4,2025-04,9.25,0.1876832437912346,goods_services
+Census BTOS,size_btos_native,1-4,2025-05,9.45,0.17204650534085256,goods_services
+Census BTOS,size_btos_native,1-4,2025-06,9.833333333333334,0.15438048235879215,goods_services
+Census BTOS,size_btos_native,1-4,2025-07,10.05,0.23600847442411893,goods_services
+Census BTOS,size_btos_native,1-4,2025-08,10.350000000000001,0.1811767093199344,goods_services
+Census BTOS,size_btos_native,1-4,2025-09,10.95,0.16324827717314508,goods_services
+Census BTOS,size_btos_native,1-4,2025-11,17.0,0.38,any_function
+Census BTOS,size_btos_native,1-4,2025-12,17.400000000000002,0.29,any_function
+Census BTOS,size_btos_native,1-4,2026-01,18.35,0.32756678708318404,any_function
+Census BTOS,size_btos_native,1-4,2026-02,17.85,0.34713109915419565,any_function
+Census BTOS,size_btos_native,1-4,2026-03,18.75,0.3861670622929926,any_function
+Census BTOS,size_btos_native,1-4,2026-04,19.1,0.28040149785619906,any_function
+Census BTOS,size_btos_native,1-4,2026-05,19.55,0.319100297712177,any_function
+Census BTOS,size_btos_native,1-4,2026-06,20.3,0.28846336181759913,any_function
+Census BTOS,size_btos_native,1-4,2026-07,21.35,0.4522167621838005,any_function
+Census BTOS,size_btos_native,1-4,2026-08,23.05,0.34311076928595524,any_function
+Census BTOS,size_btos_native,1-4,2026-09,23.85,0.32442256395016666,any_function
+Census BTOS,size_btos_native,1-4,2026-10,24.3,0.32,any_function
+Census BTOS,size_btos_native,1-4,2026-10,22.8,0.86,super_intelligence
+Census BTOS,size_btos_native,10-19,2023-09,2.6500000000000004,0.13601470508735444,goods_services
+Census BTOS,size_btos_native,10-19,2023-10,3.2,0.14866068747318506,goods_services
+Census BTOS,size_btos_native,10-19,2023-11,4.05,0.15556349186104046,goods_services
+Census BTOS,size_btos_native,10-19,2023-12,3.95,0.21005951537600007,goods_services
+Census BTOS,size_btos_native,10-19,2024-01,4.166666666666667,0.18690461025168248,goods_services
+Census BTOS,size_btos_native,10-19,2024-02,4.3,0.2420743687382041,goods_services
+Census BTOS,size_btos_native,10-19,2024-03,3.3,0.16278820596099705,goods_services
+Census BTOS,size_btos_native,10-19,2024-04,4.05,0.24909837414162303,goods_services
+Census BTOS,size_btos_native,10-19,2024-05,3.8,0.2170829334609241,goods_services
+Census BTOS,size_btos_native,10-19,2024-06,3.8,0.21224985276791125,goods_services
+Census BTOS,size_btos_native,10-19,2024-07,4.433333333333334,0.17365355036841476,goods_services
+Census BTOS,size_btos_native,10-19,2024-08,4.199999999999999,0.20808652046684814,goods_services
+Census BTOS,size_btos_native,10-19,2024-09,4.4,0.1650757401921918,goods_services
+Census BTOS,size_btos_native,10-19,2024-10,4.9,0.25238858928247926,goods_services
+Census BTOS,size_btos_native,10-19,2024-11,4.75,0.2581181899828061,goods_services
+Census BTOS,size_btos_native,10-19,2024-12,4.833333333333333,0.1957890020745122,goods_services
+Census BTOS,size_btos_native,10-19,2025-01,5.25,0.28151376520518495,goods_services
+Census BTOS,size_btos_native,10-19,2025-02,5.75,0.2740894014733149,goods_services
+Census BTOS,size_btos_native,10-19,2025-03,6.7,0.3704726710568541,goods_services
+Census BTOS,size_btos_native,10-19,2025-04,6.45,0.2478911051248108,goods_services
+Census BTOS,size_btos_native,10-19,2025-05,7.15,0.30777426793024787,goods_services
+Census BTOS,size_btos_native,10-19,2025-06,7.966666666666668,0.32865043908552916,goods_services
+Census BTOS,size_btos_native,10-19,2025-07,7.65,0.30700162866017505,goods_services
+Census BTOS,size_btos_native,10-19,2025-08,7.3,0.18034688796871434,goods_services
+Census BTOS,size_btos_native,10-19,2025-09,7.9,0.24824383174612819,goods_services
+Census BTOS,size_btos_native,10-19,2025-11,17.8,0.82,any_function
+Census BTOS,size_btos_native,10-19,2025-12,16.7,0.43194649874466834,any_function
+Census BTOS,size_btos_native,10-19,2026-01,17.75,0.4181506905411015,any_function
+Census BTOS,size_btos_native,10-19,2026-02,17.299999999999997,0.6090155991434045,any_function
+Census BTOS,size_btos_native,10-19,2026-03,17.799999999999997,0.5075677294706589,any_function
+Census BTOS,size_btos_native,10-19,2026-04,19.65,0.6265979572261627,any_function
+Census BTOS,size_btos_native,10-19,2026-05,20.35,0.596007550287746,any_function
+Census BTOS,size_btos_native,10-19,2026-06,20.566666666666666,0.40470839982497137,any_function
+Census BTOS,size_btos_native,10-19,2026-07,20.75,0.4821306876771069,any_function
+Census BTOS,size_btos_native,10-19,2026-08,21.3,0.4598369276167368,any_function
+Census BTOS,size_btos_native,10-19,2026-09,22.7,0.4474930167052889,any_function
+Census BTOS,size_btos_native,10-19,2026-10,24.6,0.94,any_function
+Census BTOS,size_btos_native,10-19,2026-10,25.3,0.65,super_intelligence
+Census BTOS,size_btos_native,100-249,2023-09,2.4,0.3670490430446591,goods_services
+Census BTOS,size_btos_native,100-249,2023-10,3.3499999999999996,0.4701063709417263,goods_services
+Census BTOS,size_btos_native,100-249,2023-11,4.550000000000001,0.6216309194369276,goods_services
+Census BTOS,size_btos_native,100-249,2023-12,4.0,0.6219525705389438,goods_services
+Census BTOS,size_btos_native,100-249,2024-01,5.333333333333333,0.6719292290776528,goods_services
+Census BTOS,size_btos_native,100-249,2024-02,4.7,0.6574382100243338,goods_services
+Census BTOS,size_btos_native,100-249,2024-03,3.3,0.5131276644266999,goods_services
+Census BTOS,size_btos_native,100-249,2024-04,5.25,0.48438104834933415,goods_services
+Census BTOS,size_btos_native,100-249,2024-05,5.1,0.5727564927611035,goods_services
+Census BTOS,size_btos_native,100-249,2024-06,3.9499999999999997,0.6105735008989499,goods_services
+Census BTOS,size_btos_native,100-249,2024-07,4.8999999999999995,0.4640641718076883,goods_services
+Census BTOS,size_btos_native,100-249,2024-08,6.449999999999999,0.8026362812631884,goods_services
+Census BTOS,size_btos_native,100-249,2024-09,5.65,0.5928110997611297,goods_services
+Census BTOS,size_btos_native,100-249,2024-10,6.35,0.5857687256929991,goods_services
+Census BTOS,size_btos_native,100-249,2024-11,6.75,0.7742899973524132,goods_services
+Census BTOS,size_btos_native,100-249,2024-12,6.7,0.5188662854938855,goods_services
+Census BTOS,size_btos_native,100-249,2025-01,5.6,0.880525411331212,goods_services
+Census BTOS,size_btos_native,100-249,2025-02,8.399999999999999,0.6381614215854795,goods_services
+Census BTOS,size_btos_native,100-249,2025-03,8.1,0.6271562803639935,goods_services
+Census BTOS,size_btos_native,100-249,2025-04,7.95,0.36006943774777667,goods_services
+Census BTOS,size_btos_native,100-249,2025-05,10.4,0.8194662897276496,goods_services
+Census BTOS,size_btos_native,100-249,2025-06,10.1,0.626985734376079,goods_services
+Census BTOS,size_btos_native,100-249,2025-07,8.25,0.6735911222692889,goods_services
+Census BTOS,size_btos_native,100-249,2025-08,9.149999999999999,0.7927483837889547,goods_services
+Census BTOS,size_btos_native,100-249,2025-09,8.850000000000001,0.7535582260184013,goods_services
+Census BTOS,size_btos_native,100-249,2025-11,23.7,1.46,any_function
+Census BTOS,size_btos_native,100-249,2025-12,26.099999999999998,1.078558709059868,any_function
+Census BTOS,size_btos_native,100-249,2026-01,25.1,1.2785245402416021,any_function
+Census BTOS,size_btos_native,100-249,2026-02,24.65,1.1432956747928333,any_function
+Census BTOS,size_btos_native,100-249,2026-03,27.4,1.245552086425935,any_function
+Census BTOS,size_btos_native,100-249,2026-04,31.3,1.47527116151574,any_function
+Census BTOS,size_btos_native,100-249,2026-05,30.85,1.1194641575325224,any_function
+Census BTOS,size_btos_native,100-249,2026-06,31.46666666666667,1.2620750109772927,any_function
+Census BTOS,size_btos_native,100-249,2026-07,31.950000000000003,1.3038404810405297,any_function
+Census BTOS,size_btos_native,100-249,2026-08,32.4,1.4077730640980457,any_function
+Census BTOS,size_btos_native,100-249,2026-09,35.25,1.3351498043290873,any_function
+Census BTOS,size_btos_native,100-249,2026-10,35.3,1.97,any_function
+Census BTOS,size_btos_native,100-249,2026-10,40.0,2.07,super_intelligence
+Census BTOS,size_btos_native,20-49,2023-09,2.6,0.17613914953808538,goods_services
+Census BTOS,size_btos_native,20-49,2023-10,2.8,0.1981161275615895,goods_services
+Census BTOS,size_btos_native,20-49,2023-11,3.3499999999999996,0.27244265451650557,goods_services
+Census BTOS,size_btos_native,20-49,2023-12,3.6999999999999997,0.17029386365926402,goods_services
+Census BTOS,size_btos_native,20-49,2024-01,3.9666666666666663,0.2179959224898994,goods_services
+Census BTOS,size_btos_native,20-49,2024-02,3.7,0.2592778432492835,goods_services
+Census BTOS,size_btos_native,20-49,2024-03,3.5,0.2,goods_services
+Census BTOS,size_btos_native,20-49,2024-04,3.5,0.22203603311174516,goods_services
+Census BTOS,size_btos_native,20-49,2024-05,3.5999999999999996,0.2040833163195855,goods_services
+Census BTOS,size_btos_native,20-49,2024-06,3.9,0.2,goods_services
+Census BTOS,size_btos_native,20-49,2024-07,4.133333333333333,0.1900876990584434,goods_services
+Census BTOS,size_btos_native,20-49,2024-08,4.1,0.2522399651125888,goods_services
+Census BTOS,size_btos_native,20-49,2024-09,4.35,0.2581181899828061,goods_services
+Census BTOS,size_btos_native,20-49,2024-10,4.85,0.23584952830141512,goods_services
+Census BTOS,size_btos_native,20-49,2024-11,4.95,0.31132780152116196,goods_services
+Census BTOS,size_btos_native,20-49,2024-12,5.1000000000000005,0.24644133852366032,goods_services
+Census BTOS,size_btos_native,20-49,2025-01,5.4,0.260768096208106,goods_services
+Census BTOS,size_btos_native,20-49,2025-02,5.5,0.28040149785619906,goods_services
+Census BTOS,size_btos_native,20-49,2025-03,6.45,0.28040149785619906,goods_services
+Census BTOS,size_btos_native,20-49,2025-04,7.25,0.3969886648255842,goods_services
+Census BTOS,size_btos_native,20-49,2025-05,7.300000000000001,0.4091760012512953,goods_services
+Census BTOS,size_btos_native,20-49,2025-06,8.0,0.2623398982660133,goods_services
+Census BTOS,size_btos_native,20-49,2025-07,7.1,0.29966648127543394,goods_services
+Census BTOS,size_btos_native,20-49,2025-08,7.4,0.31626729201736936,goods_services
+Census BTOS,size_btos_native,20-49,2025-09,7.4,0.2035313243704762,goods_services
+Census BTOS,size_btos_native,20-49,2025-11,18.7,0.77,any_function
+Census BTOS,size_btos_native,20-49,2025-12,18.233333333333334,0.4496294770882651,any_function
+Census BTOS,size_btos_native,20-49,2026-01,18.85,0.5190616533707725,any_function
+Census BTOS,size_btos_native,20-49,2026-02,18.0,0.3855191305240247,any_function
+Census BTOS,size_btos_native,20-49,2026-03,20.45,0.6190516941257814,any_function
+Census BTOS,size_btos_native,20-49,2026-04,21.85,0.39604292696625704,any_function
+Census BTOS,size_btos_native,20-49,2026-05,20.5,0.5269013190342192,any_function
+Census BTOS,size_btos_native,20-49,2026-06,23.46666666666667,0.4017461885320133,any_function
+Census BTOS,size_btos_native,20-49,2026-07,22.549999999999997,0.7860025445251434,any_function
+Census BTOS,size_btos_native,20-49,2026-08,22.55,0.5482928049865328,any_function
+Census BTOS,size_btos_native,20-49,2026-09,24.65,0.5341582162618114,any_function
+Census BTOS,size_btos_native,20-49,2026-10,26.0,0.74,any_function
+Census BTOS,size_btos_native,20-49,2026-10,29.2,1.11,super_intelligence
+Census BTOS,size_btos_native,250+,2023-09,4.55,0.4859269492423733,goods_services
+Census BTOS,size_btos_native,250+,2023-10,4.199999999999999,0.7300684899377592,goods_services
+Census BTOS,size_btos_native,250+,2023-11,6.1,0.7102112361825881,goods_services
+Census BTOS,size_btos_native,250+,2023-12,7.050000000000001,0.6568295060363838,goods_services
+Census BTOS,size_btos_native,250+,2024-01,7.5,0.784495591659592,goods_services
+Census BTOS,size_btos_native,250+,2024-02,6.35,0.6520927848090331,goods_services
+Census BTOS,size_btos_native,250+,2024-03,6.15,0.6420669746996803,goods_services
+Census BTOS,size_btos_native,250+,2024-04,6.8,0.7993122043357026,goods_services
+Census BTOS,size_btos_native,250+,2024-05,6.25,0.5553602434456396,goods_services
+Census BTOS,size_btos_native,250+,2024-06,7.3999999999999995,1.0291379888042225,goods_services
+Census BTOS,size_btos_native,250+,2024-07,8.0,0.7140339238750807,goods_services
+Census BTOS,size_btos_native,250+,2024-08,7.5,0.7035801304755557,goods_services
+Census BTOS,size_btos_native,250+,2024-09,10.149999999999999,1.0192767043349906,goods_services
+Census BTOS,size_btos_native,250+,2024-10,9.85,0.9718538984847466,goods_services
+Census BTOS,size_btos_native,250+,2024-11,9.4,1.135891720191674,goods_services
+Census BTOS,size_btos_native,250+,2024-12,10.4,1.064685660444225,goods_services
+Census BTOS,size_btos_native,250+,2025-01,11.55,1.0743486398744124,goods_services
+Census BTOS,size_btos_native,250+,2025-02,11.8,1.2577857528212029,goods_services
+Census BTOS,size_btos_native,250+,2025-03,13.100000000000001,1.3682927318377451,goods_services
+Census BTOS,size_btos_native,250+,2025-04,12.899999999999999,1.0220689800595653,goods_services
+Census BTOS,size_btos_native,250+,2025-05,13.850000000000001,1.2768907549199344,goods_services
+Census BTOS,size_btos_native,250+,2025-06,12.933333333333332,0.8600581375697809,goods_services
+Census BTOS,size_btos_native,250+,2025-07,10.35,0.7198090024443984,goods_services
+Census BTOS,size_btos_native,250+,2025-08,12.45,0.7450671110712108,goods_services
+Census BTOS,size_btos_native,250+,2025-09,12.75,0.9636000207555,goods_services
+Census BTOS,size_btos_native,250+,2025-11,30.5,2.46,any_function
+Census BTOS,size_btos_native,250+,2025-12,30.26666666666667,1.1515255581666919,any_function
+Census BTOS,size_btos_native,250+,2026-01,30.95,1.7235138525698017,any_function
+Census BTOS,size_btos_native,250+,2026-02,32.7,2.3106546691360004,any_function
+Census BTOS,size_btos_native,250+,2026-03,36.15,1.5060627476967885,any_function
+Census BTOS,size_btos_native,250+,2026-04,34.25,1.421451722711679,any_function
+Census BTOS,size_btos_native,250+,2026-05,36.45,2.049786574255964,any_function
+Census BTOS,size_btos_native,250+,2026-06,39.93333333333333,1.3021477984041938,any_function
+Census BTOS,size_btos_native,250+,2026-07,39.15,1.160193949303305,any_function
+Census BTOS,size_btos_native,250+,2026-08,39.15,1.8781174084705141,any_function
+Census BTOS,size_btos_native,250+,2026-09,40.25,1.325867640452847,any_function
+Census BTOS,size_btos_native,250+,2026-10,43.6,1.51,any_function
+Census BTOS,size_btos_native,250+,2026-10,44.1,1.6,super_intelligence
+Census BTOS,size_btos_native,5-9,2023-09,2.75,0.12041594578792295,goods_services
+Census BTOS,size_btos_native,5-9,2023-10,3.3499999999999996,0.15206906325745548,goods_services
+Census BTOS,size_btos_native,5-9,2023-11,3.6,0.1698528775146303,goods_services
+Census BTOS,size_btos_native,5-9,2023-12,4.199999999999999,0.1984943324127921,goods_services
+Census BTOS,size_btos_native,5-9,2024-01,4.433333333333334,0.13498971154211056,goods_services
+Census BTOS,size_btos_native,5-9,2024-02,3.85,0.189010581714358,goods_services
+Census BTOS,size_btos_native,5-9,2024-03,3.7,0.1792344832893492,goods_services
+Census BTOS,size_btos_native,5-9,2024-04,4.15,0.17804493814764857,goods_services
+Census BTOS,size_btos_native,5-9,2024-05,3.8499999999999996,0.26004807247891687,goods_services
+Census BTOS,size_btos_native,5-9,2024-06,4.25,0.18027756377319948,goods_services
+Census BTOS,size_btos_native,5-9,2024-07,4.333333333333333,0.13486618882762605,goods_services
+Census BTOS,size_btos_native,5-9,2024-08,4.35,0.22051077071199945,goods_services
+Census BTOS,size_btos_native,5-9,2024-09,5.0,0.20155644370746376,goods_services
+Census BTOS,size_btos_native,5-9,2024-10,4.9,0.26800186566514794,goods_services
+Census BTOS,size_btos_native,5-9,2024-11,5.300000000000001,0.16347782724271814,goods_services
+Census BTOS,size_btos_native,5-9,2024-12,5.2,0.21746008573733455,goods_services
+Census BTOS,size_btos_native,5-9,2025-01,6.15,0.17613914953808538,goods_services
+Census BTOS,size_btos_native,5-9,2025-02,6.6,0.225,goods_services
+Census BTOS,size_btos_native,5-9,2025-03,6.85,0.2234390297150433,goods_services
+Census BTOS,size_btos_native,5-9,2025-04,7.25,0.21914607000811126,goods_services
+Census BTOS,size_btos_native,5-9,2025-05,8.3,0.29516944286290886,goods_services
+Census BTOS,size_btos_native,5-9,2025-06,8.299999999999999,0.2702056829733807,goods_services
+Census BTOS,size_btos_native,5-9,2025-07,7.449999999999999,0.2400520776831561,goods_services
+Census BTOS,size_btos_native,5-9,2025-08,8.1,0.29347061181658374,goods_services
+Census BTOS,size_btos_native,5-9,2025-09,8.55,0.32729955698106283,goods_services
+Census BTOS,size_btos_native,5-9,2025-11,15.5,0.49,any_function
+Census BTOS,size_btos_native,5-9,2025-12,17.133333333333336,0.3473870719784744,any_function
+Census BTOS,size_btos_native,5-9,2026-01,17.7,0.41868842830916647,any_function
+Census BTOS,size_btos_native,5-9,2026-02,16.4,0.40249223594996214,any_function
+Census BTOS,size_btos_native,5-9,2026-03,18.05,0.3373796081567468,any_function
+Census BTOS,size_btos_native,5-9,2026-04,19.0,0.4874679476642541,any_function
+Census BTOS,size_btos_native,5-9,2026-05,18.75,0.5328461316365166,any_function
+Census BTOS,size_btos_native,5-9,2026-06,20.3,0.3365181190433057,any_function
+Census BTOS,size_btos_native,5-9,2026-07,20.65,0.5060632371551999,any_function
+Census BTOS,size_btos_native,5-9,2026-08,20.7,0.4897193073588175,any_function
+Census BTOS,size_btos_native,5-9,2026-09,21.3,0.3753664875824692,any_function
+Census BTOS,size_btos_native,5-9,2026-10,22.6,0.5,any_function
+Census BTOS,size_btos_native,5-9,2026-10,23.4,0.55,super_intelligence
+Census BTOS,size_btos_native,50-99,2023-09,2.45,0.34820970692960296,goods_services
+Census BTOS,size_btos_native,50-99,2023-10,2.8,0.25124689052802224,goods_services
+Census BTOS,size_btos_native,50-99,2023-11,3.5999999999999996,0.3220636583037583,goods_services
+Census BTOS,size_btos_native,50-99,2023-12,4.699999999999999,0.37963798545456434,goods_services
+Census BTOS,size_btos_native,50-99,2024-01,4.066666666666666,0.31418324447861806,goods_services
+Census BTOS,size_btos_native,50-99,2024-02,3.25,0.37606515392947537,goods_services
+Census BTOS,size_btos_native,50-99,2024-03,3.45,0.275,goods_services
+Census BTOS,size_btos_native,50-99,2024-04,3.7,0.3579455265819088,goods_services
+Census BTOS,size_btos_native,50-99,2024-05,3.8,0.4077070026379238,goods_services
+Census BTOS,size_btos_native,50-99,2024-06,3.95,0.23323807579381203,goods_services
+Census BTOS,size_btos_native,50-99,2024-07,4.1000000000000005,0.29299222591127644,goods_services
+Census BTOS,size_btos_native,50-99,2024-08,4.65,0.5284411036246139,goods_services
+Census BTOS,size_btos_native,50-99,2024-09,5.85,0.425205832509386,goods_services
+Census BTOS,size_btos_native,50-99,2024-10,5.15,0.34763486591537396,goods_services
+Census BTOS,size_btos_native,50-99,2024-11,4.85,0.3553167600887974,goods_services
+Census BTOS,size_btos_native,50-99,2024-12,6.266666666666667,0.3996248240537617,goods_services
+Census BTOS,size_btos_native,50-99,2025-01,6.05,0.5814206738670374,goods_services
+Census BTOS,size_btos_native,50-99,2025-02,7.2,0.743034319530397,goods_services
+Census BTOS,size_btos_native,50-99,2025-03,6.550000000000001,0.35752622281449514,goods_services
+Census BTOS,size_btos_native,50-99,2025-04,7.6,0.5512939324897381,goods_services
+Census BTOS,size_btos_native,50-99,2025-05,8.9,0.5940538696111658,goods_services
+Census BTOS,size_btos_native,50-99,2025-06,8.1,0.5277415192223472,goods_services
+Census BTOS,size_btos_native,50-99,2025-07,7.05,0.5560575509783138,goods_services
+Census BTOS,size_btos_native,50-99,2025-08,7.449999999999999,0.5576064920712456,goods_services
+Census BTOS,size_btos_native,50-99,2025-09,8.7,0.5608029957123981,goods_services
+Census BTOS,size_btos_native,50-99,2025-11,20.7,0.87,any_function
+Census BTOS,size_btos_native,50-99,2025-12,19.5,0.7481310045707236,any_function
+Census BTOS,size_btos_native,50-99,2026-01,24.450000000000003,0.9253377761660874,any_function
+Census BTOS,size_btos_native,50-99,2026-02,20.450000000000003,0.9149043665870219,any_function
+Census BTOS,size_btos_native,50-99,2026-03,22.05,0.6580273550544841,any_function
+Census BTOS,size_btos_native,50-99,2026-04,25.700000000000003,1.174563748802082,any_function
+Census BTOS,size_btos_native,50-99,2026-05,24.95,0.8653323061113574,any_function
+Census BTOS,size_btos_native,50-99,2026-06,25.933333333333334,0.9422785622568779,any_function
+Census BTOS,size_btos_native,50-99,2026-07,28.1,1.1283727221091442,any_function
+Census BTOS,size_btos_native,50-99,2026-08,26.0,0.7427651041883969,any_function
+Census BTOS,size_btos_native,50-99,2026-09,29.299999999999997,0.9899747471526735,any_function
+Census BTOS,size_btos_native,50-99,2026-10,29.0,1.09,any_function
+Census BTOS,size_btos_native,50-99,2026-10,33.2,2.14,super_intelligence
+Ramp,overall,All businesses,2023-01,7.4575204531,,paid_transactions
+Ramp,overall,All businesses,2023-02,12.05553336,,paid_transactions
+Ramp,overall,All businesses,2023-03,20.9083356411,,paid_transactions
+Ramp,overall,All businesses,2023-04,24.3956237868,,paid_transactions
+Ramp,overall,All businesses,2023-05,26.0970938463,,paid_transactions
+Ramp,overall,All businesses,2023-06,25.6611865618,,paid_transactions
+Ramp,overall,All businesses,2023-07,24.5327637501,,paid_transactions
+Ramp,overall,All businesses,2023-08,25.3861073199,,paid_transactions
+Ramp,overall,All businesses,2023-09,26.4902949506,,paid_transactions
+Ramp,overall,All businesses,2023-10,27.2524736256,,paid_transactions
+Ramp,overall,All businesses,2023-11,28.1583629893,,paid_transactions
+Ramp,overall,All businesses,2023-12,29.4085163824,,paid_transactions
+Ramp,overall,All businesses,2024-01,30.4001406058,,paid_transactions
+Ramp,overall,All businesses,2024-02,30.6375575261,,paid_transactions
+Ramp,overall,All businesses,2024-03,31.1898652983,,paid_transactions
+Ramp,overall,All businesses,2024-04,30.8009362915,,paid_transactions
+Ramp,overall,All businesses,2024-05,31.1555362403,,paid_transactions
+Ramp,overall,All businesses,2024-06,31.3651766235,,paid_transactions
+Ramp,overall,All businesses,2024-07,31.8321255502,,paid_transactions
+Ramp,overall,All businesses,2024-08,32.0554683856,,paid_transactions
+Ramp,overall,All businesses,2024-09,32.8982788156,,paid_transactions
+Ramp,overall,All businesses,2024-10,33.5159497999,,paid_transactions
+Ramp,overall,All businesses,2024-11,34.1705121416,,paid_transactions
+Ramp,overall,All businesses,2024-12,34.4992340798,,paid_transactions
+Ramp,overall,All businesses,2025-01,35.5606598455,,paid_transactions
+Ramp,overall,All businesses,2025-02,36.6576096072,,paid_transactions
+Ramp,overall,All businesses,2025-03,37.4884314664,,paid_transactions
+Ramp,overall,All businesses,2025-04,38.9986824769,,paid_transactions
+Ramp,overall,All businesses,2025-05,40.2966151669,,paid_transactions
+Ramp,overall,All businesses,2025-06,41.1840045539,,paid_transactions
+Ramp,overall,All businesses,2025-07,42.5449379883,,paid_transactions
+Ramp,overall,All businesses,2025-08,43.4937238494,,paid_transactions
+Ramp,overall,All businesses,2025-09,43.8006634575,,paid_transactions
+Ramp,overall,All businesses,2025-10,43.6147289791,,paid_transactions
+Ramp,overall,All businesses,2025-11,44.4337541653,,paid_transactions
+Ramp,overall,All businesses,2025-12,44.4998195923,,paid_transactions
+Ramp,overall,All businesses,2026-01,45.5197287433,,paid_transactions
+Ramp,overall,All businesses,2026-02,47.7376694669,,paid_transactions
+Ramp,overall,All businesses,2026-03,50.1509744716,,paid_transactions
+Ramp,overall,All businesses,2026-04,51.9846159591,,paid_transactions
+Ramp,overall,All businesses,2026-05,53.2430493274,,paid_transactions
+Ramp,overall,All businesses,2026-06,53.9759577187,,paid_transactions
+Ramp,overall,All businesses,2026-07,54.8362996414,,paid_transactions
+Ramp,overall,All businesses,2026-08,55.2383684789,,paid_transactions
+Ramp,overall,All businesses,2026-09,55.8599369471,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-01,1.7391304348,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-02,3.984063745,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-03,6.0377358491,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-04,7.5539568345,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-05,8.843537415,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-06,7.6677316294,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-07,7.0987654321,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-08,8.1871345029,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-09,9.4972067039,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-10,11.8279569892,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-11,11.5183246073,,paid_transactions
+Ramp,sector,Accommodation & Food,2023-12,12.9353233831,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-01,13.2211538462,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-02,14.4522144522,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-03,14.686825054,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-04,14.6443514644,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-05,14.7928994083,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-06,14.2322097378,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-07,14.1342756184,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-08,14.238410596,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-09,15.5088852989,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-10,16.2861491629,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-11,17.1717171717,,paid_transactions
+Ramp,sector,Accommodation & Food,2024-12,17.1621621622,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-01,17.6084099869,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-02,17.7419354839,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-03,18.7356321839,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-04,19.6842105263,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-05,19.6896217265,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-06,21.0526315789,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-07,21.7857142857,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-08,21.8381112985,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-09,22.8070175439,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-10,23.426838514,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-11,24.2222222222,,paid_transactions
+Ramp,sector,Accommodation & Food,2025-12,24.9469964664,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-01,25.9847961299,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-02,26.312335958,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-03,28.7897310513,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-04,28.3867341203,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-05,30.1486199575,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-06,30.1867743564,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-07,31.4995131451,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-08,32.5789721829,,paid_transactions
+Ramp,sector,Accommodation & Food,2026-09,32.9826166514,,paid_transactions
+Ramp,sector,Construction,2023-01,1.2738853503,,paid_transactions
+Ramp,sector,Construction,2023-02,2.2267206478,,paid_transactions
+Ramp,sector,Construction,2023-03,4.8417132216,,paid_transactions
+Ramp,sector,Construction,2023-04,7.2183098592,,paid_transactions
+Ramp,sector,Construction,2023-05,6.7434210526,,paid_transactions
+Ramp,sector,Construction,2023-06,6.7082683307,,paid_transactions
+Ramp,sector,Construction,2023-07,6.8452380952,,paid_transactions
+Ramp,sector,Construction,2023-08,8.1005586592,,paid_transactions
+Ramp,sector,Construction,2023-09,8.5790884718,,paid_transactions
+Ramp,sector,Construction,2023-10,8.7231352718,,paid_transactions
+Ramp,sector,Construction,2023-11,9.307875895,,paid_transactions
+Ramp,sector,Construction,2023-12,10.0233100233,,paid_transactions
+Ramp,sector,Construction,2024-01,10.1210121012,,paid_transactions
+Ramp,sector,Construction,2024-02,11.4406779661,,paid_transactions
+Ramp,sector,Construction,2024-03,11.5151515152,,paid_transactions
+Ramp,sector,Construction,2024-04,11.7920148561,,paid_transactions
+Ramp,sector,Construction,2024-05,13.2404181185,,paid_transactions
+Ramp,sector,Construction,2024-06,13.7959183673,,paid_transactions
+Ramp,sector,Construction,2024-07,13.2668711656,,paid_transactions
+Ramp,sector,Construction,2024-08,13.5409123823,,paid_transactions
+Ramp,sector,Construction,2024-09,14.1386410432,,paid_transactions
+Ramp,sector,Construction,2024-10,15.4487179487,,paid_transactions
+Ramp,sector,Construction,2024-11,15.6479217604,,paid_transactions
+Ramp,sector,Construction,2024-12,16.4039696439,,paid_transactions
+Ramp,sector,Construction,2025-01,18.0616740088,,paid_transactions
+Ramp,sector,Construction,2025-02,19.269454738,,paid_transactions
+Ramp,sector,Construction,2025-03,20.4926108374,,paid_transactions
+Ramp,sector,Construction,2025-04,21.272642824,,paid_transactions
+Ramp,sector,Construction,2025-05,23.2808988764,,paid_transactions
+Ramp,sector,Construction,2025-06,24.4378447179,,paid_transactions
+Ramp,sector,Construction,2025-07,27.261663286,,paid_transactions
+Ramp,sector,Construction,2025-08,29.0937378452,,paid_transactions
+Ramp,sector,Construction,2025-09,29.5847115031,,paid_transactions
+Ramp,sector,Construction,2025-10,29.2978208232,,paid_transactions
+Ramp,sector,Construction,2025-11,30.3202134757,,paid_transactions
+Ramp,sector,Construction,2025-12,30.0280636109,,paid_transactions
+Ramp,sector,Construction,2026-01,31.2647754137,,paid_transactions
+Ramp,sector,Construction,2026-02,31.9397993311,,paid_transactions
+Ramp,sector,Construction,2026-03,35.0757971772,,paid_transactions
+Ramp,sector,Construction,2026-04,37.0983446933,,paid_transactions
+Ramp,sector,Construction,2026-05,38.6363636364,,paid_transactions
+Ramp,sector,Construction,2026-06,39.9392888118,,paid_transactions
+Ramp,sector,Construction,2026-07,40.9147095179,,paid_transactions
+Ramp,sector,Construction,2026-08,41.2407335154,,paid_transactions
+Ramp,sector,Construction,2026-09,43.1647940075,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-01,8.6497890295,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-02,13.7334689725,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-03,27.9652844744,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-04,32.8037383178,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-05,35.0267379679,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-06,33.8514680484,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-07,34.6517626827,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-08,36.0723089565,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-09,36.5677626303,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-10,37.3933281614,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-11,38.5264773599,,paid_transactions
+Ramp,sector,Finance & Insurance,2023-12,40.6691449814,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-01,42.0863309353,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-02,42.7266338721,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-03,43.0622009569,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-04,42.7531436135,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-05,43.0749682338,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-06,43.9950217797,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-07,45.4822954823,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-08,46.9642857143,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-09,46.6781214204,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-10,47.0879120879,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-11,47.9414951246,,paid_transactions
+Ramp,sector,Finance & Insurance,2024-12,48.4039769754,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-01,50.2014098691,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-02,52.4606299213,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-03,53.3838144818,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-04,54.9930971008,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-05,56.644295302,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-06,57.3122529644,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-07,57.6645435244,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-08,58.0346355215,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-09,58.1395348837,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-10,58.4856396867,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-11,58.3363869549,,paid_transactions
+Ramp,sector,Finance & Insurance,2025-12,58.1009530533,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-01,60.4017705141,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-02,65.2993714853,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-03,68.7872140395,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-04,70.2865761689,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-05,72.0807726076,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-06,72.5328009127,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-07,72.3415977961,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-08,73.1188513693,,paid_transactions
+Ramp,sector,Finance & Insurance,2026-09,73.686907507,,paid_transactions
+Ramp,sector,Healthcare,2023-01,3.8834951456,,paid_transactions
+Ramp,sector,Healthcare,2023-02,5.0295857988,,paid_transactions
+Ramp,sector,Healthcare,2023-03,9.6551724138,,paid_transactions
+Ramp,sector,Healthcare,2023-04,10.9042553191,,paid_transactions
+Ramp,sector,Healthcare,2023-05,13.8613861386,,paid_transactions
+Ramp,sector,Healthcare,2023-06,14.6171693735,,paid_transactions
+Ramp,sector,Healthcare,2023-07,13.8309549945,,paid_transactions
+Ramp,sector,Healthcare,2023-08,14.1557128413,,paid_transactions
+Ramp,sector,Healthcare,2023-09,15.8148505304,,paid_transactions
+Ramp,sector,Healthcare,2023-10,15.2888888889,,paid_transactions
+Ramp,sector,Healthcare,2023-11,15.9863945578,,paid_transactions
+Ramp,sector,Healthcare,2023-12,16.5714285714,,paid_transactions
+Ramp,sector,Healthcare,2024-01,18.1605611847,,paid_transactions
+Ramp,sector,Healthcare,2024-02,17.5905395418,,paid_transactions
+Ramp,sector,Healthcare,2024-03,18.0487804878,,paid_transactions
+Ramp,sector,Healthcare,2024-04,17.6699029126,,paid_transactions
+Ramp,sector,Healthcare,2024-05,18.0656934307,,paid_transactions
+Ramp,sector,Healthcare,2024-06,18.0356117174,,paid_transactions
+Ramp,sector,Healthcare,2024-07,17.6438653637,,paid_transactions
+Ramp,sector,Healthcare,2024-08,18.8235294118,,paid_transactions
+Ramp,sector,Healthcare,2024-09,19.0009794319,,paid_transactions
+Ramp,sector,Healthcare,2024-10,19.3802035153,,paid_transactions
+Ramp,sector,Healthcare,2024-11,19.5100222717,,paid_transactions
+Ramp,sector,Healthcare,2024-12,20.8833619211,,paid_transactions
+Ramp,sector,Healthcare,2025-01,21.7709179529,,paid_transactions
+Ramp,sector,Healthcare,2025-02,22.7517294389,,paid_transactions
+Ramp,sector,Healthcare,2025-03,22.7975548364,,paid_transactions
+Ramp,sector,Healthcare,2025-04,23.794976239,,paid_transactions
+Ramp,sector,Healthcare,2025-05,25.5500821018,,paid_transactions
+Ramp,sector,Healthcare,2025-06,26.7794446218,,paid_transactions
+Ramp,sector,Healthcare,2025-07,27.3250530142,,paid_transactions
+Ramp,sector,Healthcare,2025-08,29.561937917,,paid_transactions
+Ramp,sector,Healthcare,2025-09,30.2770083102,,paid_transactions
+Ramp,sector,Healthcare,2025-10,29.6296296296,,paid_transactions
+Ramp,sector,Healthcare,2025-11,30.9734513274,,paid_transactions
+Ramp,sector,Healthcare,2025-12,30.9925558313,,paid_transactions
+Ramp,sector,Healthcare,2026-01,31.6686390533,,paid_transactions
+Ramp,sector,Healthcare,2026-02,33.3941189879,,paid_transactions
+Ramp,sector,Healthcare,2026-03,35.3987993139,,paid_transactions
+Ramp,sector,Healthcare,2026-04,38.4615384615,,paid_transactions
+Ramp,sector,Healthcare,2026-05,40.1624727561,,paid_transactions
+Ramp,sector,Healthcare,2026-06,40.6952179758,,paid_transactions
+Ramp,sector,Healthcare,2026-07,41.8600368324,,paid_transactions
+Ramp,sector,Healthcare,2026-08,42.3357664234,,paid_transactions
+Ramp,sector,Healthcare,2026-09,42.5361702128,,paid_transactions
+Ramp,sector,Information,2023-01,15.3704837722,,paid_transactions
+Ramp,sector,Information,2023-02,24.7368421053,,paid_transactions
+Ramp,sector,Information,2023-03,40.9436008677,,paid_transactions
+Ramp,sector,Information,2023-04,46.9142259414,,paid_transactions
+Ramp,sector,Information,2023-05,49.7005988024,,paid_transactions
+Ramp,sector,Information,2023-06,50.1947419669,,paid_transactions
+Ramp,sector,Information,2023-07,47.2915685351,,paid_transactions
+Ramp,sector,Information,2023-08,47.4176313446,,paid_transactions
+Ramp,sector,Information,2023-09,49.5842450766,,paid_transactions
+Ramp,sector,Information,2023-10,51.4526315789,,paid_transactions
+Ramp,sector,Information,2023-11,53.4240924092,,paid_transactions
+Ramp,sector,Information,2023-12,54.4390637611,,paid_transactions
+Ramp,sector,Information,2024-01,55.5424990208,,paid_transactions
+Ramp,sector,Information,2024-02,56.2523900574,,paid_transactions
+Ramp,sector,Information,2024-03,57.6937337783,,paid_transactions
+Ramp,sector,Information,2024-04,57.8909090909,,paid_transactions
+Ramp,sector,Information,2024-05,58.2386363636,,paid_transactions
+Ramp,sector,Information,2024-06,58.5102680125,,paid_transactions
+Ramp,sector,Information,2024-07,59.7614991482,,paid_transactions
+Ramp,sector,Information,2024-08,60.0468070879,,paid_transactions
+Ramp,sector,Information,2024-09,61.045751634,,paid_transactions
+Ramp,sector,Information,2024-10,61.858974359,,paid_transactions
+Ramp,sector,Information,2024-11,62.7744193446,,paid_transactions
+Ramp,sector,Information,2024-12,62.7235644807,,paid_transactions
+Ramp,sector,Information,2025-01,63.6835675015,,paid_transactions
+Ramp,sector,Information,2025-02,64.7324113049,,paid_transactions
+Ramp,sector,Information,2025-03,66.539140671,,paid_transactions
+Ramp,sector,Information,2025-04,66.6763257027,,paid_transactions
+Ramp,sector,Information,2025-05,67.710979396,,paid_transactions
+Ramp,sector,Information,2025-06,68.856109101,,paid_transactions
+Ramp,sector,Information,2025-07,70.1277521066,,paid_transactions
+Ramp,sector,Information,2025-08,70.574288725,,paid_transactions
+Ramp,sector,Information,2025-09,71.3475908271,,paid_transactions
+Ramp,sector,Information,2025-10,71.4285714286,,paid_transactions
+Ramp,sector,Information,2025-11,71.7543859649,,paid_transactions
+Ramp,sector,Information,2025-12,71.4565963708,,paid_transactions
+Ramp,sector,Information,2026-01,73.0769230769,,paid_transactions
+Ramp,sector,Information,2026-02,75.1792736526,,paid_transactions
+Ramp,sector,Information,2026-03,76.6740576497,,paid_transactions
+Ramp,sector,Information,2026-04,78.1478298238,,paid_transactions
+Ramp,sector,Information,2026-05,78.0659887944,,paid_transactions
+Ramp,sector,Information,2026-06,78.6958282706,,paid_transactions
+Ramp,sector,Information,2026-07,79.6640316206,,paid_transactions
+Ramp,sector,Information,2026-08,80.0499711705,,paid_transactions
+Ramp,sector,Information,2026-09,79.9178031011,,paid_transactions
+Ramp,sector,Manufacturing,2023-01,4.3103448276,,paid_transactions
+Ramp,sector,Manufacturing,2023-02,6.8720379147,,paid_transactions
+Ramp,sector,Manufacturing,2023-03,12.9955947137,,paid_transactions
+Ramp,sector,Manufacturing,2023-04,15.7676348548,,paid_transactions
+Ramp,sector,Manufacturing,2023-05,16.5369649805,,paid_transactions
+Ramp,sector,Manufacturing,2023-06,16.9793621013,,paid_transactions
+Ramp,sector,Manufacturing,2023-07,16.9026548673,,paid_transactions
+Ramp,sector,Manufacturing,2023-08,17.4683544304,,paid_transactions
+Ramp,sector,Manufacturing,2023-09,19.1093117409,,paid_transactions
+Ramp,sector,Manufacturing,2023-10,20.4003079292,,paid_transactions
+Ramp,sector,Manufacturing,2023-11,21.4071856287,,paid_transactions
+Ramp,sector,Manufacturing,2023-12,22.9151559101,,paid_transactions
+Ramp,sector,Manufacturing,2024-01,24.0418118467,,paid_transactions
+Ramp,sector,Manufacturing,2024-02,24.1539482415,,paid_transactions
+Ramp,sector,Manufacturing,2024-03,25.2518891688,,paid_transactions
+Ramp,sector,Manufacturing,2024-04,24.5465538089,,paid_transactions
+Ramp,sector,Manufacturing,2024-05,24.5036868973,,paid_transactions
+Ramp,sector,Manufacturing,2024-06,25.3211991435,,paid_transactions
+Ramp,sector,Manufacturing,2024-07,26.0556127703,,paid_transactions
+Ramp,sector,Manufacturing,2024-08,26.8700787402,,paid_transactions
+Ramp,sector,Manufacturing,2024-09,28.5987565758,,paid_transactions
+Ramp,sector,Manufacturing,2024-10,29.3388429752,,paid_transactions
+Ramp,sector,Manufacturing,2024-11,29.8982750995,,paid_transactions
+Ramp,sector,Manufacturing,2024-12,30.1138760017,,paid_transactions
+Ramp,sector,Manufacturing,2025-01,31.5085158151,,paid_transactions
+Ramp,sector,Manufacturing,2025-02,32.4950884086,,paid_transactions
+Ramp,sector,Manufacturing,2025-03,33.808095952,,paid_transactions
+Ramp,sector,Manufacturing,2025-04,36.5377665342,,paid_transactions
+Ramp,sector,Manufacturing,2025-05,38.4482161413,,paid_transactions
+Ramp,sector,Manufacturing,2025-06,39.7799266422,,paid_transactions
+Ramp,sector,Manufacturing,2025-07,41.9942473634,,paid_transactions
+Ramp,sector,Manufacturing,2025-08,43.3801098231,,paid_transactions
+Ramp,sector,Manufacturing,2025-09,43.4807916182,,paid_transactions
+Ramp,sector,Manufacturing,2025-10,43.2424916574,,paid_transactions
+Ramp,sector,Manufacturing,2025-11,45.0519409513,,paid_transactions
+Ramp,sector,Manufacturing,2025-12,45.4569396892,,paid_transactions
+Ramp,sector,Manufacturing,2026-01,46.476382925,,paid_transactions
+Ramp,sector,Manufacturing,2026-02,49.2902594224,,paid_transactions
+Ramp,sector,Manufacturing,2026-03,52.4958987579,,paid_transactions
+Ramp,sector,Manufacturing,2026-04,55.2986079928,,paid_transactions
+Ramp,sector,Manufacturing,2026-05,57.2046733016,,paid_transactions
+Ramp,sector,Manufacturing,2026-06,58.3559924702,,paid_transactions
+Ramp,sector,Manufacturing,2026-07,59.6122778675,,paid_transactions
+Ramp,sector,Manufacturing,2026-08,60.2992615624,,paid_transactions
+Ramp,sector,Manufacturing,2026-09,60.873605948,,paid_transactions
+Ramp,sector,Retail Trade,2023-01,5.2884615385,,paid_transactions
+Ramp,sector,Retail Trade,2023-02,8.1632653061,,paid_transactions
+Ramp,sector,Retail Trade,2023-03,13.4782608696,,paid_transactions
+Ramp,sector,Retail Trade,2023-04,16.4904862579,,paid_transactions
+Ramp,sector,Retail Trade,2023-05,16.1554192229,,paid_transactions
+Ramp,sector,Retail Trade,2023-06,17.1698113208,,paid_transactions
+Ramp,sector,Retail Trade,2023-07,14.953271028,,paid_transactions
+Ramp,sector,Retail Trade,2023-08,15.0976909414,,paid_transactions
+Ramp,sector,Retail Trade,2023-09,16.347826087,,paid_transactions
+Ramp,sector,Retail Trade,2023-10,14.5936981758,,paid_transactions
+Ramp,sector,Retail Trade,2023-11,17.3419773096,,paid_transactions
+Ramp,sector,Retail Trade,2023-12,19.8051948052,,paid_transactions
+Ramp,sector,Retail Trade,2024-01,21.40625,,paid_transactions
+Ramp,sector,Retail Trade,2024-02,21.5477996965,,paid_transactions
+Ramp,sector,Retail Trade,2024-03,20.9985315712,,paid_transactions
+Ramp,sector,Retail Trade,2024-04,22.0,,paid_transactions
+Ramp,sector,Retail Trade,2024-05,22.8965517241,,paid_transactions
+Ramp,sector,Retail Trade,2024-06,21.6644649934,,paid_transactions
+Ramp,sector,Retail Trade,2024-07,23.324742268,,paid_transactions
+Ramp,sector,Retail Trade,2024-08,22.1411192214,,paid_transactions
+Ramp,sector,Retail Trade,2024-09,22.6371061844,,paid_transactions
+Ramp,sector,Retail Trade,2024-10,24.16570771,,paid_transactions
+Ramp,sector,Retail Trade,2024-11,25.0283125708,,paid_transactions
+Ramp,sector,Retail Trade,2024-12,26.2931034483,,paid_transactions
+Ramp,sector,Retail Trade,2025-01,26.2833675565,,paid_transactions
+Ramp,sector,Retail Trade,2025-02,26.2342691191,,paid_transactions
+Ramp,sector,Retail Trade,2025-03,26.5027322404,,paid_transactions
+Ramp,sector,Retail Trade,2025-04,31.9206492335,,paid_transactions
+Ramp,sector,Retail Trade,2025-05,31.9505736981,,paid_transactions
+Ramp,sector,Retail Trade,2025-06,32.7086882453,,paid_transactions
+Ramp,sector,Retail Trade,2025-07,34.5870809485,,paid_transactions
+Ramp,sector,Retail Trade,2025-08,34.4211344211,,paid_transactions
+Ramp,sector,Retail Trade,2025-09,34.4645550528,,paid_transactions
+Ramp,sector,Retail Trade,2025-10,34.8396501458,,paid_transactions
+Ramp,sector,Retail Trade,2025-11,36.0632183908,,paid_transactions
+Ramp,sector,Retail Trade,2025-12,36.6876310273,,paid_transactions
+Ramp,sector,Retail Trade,2026-01,38.5714285714,,paid_transactions
+Ramp,sector,Retail Trade,2026-02,41.5343915344,,paid_transactions
+Ramp,sector,Retail Trade,2026-03,44.0326633166,,paid_transactions
+Ramp,sector,Retail Trade,2026-04,46.244825547,,paid_transactions
+Ramp,sector,Retail Trade,2026-05,46.5313028765,,paid_transactions
+Ramp,sector,Retail Trade,2026-06,48.350459708,,paid_transactions
+Ramp,sector,Retail Trade,2026-07,48.0719794344,,paid_transactions
+Ramp,sector,Retail Trade,2026-08,48.2690405539,,paid_transactions
+Ramp,sector,Retail Trade,2026-09,49.8574144487,,paid_transactions
+Ramp,size,Large (100+),2023-01,7.2847682119,,paid_transactions
+Ramp,size,Large (100+),2023-02,11.038961039,,paid_transactions
+Ramp,size,Large (100+),2023-03,20.0,,paid_transactions
+Ramp,size,Large (100+),2023-04,26.9461077844,,paid_transactions
+Ramp,size,Large (100+),2023-05,28.5714285714,,paid_transactions
+Ramp,size,Large (100+),2023-06,24.0837696335,,paid_transactions
+Ramp,size,Large (100+),2023-07,26.8852459016,,paid_transactions
+Ramp,size,Large (100+),2023-08,28.5147642133,,paid_transactions
+Ramp,size,Large (100+),2023-09,29.7365119197,,paid_transactions
+Ramp,size,Large (100+),2023-10,31.1616954474,,paid_transactions
+Ramp,size,Large (100+),2023-11,31.5829528158,,paid_transactions
+Ramp,size,Large (100+),2023-12,32.9192546584,,paid_transactions
+Ramp,size,Large (100+),2024-01,34.0853870184,,paid_transactions
+Ramp,size,Large (100+),2024-02,35.0549816728,,paid_transactions
+Ramp,size,Large (100+),2024-03,35.5288157061,,paid_transactions
+Ramp,size,Large (100+),2024-04,34.6757477051,,paid_transactions
+Ramp,size,Large (100+),2024-05,35.6379988758,,paid_transactions
+Ramp,size,Large (100+),2024-06,35.2199570815,,paid_transactions
+Ramp,size,Large (100+),2024-07,35.9193173002,,paid_transactions
+Ramp,size,Large (100+),2024-08,36.173870334,,paid_transactions
+Ramp,size,Large (100+),2024-09,37.610092835,,paid_transactions
+Ramp,size,Large (100+),2024-10,38.5749943272,,paid_transactions
+Ramp,size,Large (100+),2024-11,39.8850320584,,paid_transactions
+Ramp,size,Large (100+),2024-12,40.4414916417,,paid_transactions
+Ramp,size,Large (100+),2025-01,41.6871921182,,paid_transactions
+Ramp,size,Large (100+),2025-02,42.5878150427,,paid_transactions
+Ramp,size,Large (100+),2025-03,43.2677760968,,paid_transactions
+Ramp,size,Large (100+),2025-04,45.2710076391,,paid_transactions
+Ramp,size,Large (100+),2025-05,47.0125786164,,paid_transactions
+Ramp,size,Large (100+),2025-06,47.7708086116,,paid_transactions
+Ramp,size,Large (100+),2025-07,49.7296411601,,paid_transactions
+Ramp,size,Large (100+),2025-08,50.7981220657,,paid_transactions
+Ramp,size,Large (100+),2025-09,51.7231000752,,paid_transactions
+Ramp,size,Large (100+),2025-10,51.8943242851,,paid_transactions
+Ramp,size,Large (100+),2025-11,52.8374342199,,paid_transactions
+Ramp,size,Large (100+),2025-12,53.3600110391,,paid_transactions
+Ramp,size,Large (100+),2026-01,54.4762159273,,paid_transactions
+Ramp,size,Large (100+),2026-02,56.5902578797,,paid_transactions
+Ramp,size,Large (100+),2026-03,59.7101449275,,paid_transactions
+Ramp,size,Large (100+),2026-04,62.2910821032,,paid_transactions
+Ramp,size,Large (100+),2026-05,63.0705394191,,paid_transactions
+Ramp,size,Large (100+),2026-06,63.6654844983,,paid_transactions
+Ramp,size,Large (100+),2026-07,64.9483390734,,paid_transactions
+Ramp,size,Large (100+),2026-08,65.22020028,,paid_transactions
+Ramp,size,Large (100+),2026-09,65.7223499895,,paid_transactions
+Ramp,size,Medium (25-99),2023-01,13.4464751958,,paid_transactions
+Ramp,size,Medium (25-99),2023-02,17.0955882353,,paid_transactions
+Ramp,size,Medium (25-99),2023-03,25.4004576659,,paid_transactions
+Ramp,size,Medium (25-99),2023-04,28.7513691128,,paid_transactions
+Ramp,size,Medium (25-99),2023-05,31.1950336265,,paid_transactions
+Ramp,size,Medium (25-99),2023-06,30.8787432499,,paid_transactions
+Ramp,size,Medium (25-99),2023-07,24.6681922197,,paid_transactions
+Ramp,size,Medium (25-99),2023-08,25.1387110542,,paid_transactions
+Ramp,size,Medium (25-99),2023-09,26.5390158534,,paid_transactions
+Ramp,size,Medium (25-99),2023-10,27.0222743259,,paid_transactions
+Ramp,size,Medium (25-99),2023-11,27.9143389199,,paid_transactions
+Ramp,size,Medium (25-99),2023-12,29.2092522862,,paid_transactions
+Ramp,size,Medium (25-99),2024-01,30.3436426117,,paid_transactions
+Ramp,size,Medium (25-99),2024-02,30.1226492232,,paid_transactions
+Ramp,size,Medium (25-99),2024-03,30.5559881638,,paid_transactions
+Ramp,size,Medium (25-99),2024-04,30.2752293578,,paid_transactions
+Ramp,size,Medium (25-99),2024-05,30.4945818283,,paid_transactions
+Ramp,size,Medium (25-99),2024-06,30.78343445,,paid_transactions
+Ramp,size,Medium (25-99),2024-07,31.0461192351,,paid_transactions
+Ramp,size,Medium (25-99),2024-08,31.4729233321,,paid_transactions
+Ramp,size,Medium (25-99),2024-09,32.3796548592,,paid_transactions
+Ramp,size,Medium (25-99),2024-10,33.3441875611,,paid_transactions
+Ramp,size,Medium (25-99),2024-11,34.0277777778,,paid_transactions
+Ramp,size,Medium (25-99),2024-12,34.5112016293,,paid_transactions
+Ramp,size,Medium (25-99),2025-01,36.0613810742,,paid_transactions
+Ramp,size,Medium (25-99),2025-02,37.3222635748,,paid_transactions
+Ramp,size,Medium (25-99),2025-03,38.7925497752,,paid_transactions
+Ramp,size,Medium (25-99),2025-04,40.924886394,,paid_transactions
+Ramp,size,Medium (25-99),2025-05,42.469071719,,paid_transactions
+Ramp,size,Medium (25-99),2025-06,43.7937136597,,paid_transactions
+Ramp,size,Medium (25-99),2025-07,45.4389546754,,paid_transactions
+Ramp,size,Medium (25-99),2025-08,46.8942626837,,paid_transactions
+Ramp,size,Medium (25-99),2025-09,47.6714002138,,paid_transactions
+Ramp,size,Medium (25-99),2025-10,47.4238268219,,paid_transactions
+Ramp,size,Medium (25-99),2025-11,48.1973434535,,paid_transactions
+Ramp,size,Medium (25-99),2025-12,48.1978146729,,paid_transactions
+Ramp,size,Medium (25-99),2026-01,49.5138266326,,paid_transactions
+Ramp,size,Medium (25-99),2026-02,51.8855832153,,paid_transactions
+Ramp,size,Medium (25-99),2026-03,55.2194930755,,paid_transactions
+Ramp,size,Medium (25-99),2026-04,57.2898145796,,paid_transactions
+Ramp,size,Medium (25-99),2026-05,59.0835713399,,paid_transactions
+Ramp,size,Medium (25-99),2026-06,60.1470856379,,paid_transactions
+Ramp,size,Medium (25-99),2026-07,60.9409255199,,paid_transactions
+Ramp,size,Medium (25-99),2026-08,61.3728206905,,paid_transactions
+Ramp,size,Medium (25-99),2026-09,62.500704662,,paid_transactions
+Ramp,size,Small (1-24),2023-01,7.7427821522,,paid_transactions
+Ramp,size,Small (1-24),2023-02,12.2620904836,,paid_transactions
+Ramp,size,Small (1-24),2023-03,20.5261636311,,paid_transactions
+Ramp,size,Small (1-24),2023-04,24.8908296943,,paid_transactions
+Ramp,size,Small (1-24),2023-05,26.1444557477,,paid_transactions
+Ramp,size,Small (1-24),2023-06,26.1330761813,,paid_transactions
+Ramp,size,Small (1-24),2023-07,23.7068291921,,paid_transactions
+Ramp,size,Small (1-24),2023-08,24.5517854497,,paid_transactions
+Ramp,size,Small (1-24),2023-09,25.3142857143,,paid_transactions
+Ramp,size,Small (1-24),2023-10,25.9692558836,,paid_transactions
+Ramp,size,Small (1-24),2023-11,27.0822210358,,paid_transactions
+Ramp,size,Small (1-24),2023-12,28.2867494824,,paid_transactions
+Ramp,size,Small (1-24),2024-01,29.0720631787,,paid_transactions
+Ramp,size,Small (1-24),2024-02,29.3643263757,,paid_transactions
+Ramp,size,Small (1-24),2024-03,29.9807670551,,paid_transactions
+Ramp,size,Small (1-24),2024-04,29.5861844249,,paid_transactions
+Ramp,size,Small (1-24),2024-05,29.7686961933,,paid_transactions
+Ramp,size,Small (1-24),2024-06,30.1837270341,,paid_transactions
+Ramp,size,Small (1-24),2024-07,30.7961845435,,paid_transactions
+Ramp,size,Small (1-24),2024-08,30.8295964126,,paid_transactions
+Ramp,size,Small (1-24),2024-09,31.3206531491,,paid_transactions
+Ramp,size,Small (1-24),2024-10,31.6484827821,,paid_transactions
+Ramp,size,Small (1-24),2024-11,32.0349563046,,paid_transactions
+Ramp,size,Small (1-24),2024-12,32.1782178218,,paid_transactions
+Ramp,size,Small (1-24),2025-01,32.8511151296,,paid_transactions
+Ramp,size,Small (1-24),2025-02,34.0018825574,,paid_transactions
+Ramp,size,Small (1-24),2025-03,34.4839371155,,paid_transactions
+Ramp,size,Small (1-24),2025-04,35.353798127,,paid_transactions
+Ramp,size,Small (1-24),2025-05,36.3122242247,,paid_transactions
+Ramp,size,Small (1-24),2025-06,37.0165417113,,paid_transactions
+Ramp,size,Small (1-24),2025-07,38.0787954262,,paid_transactions
+Ramp,size,Small (1-24),2025-08,38.7013406558,,paid_transactions
+Ramp,size,Small (1-24),2025-09,38.5661372977,,paid_transactions
+Ramp,size,Small (1-24),2025-10,38.337193592,,paid_transactions
+Ramp,size,Small (1-24),2025-11,39.1378171871,,paid_transactions
+Ramp,size,Small (1-24),2025-12,39.1651347352,,paid_transactions
+Ramp,size,Small (1-24),2026-01,40.0965978901,,paid_transactions
+Ramp,size,Small (1-24),2026-02,42.3628691983,,paid_transactions
+Ramp,size,Small (1-24),2026-03,44.333370358,,paid_transactions
+Ramp,size,Small (1-24),2026-04,46.0612577613,,paid_transactions
+Ramp,size,Small (1-24),2026-05,47.3393227367,,paid_transactions
+Ramp,size,Small (1-24),2026-06,48.032534623,,paid_transactions
+Ramp,size,Small (1-24),2026-07,48.971353388,,paid_transactions
+Ramp,size,Small (1-24),2026-08,49.5066116878,,paid_transactions
+Ramp,size,Small (1-24),2026-09,50.0324096581,,paid_transactions

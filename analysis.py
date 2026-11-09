@@ -88,9 +88,11 @@ SHORT = {"Accommodation & Food": "Accommodation & food", "Finance & Insurance":
 
 
 def chart_groups(comp):
+    """Sorted by odds ratio: the plain ratio is capped at 100 / Census rate, so sorting by it
+    mostly ranks groups by Census adoption."""
     blocks = [(None, comp[comp.dimension == "overall"]),
-              ("By firm size (employees)", comp[comp.dimension == "size"].sort_values("ratio")),
-              ("By sector", comp[comp.dimension == "sector"].sort_values("ratio"))]
+              ("By firm size (employees)", comp[comp.dimension == "size"].sort_values("odds_ratio")),
+              ("By sector", comp[comp.dimension == "sector"].sort_values("odds_ratio"))]
     rows, y, heads = [], 0, []
     for head, g in reversed(blocks):          # build bottom-up
         for _, r in g.iterrows():
@@ -101,28 +103,36 @@ def chart_groups(comp):
             y += 0.5
     m0, m1 = comp.months.iloc[0].split(" to ")
     period = f"{pd.Period(m0):%b}–{pd.Period(m1):%b %Y}"
-    ex = Exhibit(height=8.0)
-    ex.title([[("Ramp", ORANGE), (" and ", INK), ("Census", NAVY), (" diverge more", INK)],
-              [("by sector than by firm size", INK)]])
+    ci = ((comp.odds_ratio_hi - comp.odds_ratio_lo) / 2).max()
+    ex = Exhibit(height=8.2)
+    ex.title([[("Healthcare has the smallest gap,", INK)], [("manufacturing the largest", INK)]])
     ex.subtitle(f"Share of businesses using AI, {period} average")
     ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY)])
-    ex.source("Ramp's rate is the share of Ramp customers in each group that paid for AI. "
-              "Census size classes are regrouped to Ramp's buckets using Census SUSB 2022 "
-              "firm counts.", SOURCE, credit=CREDIT)
-    ax = ex.axes(left=0.385, right=0.86, bottom_pad=0.5)
+    ex.source("Sorted by odds ratio = (Ramp odds) ÷ (Census odds). Unlike the ratio, it isn't "
+              f"capped where Census adoption is high. 95% intervals are within ±{ci:.1f} "
+              "(Census sampling error only; Ramp publishes no standard errors). Census size "
+              "classes regrouped to Ramp's buckets with Census SUSB 2022 firm counts.",
+              SOURCE, credit=CREDIT)
+    ax = ex.axes(left=0.36, right=0.74, bottom_pad=0.5)
     ax.grid(False)
     ax.grid(axis="x", color=GRID, lw=1)
+    cols = {"ratio": 106, "odds": 128}        # data-x positions of the two number columns
     for yy, r in rows:
         ax.plot([r.census_rate, r.ramp_rate], [yy, yy], color=GRID, lw=4, zorder=1,
                 solid_capstyle="round")
         ax.scatter(r.census_rate, yy, s=95, color=NAVY, edgecolor="white", lw=1.8, zorder=3)
         ax.scatter(r.ramp_rate, yy, s=95, color=ORANGE, edgecolor="white", lw=1.8, zorder=3)
-        ax.text(-3, yy, SHORT.get(r.group, r.group), ha="right", va="center", fontsize=13)
-        ax.text(103, yy, f"{r.ratio:.1f}×", ha="left", va="center", fontsize=13, weight="bold")
+        stand_out = r.group in ("Healthcare", "Manufacturing")
+        ax.text(-3, yy, SHORT.get(r.group, r.group), ha="right", va="center", fontsize=13,
+                weight="bold" if stand_out else "normal")
+        ax.text(cols["ratio"], yy, f"{r.ratio:.1f}×", ha="center", va="center", fontsize=13)
+        ax.text(cols["odds"], yy, f"{r.odds_ratio:.1f}", ha="center", va="center", fontsize=13,
+                weight="bold")
     for yy, head in heads:
         ax.text(-3, yy, head, ha="right", va="center", fontsize=12, color=SUB, weight="semibold")
-    ax.text(103, y + 0.15, "Ramp ÷\nCensus", ha="left", va="center", fontsize=11, color=SUB,
-            weight="semibold")
+    for key, label in [("ratio", "Ratio"), ("odds", "Odds\nratio")]:
+        ax.text(cols[key], y + 0.15, label, ha="center", va="center", fontsize=11, color=SUB,
+                weight="semibold")
     ax.set_xlim(0, 100)
     ax.set_ylim(-0.7, y - 0.3)
     ax.set_yticks([])

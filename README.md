@@ -33,10 +33,17 @@ From `clean/comparison_3mo.csv`, which also has the odds ratio for each group. A
 of percentages can't exceed 100 ÷ the Census rate, so it is compressed where Census
 adoption is high; the odds ratio has no such cap.
 
-The ratio varies more across sectors (1.7–3.5) than across firm sizes (1.8–2.5).
-Healthcare has the smallest gap in points (18) and in odds (2.3), and ties with
-Information for the smallest ratio (1.75 vs. 1.74). Manufacturing and Retail rank in the
-top four of the seven sectors on all three measures.
+Ranking groups by the plain ratio mostly ranks them by Census adoption, because of that
+cap. On the two measures without it (gap in points and odds ratio), the same two groups
+are at the extremes: **healthcare has the smallest gap** (18 points; odds ratio 2.3,
+95% CI 2.2–2.4) and **manufacturing the largest** (40 points; odds ratio 5.8, 5.5–6.2).
+Healthcare is well clear of every other group. Manufacturing is less so: retail (5.1) and
+medium-size firms (4.9) are close behind. The other groups sit between 3.4 and 5.1, a
+spread larger than Census's sampling error, so the gap is not uniform outside the two
+extremes either.
+
+Intervals reflect Census sampling error only: Census publishes standard errors for every
+estimate, Ramp publishes none, so the true uncertainty is larger.
 
 ## Reproduce
 

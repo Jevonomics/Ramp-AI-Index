@@ -1,12 +1,12 @@
-months,dimension,group,ramp_rate,census_wording,census_rate,gap_pts,ratio,ratio_ceiling,odds_ratio
-2026-07 to 2026-09,overall,All businesses,55.3,any_function,22.8,32.6,2.43,4.4,4.2
-2026-07 to 2026-09,size,Large (100+),65.3,any_function,35.7,29.6,1.83,2.8,3.39
-2026-07 to 2026-09,size,Medium (25-99),61.6,any_function,24.7,36.9,2.49,4.05,4.89
-2026-07 to 2026-09,size,Small (1-24),49.5,any_function,22.3,27.2,2.22,4.48,3.42
-2026-07 to 2026-09,sector,Accommodation & Food,32.4,any_function,9.3,23.1,3.49,10.79,4.68
-2026-07 to 2026-09,sector,Construction,41.8,any_function,15.2,26.5,2.74,6.56,3.99
-2026-07 to 2026-09,sector,Finance & Insurance,73.0,any_function,38.3,34.7,1.91,2.61,4.36
-2026-07 to 2026-09,sector,Healthcare,42.2,any_function,24.1,18.2,1.75,4.15,2.31
-2026-07 to 2026-09,sector,Information,79.9,any_function,45.9,33.9,1.74,2.18,4.67
-2026-07 to 2026-09,sector,Manufacturing,60.3,any_function,20.6,39.7,2.93,4.85,5.85
-2026-07 to 2026-09,sector,Retail Trade,48.7,any_function,15.8,32.9,3.08,6.32,5.05
+months,dimension,group,ramp_rate,census_wording,census_rate,census_se,gap_pts,ratio,ratio_ceiling,odds_ratio,odds_ratio_lo,odds_ratio_hi
+2026-07 to 2026-09,overall,All businesses,55.3,any_function,22.8,0.14,32.6,2.431,4.4,4.203,4.137,4.27
+2026-07 to 2026-09,size,Large (100+),65.3,any_function,35.7,0.58,29.6,1.83,2.8,3.393,3.229,3.566
+2026-07 to 2026-09,size,Medium (25-99),61.6,any_function,24.7,0.31,36.9,2.494,4.05,4.891,4.736,5.052
+2026-07 to 2026-09,size,Small (1-24),49.5,any_function,22.3,0.16,27.2,2.22,4.48,3.415,3.354,3.478
+2026-07 to 2026-09,sector,Accommodation & Food,32.4,any_function,9.3,0.24,23.1,3.491,10.79,4.683,4.431,4.949
+2026-07 to 2026-09,sector,Construction,41.8,any_function,15.2,0.35,26.5,2.742,6.56,3.992,3.784,4.212
+2026-07 to 2026-09,sector,Finance & Insurance,73.0,any_function,38.3,0.74,34.7,1.906,2.61,4.363,4.102,4.641
+2026-07 to 2026-09,sector,Healthcare,42.2,any_function,24.1,0.35,18.2,1.754,4.15,2.306,2.221,2.393
+2026-07 to 2026-09,sector,Information,79.9,any_function,45.9,0.94,33.9,1.739,2.18,4.672,4.338,5.032
+2026-07 to 2026-09,sector,Manufacturing,60.3,any_function,20.6,0.45,39.7,2.925,4.85,5.845,5.541,6.166
+2026-07 to 2026-09,sector,Retail Trade,48.7,any_function,15.8,0.34,32.9,3.078,6.32,5.053,4.804,5.315

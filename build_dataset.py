@@ -19,6 +19,7 @@ Charts and the sensitivity check: python analysis.py
 import argparse, glob, io, json, os, re, sys, urllib.request
 from datetime import date
 
+import numpy as np
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -260,6 +261,27 @@ def parse_sector(code):
     return next((g for g, codes in SECTOR_NAICS.items() if c in codes), None)
 
 
+def pct(cell):
+    """'17.3%' -> 17.3; '.', 'S' or blank -> NaN."""
+    try:
+        return float(str(cell).strip().rstrip("%"))
+    except ValueError:
+        return float("nan")
+
+
+def btos_se_sheet(path, sheet, est):
+    """The standard-error sheet matching an estimates sheet, row-aligned with it. Census
+    publishes one per estimates sheet with identical rows and period columns."""
+    name = ("Response Standard Errors" if sheet == "Response Estimates"
+            else sheet.replace("Estimates", "SE"))
+    se = with_header(pd.read_excel(path, sheet_name=name, header=None, dtype=str),
+                     ["question", "answer"])
+    keys = [c for c in est.columns if not PERIOD_COL.match(c)]
+    if list(se.columns) != list(est.columns) or not se[keys].fillna("").equals(est[keys].fillna("")):
+        raise ValueError(f"{os.path.basename(path)}: '{name}' rows don't match '{sheet}'")
+    return se
+
+
 def load_btos():
     files = sorted(glob.glob(os.path.join(RAW, "btos", "*.xlsx")))
     if not files:
@@ -272,6 +294,7 @@ def load_btos():
         for dim, sheet in btos_sheets(path):
             raw = pd.read_excel(path, sheet_name=sheet, header=None, dtype=str)
             df = with_header(raw, ["question", "answer"])
+            se = btos_se_sheet(path, sheet, df)
             pcols = [c for c in df.columns if PERIOD_COL.match(c)]
             gcol = {"size": "Empsize", "sector": "Sector"}.get(dim)
             sizes = btos_size_codes(path) if dim == "size" else {}
@@ -301,7 +324,8 @@ def load_btos():
                         raise ValueError(f"{fname}/{sheet}: period {pc} ({start}) has a value under "
                                          f"question text from a different wording era")
                     rows.append(dict(source="Census BTOS", dimension=dim, group=grp, period=pc,
-                                     col_start=start, period_end=end, rate=val, wording=wording,
+                                     col_start=start, period_end=end, rate=val,
+                                     se=pct(se.at[r.name, pc]), wording=wording,
                                      file=fname, question=r["Question"]))
     if not rows:
         note("BTOS files found but no AI-use rows parsed -- run with --inspect")
@@ -325,6 +349,12 @@ def load_btos():
     note("BTOS rate = share answering 'Yes' among all respondents (denominator includes "
          "'Do not know'). BTOS asks about the last two weeks; Ramp counts any paid AI "
          "transaction in the month, so the windows differ.")
+    note("Census standard errors come from each workbook's standard-error sheet (checked to "
+         "be row- and column-aligned with the estimates). Averaging periods assumes they are "
+         "independent samples (each BTOS period surveys a different panel); combining size "
+         "classes assumes the classes are independent samples, with SUSB weights treated as "
+         "fixed. Odds-ratio 95% intervals use the delta method on Census's log odds and ignore "
+         "Ramp's own noise, which Ramp does not publish, so they are too narrow.")
     note("BTOS periods 202521-202523 (Oct 6 - Nov 16, 2025) were not collected (federal "
          "shutdown); there is no BTOS value for those weeks.")
     note("BTOS cells marked 'S' (suppressed) are skipped, not filled. Among the AI-use rows "
@@ -338,10 +368,13 @@ def load_btos():
 
 
 def btos_monthly(bi, datecol="col_start"):
-    """Average biweekly BTOS periods to months, by the month of `datecol`."""
-    bi = bi.assign(month=pd.to_datetime(bi[datecol]).dt.to_period("M"))
-    return (bi.groupby(["source", "dimension", "group", "month", "wording"], as_index=False)
-              ["rate"].mean())
+    """Average biweekly BTOS periods to months, by the month of `datecol`. Standard error of
+    the mean treats periods as independent (each period is a different BTOS panel)."""
+    bi = bi.assign(month=pd.to_datetime(bi[datecol]).dt.to_period("M"), se2=bi.se ** 2)
+    m = bi.groupby(["source", "dimension", "group", "month", "wording"], as_index=False).agg(
+        rate=("rate", "mean"), se2=("se2", "sum"), n=("rate", "size"))
+    m["se"] = m.se2 ** 0.5 / m.n
+    return m.drop(columns=["se2", "n"])
 
 
 # ------------------------------------------------------------------ SUSB ---
@@ -421,17 +454,18 @@ def btos_to_ramp_sizes(btos, susb):
     out = []
     for (month, wording), g in sz.groupby(["month", "wording"]):
         for name, (lo, hi) in RAMP_SIZE.items():
-            num = den = 0.0
-            for (a, b), rate in zip(g["rng"], g["rate"]):
+            num = den = var = 0.0
+            for (a, b), rate, se in zip(g["rng"], g["rate"], g["se"]):
                 ov_lo, ov_hi = max(a, lo), min(b, hi)
                 if ov_lo > ov_hi:
                     continue
                 w = firms_in(fine, ov_lo, ov_hi) if fine else 1.0
                 num += w * rate
                 den += w
+                var += w ** 2 * se ** 2   # size classes are separate samples
             if den:
                 out.append(dict(source="Census BTOS", dimension="size", group=name, month=month,
-                                rate=num / den, wording=wording))
+                                rate=num / den, se=var ** 0.5 / den, wording=wording))
     return pd.DataFrame(out)
 
 
@@ -457,17 +491,29 @@ def build_comparison(tidy, n_months=1):
                          f"{counts[counts != n_months]}")
     r = r.groupby(["dimension", "group"], as_index=False).rate.mean().rename(
         columns={"rate": "ramp_rate"})
-    c = c.groupby(["dimension", "group", "wording"], as_index=False).rate.mean().rename(
-        columns={"rate": "census_rate", "wording": "census_wording"})
+    c = (c.assign(se2=c.se ** 2)
+          .groupby(["dimension", "group", "wording"], as_index=False)
+          .agg(census_rate=("rate", "mean"), se2=("se2", "sum"))
+          .rename(columns={"wording": "census_wording"}))
+    c["census_se"] = c.se2 ** 0.5 / n_months
+    c = c.drop(columns="se2")
     comp = r.merge(c, on=["dimension", "group"], how="inner")
     comp.insert(0, "months", f"{months[0]}" if n_months == 1 else f"{months[0]} to {months[-1]}")
     comp["gap_pts"] = (comp.ramp_rate - comp.census_rate).round(1)
-    comp["ratio"] = (comp.ramp_rate / comp.census_rate).round(2)
+    comp["ratio"] = (comp.ramp_rate / comp.census_rate).round(3)
     # The ratio can't exceed 100 / census_rate, so it is compressed where Census adoption
     # is high. The odds ratio has no such ceiling; reported for the footnote.
     comp["ratio_ceiling"] = (100 / comp.census_rate).round(2)
     odds = lambda p: p / (100 - p)
-    comp["odds_ratio"] = (odds(comp.ramp_rate) / odds(comp.census_rate)).round(2)
+    comp["odds_ratio"] = (odds(comp.ramp_rate) / odds(comp.census_rate))
+    # 95% CI from Census sampling error only (delta method on log odds). Ramp publishes no
+    # standard errors, so these intervals are too narrow by whatever Ramp's own noise is.
+    p = comp.census_rate / 100
+    se_log = (comp.census_se / 100) / (p * (1 - p))
+    comp["odds_ratio_lo"] = (comp.odds_ratio * np.exp(-1.96 * se_log)).round(3)
+    comp["odds_ratio_hi"] = (comp.odds_ratio * np.exp(1.96 * se_log)).round(3)
+    comp["odds_ratio"] = comp.odds_ratio.round(3)
+    comp["census_se"] = comp.census_se.round(2)
     comp["ramp_rate"] = comp.ramp_rate.round(1)
     comp["census_rate"] = comp.census_rate.round(1)
     order = {"overall": 0, "size": 1, "sector": 2}
@@ -481,7 +527,7 @@ def build_tidy(ramp, btos, susb):
         parts += [btos[btos.dimension != "size"], btos_to_ramp_sizes(btos, susb),
                   btos[btos.dimension == "size"].assign(dimension="size_btos_native")]
     tidy = pd.concat([p for p in parts if len(p)], ignore_index=True)
-    return tidy[["source", "dimension", "group", "month", "rate", "wording"]].sort_values(
+    return tidy[["source", "dimension", "group", "month", "rate", "se", "wording"]].sort_values(
         ["source", "dimension", "group", "month"])
 
 
