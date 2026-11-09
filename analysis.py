@@ -113,7 +113,7 @@ def chart_groups(comp):
               "(Census sampling error only; Ramp publishes no standard errors). Census size "
               "classes regrouped to Ramp's buckets with Census SUSB 2022 firm counts.",
               SOURCE, credit=CREDIT)
-    ax = ex.axes(left=0.36, right=0.72, bottom_pad=0.5)
+    ax = ex.axes(left=0.405, right=0.765, bottom_pad=0.5)
     ax.grid(False)
     ax.grid(axis="x", color=GRID, lw=1)
     cols = {"ratio": 115, "odds": 139}        # data-x positions of the two number columns
