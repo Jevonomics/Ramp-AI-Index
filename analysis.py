@@ -52,7 +52,7 @@ def chart_gap(tidy, bi):
     ov = pd.concat([ov, cen], ignore_index=True)
     ex = Exhibit(height=6.8)
     ex.title([[("Ramp", ORANGE), (" AI adoption rate is", INK)],
-              [("more than double", INK), (" Census", NAVY)]])
+              [("more than double the ", INK), ("Census", NAVY), (" rate", INK)]])
     ex.subtitle("Share of U.S. businesses using AI, monthly")
     ex.legend([("Ramp: paid for AI", ORANGE), ("Census: used AI", NAVY),
                ("Census, old wording", GRAY)])
